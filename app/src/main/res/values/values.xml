@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="recent_tab_big_width">40</integer>
+    <bool name="is_landscape">false</bool>
+</resources>

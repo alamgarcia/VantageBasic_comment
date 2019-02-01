@@ -1,0 +1,564 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:2:1-206:12
+INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:2:1-206:12
+INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:2:1-206:12
+INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:2:1-206:12
+MERGED from [:AvayaClientServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\fc7ffa310c86284b2aae3fd52ba9d7b3\AndroidManifest.xml:2:1-21:12
+MERGED from [:DeskPhoneServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\8fff32e26acd2c087a5ed2331f653037\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:design:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\f2ba1cc13a9abe6dec99a3d8036e64b0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\b8f17e75d70b6c71620b1b9b989f4de2\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\349b5327403b3e644f0f40ae0ca386d5\AndroidManifest.xml:17:1-28:12
+MERGED from [com.daasuu:BubbleLayout:1.1.1] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\a98184c4b6403d8b0e7186fced6db929\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\f2ebc8fbeb8853aa1c6f1826a23dc498\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\445fe40637601e33b7059e8aa5cae0f0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\1c2d3ebcbfe8e6f8fa6c336ffddaa506\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\3d93e8848016f4799c9aec8d96fc2da4\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\ccb9bdbec08859f2a40df2425f97f2ef\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\dcbba86985897de0cd9ade66d9be57e4\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\40a7468c3f06a8bc94547ee207a1bdcf\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\0425c88f052ee252973f5486d905995b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\ccd5f27103398735dce637e85cd6778e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\bdc34209a073e1875e58c29457d03dc3\AndroidManifest.xml:17:1-31:12
+INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:2:1-206:12
+INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:2:1-206:12
+INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:2:1-206:12
+	package
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:4:5-46
+		INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:2:1-206:12
+		INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:2:1-206:12
+		INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:8:22-68
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:9:22-77
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:10:22-65
+uses-permission#android.permission.MEDIA_CONTENT_CONTROL
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:12:5-72
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:12:22-69
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:13:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:14:5-73
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:14:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:15:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:16:22-78
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:17:5-88
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:17:22-85
+uses-permission#com.android.launcher.permission.UNINSTALL_SHORTCUT
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:18:5-90
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:18:22-87
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:19:5-67
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:19:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:20:5-73
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:20:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:21:5-71
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:21:22-68
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:23:5-24:30
+REJECTED from [:AvayaClientServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\fc7ffa310c86284b2aae3fd52ba9d7b3\AndroidManifest.xml:13:5-75
+	tools:node
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:24:9-28
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:23:22-72
+uses-feature#android.hardware.usb.host
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:30:5-62
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:30:19-59
+uses-feature#android.hardware.touchscreen
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:31:5-65
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:31:19-62
+uses-feature#android.hardware.microphone
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:32:5-64
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:32:19-61
+uses-feature#android.hardware.screen.portrait
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:33:5-69
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:33:19-66
+uses-feature#android.hardware.bluetooth
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:34:5-36:36
+	android:required
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:36:9-33
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:35:9-50
+uses-feature#android.hardware.telephony
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:37:5-39:36
+	android:required
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:39:9-33
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:38:9-50
+uses-feature#android.hardware.wifi
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:40:5-42:36
+	android:required
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:42:9-33
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:41:9-45
+uses-feature#android.hardware.camera
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:43:5-45:36
+	android:required
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:45:9-33
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:44:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:46:5-48:36
+	android:required
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:48:9-33
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:47:9-57
+application
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:50:5-204:19
+MERGED from [:AvayaClientServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\fc7ffa310c86284b2aae3fd52ba9d7b3\AndroidManifest.xml:16:5-19:19
+MERGED from [:AvayaClientServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\fc7ffa310c86284b2aae3fd52ba9d7b3\AndroidManifest.xml:16:5-19:19
+MERGED from [:DeskPhoneServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\8fff32e26acd2c087a5ed2331f653037\AndroidManifest.xml:12:5-17:19
+MERGED from [:DeskPhoneServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\8fff32e26acd2c087a5ed2331f653037\AndroidManifest.xml:12:5-17:19
+MERGED from [com.android.support:design:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\f2ba1cc13a9abe6dec99a3d8036e64b0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\f2ba1cc13a9abe6dec99a3d8036e64b0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\b8f17e75d70b6c71620b1b9b989f4de2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\b8f17e75d70b6c71620b1b9b989f4de2\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\349b5327403b3e644f0f40ae0ca386d5\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\349b5327403b3e644f0f40ae0ca386d5\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\f2ebc8fbeb8853aa1c6f1826a23dc498\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\f2ebc8fbeb8853aa1c6f1826a23dc498\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\445fe40637601e33b7059e8aa5cae0f0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\445fe40637601e33b7059e8aa5cae0f0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\1c2d3ebcbfe8e6f8fa6c336ffddaa506\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\1c2d3ebcbfe8e6f8fa6c336ffddaa506\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\3d93e8848016f4799c9aec8d96fc2da4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\3d93e8848016f4799c9aec8d96fc2da4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\ccb9bdbec08859f2a40df2425f97f2ef\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\ccb9bdbec08859f2a40df2425f97f2ef\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\dcbba86985897de0cd9ade66d9be57e4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\dcbba86985897de0cd9ade66d9be57e4\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\40a7468c3f06a8bc94547ee207a1bdcf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\40a7468c3f06a8bc94547ee207a1bdcf\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\0425c88f052ee252973f5486d905995b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\0425c88f052ee252973f5486d905995b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\ccd5f27103398735dce637e85cd6778e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\ccd5f27103398735dce637e85cd6778e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\bdc34209a073e1875e58c29457d03dc3\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\bdc34209a073e1875e58c29457d03dc3\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:55:9-35
+	android:label
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:54:9-41
+		REJECTED from [:AvayaClientServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\fc7ffa310c86284b2aae3fd52ba9d7b3\AndroidManifest.xml:17:9-44
+		REJECTED from [:DeskPhoneServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\8fff32e26acd2c087a5ed2331f653037\AndroidManifest.xml:14:9-41
+	android:hardwareAccelerated
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:58:9-43
+	android:icon
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:53:9-43
+	android:allowBackup
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:52:9-35
+	android:theme
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:56:9-40
+	tools:replace
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:57:9-38
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:51:9-40
+meta-data#android.app.default_searchable
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:59:9-61:87
+	android:value
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:61:13-84
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:60:13-58
+meta-data#AvayaClientServices
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:62:9-64:40
+	android:value
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:63:13-47
+meta-data#audio.service.behavior
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:65:9-67:40
+	android:value
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:66:13-50
+activity#com.avaya.android.vantage.basic.activities.MainActivity
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:69:9-111:20
+	android:label
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:72:13-45
+	android:launchMode
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:73:13-44
+	android:configChanges
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:71:13-93
+	android:theme
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:74:13-56
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:70:13-52
+intent-filter#action:name:android.intent.action.LOGIN_STATE_CHANGED+action:name:com.avaya.endpoint.action.SERVICE_IMPACTING_CHANGE+category:name:android.intent.category.LAUNCHER
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:75:13-80:29
+	android:priority
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:75:28-50
+action#android.intent.action.LOGIN_STATE_CHANGED
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:76:17-84
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:76:25-81
+action#com.avaya.endpoint.action.SERVICE_IMPACTING_CHANGE
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:77:17-93
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:77:25-90
+category#android.intent.category.LAUNCHER
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:79:17-77
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:79:27-74
+intent-filter#action:name:android.intent.action.CALL+category:name:android.intent.category.DEFAULT+data:scheme:tel
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:81:13-87:29
+action#android.intent.action.CALL
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:82:17-69
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:82:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:84:27-73
+data
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:86:17-46
+	android:scheme
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:86:23-43
+intent-filter#action:name:android.intent.action.DIAL+action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tel
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:88:13-96:29
+category#android.intent.category.BROWSABLE
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:90:17-78
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:90:27-75
+action#android.intent.action.VIEW
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:92:17-69
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:92:25-66
+action#android.intent.action.DIAL
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:93:17-69
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:93:25-66
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:97:13-99:29
+action#android.intent.action.SEARCH
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:98:17-71
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:98:25-68
+meta-data#android.app.searchable
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:100:13-102:54
+	android:resource
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:102:17-51
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:101:17-54
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:104:13-106:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:105:17-90
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:105:25-87
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_DETACHED
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:107:13-109:29
+action#android.hardware.usb.action.USB_DEVICE_DETACHED
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:108:17-90
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:108:25-87
+activity#com.avaya.android.vantage.basic.activities.MainLegalActivity
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:112:9-114:72
+	android:theme
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:114:13-69
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:113:13-57
+activity#com.avaya.android.vantage.basic.activities.ErrorMessageActivity
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:115:9-117:64
+	android:theme
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:117:13-61
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:116:13-60
+activity#com.avaya.android.vantage.basic.activities.CallDialerActivity
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:118:9-120:56
+	android:theme
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:120:13-53
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:119:13-58
+service#com.avaya.android.vantage.basic.notifications.NotificationService
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:122:9-70
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:122:18-67
+service#com.avaya.android.vantage.basic.services.BluetoothStateService
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:124:9-66
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:124:18-64
+activity#com.avaya.android.vantage.basic.activities.TutorialActivity
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:126:9-130:51
+	android:screenOrientation
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:130:13-49
+	android:label
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:128:13-45
+	android:theme
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:129:13-56
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:127:13-56
+activity#com.avaya.android.vantage.basic.activities.TutorialActivityK155
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:131:9-134:58
+	android:label
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:133:13-45
+	android:theme
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:134:13-56
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:132:13-60
+activity#com.avaya.android.vantage.basic.activities.UserPreferencesActivity
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:135:9-139:72
+	android:parentActivityName
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:138:13-66
+	android:label
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:137:13-45
+	android:theme
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:139:13-69
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:136:13-63
+activity#com.avaya.android.vantage.basic.activities.SupportActivity
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:140:9-144:72
+	android:parentActivityName
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:143:13-66
+	android:label
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:142:13-36
+	android:theme
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:144:13-69
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:141:13-55
+receiver#com.avaya.android.vantage.basic.receiver.ConfigReceiver
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:146:9-153:20
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:146:19-58
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.LOGIN_STATE_CHANGED+action:name:com.avaya.endpoint.REFRESH_HISTORY_ICON+action:name:com.avaya.endpoint.SERVICE_STATE_CHANGE
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:147:13-152:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:148:17-79
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:148:25-76
+action#com.avaya.endpoint.SERVICE_STATE_CHANGE
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:150:17-82
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:150:25-79
+action#com.avaya.endpoint.REFRESH_HISTORY_ICON
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:151:17-81
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:151:25-79
+receiver#com.avaya.deskphoneservices.DeskPhoneEventsBroadcastReceiver
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:154:9-165:20
+	android:enabled
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:156:13-35
+	tools:ignore
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:157:13-44
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:155:13-88
+intent-filter#action:name:com.avaya.endpoint.action.CONFIG_CHANGED+action:name:com.avaya.endpoint.action.LOGIN_SIGNAL+action:name:com.avaya.endpoint.action.LOGOUT_SIGNAL+action:name:com.avaya.endpoint.action.MEDIA_BUTTON+action:name:com.avaya.endpoint.action.RESTART
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:158:13-164:29
+action#com.avaya.endpoint.action.CONFIG_CHANGED
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:159:17-83
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:159:25-80
+action#com.avaya.endpoint.action.RESTART
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:160:17-76
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:160:25-73
+action#com.avaya.endpoint.action.LOGIN_SIGNAL
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:161:17-81
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:161:25-78
+action#com.avaya.endpoint.action.LOGOUT_SIGNAL
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:162:17-82
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:162:25-79
+action#com.avaya.endpoint.action.MEDIA_BUTTON
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:163:17-81
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:163:25-78
+receiver#com.avaya.android.vantage.basic.MidnightGoogleAnalyticsStatistics
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:166:9-172:20
+	android:enabled
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:168:13-35
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:167:13-62
+intent-filter#action:name:com.avaya.endpoint.MIDNIGHT_GOOGLE_ANALYTICS
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:169:13-171:29
+action#com.avaya.endpoint.MIDNIGHT_GOOGLE_ANALYTICS
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:170:17-87
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:170:25-84
+receiver#com.avaya.android.vantage.basic.receiver.FinishCallDialerActivityReciver
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:174:9-178:20
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:174:19-75
+intent-filter#action:name:com.avaya.endpoint.FINISH_CALL_ACTIVITY
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:175:13-177:29
+action#com.avaya.endpoint.FINISH_CALL_ACTIVITY
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:176:17-82
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:176:25-79
+provider#android.support.v4.content.FileProvider
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:180:9-188:20
+	android:grantUriPermissions
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:184:13-47
+	android:authorities
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:182:13-67
+	android:exported
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:183:13-37
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:181:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:185:13-187:54
+	android:resource
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:187:17-51
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:186:17-67
+activity#com.avaya.android.vantage.basic.activities.SplashActivity
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:190:9-198:20
+	android:label
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:192:13-45
+	android:theme
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:193:13-47
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:191:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:194:13-197:29
+	android:priority
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:194:28-51
+action#android.intent.action.MAIN
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:195:17-69
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:195:25-66
+service#com.avaya.android.vantage.basic.RingerService
+ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:200:9-203:48
+	android:enabled
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:202:13-35
+	android:exported
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:203:13-37
+	android:name
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml:201:13-42
+uses-sdk
+INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+MERGED from [:AvayaClientServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\fc7ffa310c86284b2aae3fd52ba9d7b3\AndroidManifest.xml:8:5-10:41
+MERGED from [:AvayaClientServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\fc7ffa310c86284b2aae3fd52ba9d7b3\AndroidManifest.xml:8:5-10:41
+MERGED from [:DeskPhoneServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\8fff32e26acd2c087a5ed2331f653037\AndroidManifest.xml:8:5-10:41
+MERGED from [:DeskPhoneServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\8fff32e26acd2c087a5ed2331f653037\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\f2ba1cc13a9abe6dec99a3d8036e64b0\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\f2ba1cc13a9abe6dec99a3d8036e64b0\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\b8f17e75d70b6c71620b1b9b989f4de2\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\b8f17e75d70b6c71620b1b9b989f4de2\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\349b5327403b3e644f0f40ae0ca386d5\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\349b5327403b3e644f0f40ae0ca386d5\AndroidManifest.xml:20:5-43
+MERGED from [com.daasuu:BubbleLayout:1.1.1] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\a98184c4b6403d8b0e7186fced6db929\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daasuu:BubbleLayout:1.1.1] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\a98184c4b6403d8b0e7186fced6db929\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\f2ebc8fbeb8853aa1c6f1826a23dc498\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\f2ebc8fbeb8853aa1c6f1826a23dc498\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\445fe40637601e33b7059e8aa5cae0f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\445fe40637601e33b7059e8aa5cae0f0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\1c2d3ebcbfe8e6f8fa6c336ffddaa506\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\1c2d3ebcbfe8e6f8fa6c336ffddaa506\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\3d93e8848016f4799c9aec8d96fc2da4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\3d93e8848016f4799c9aec8d96fc2da4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\ccb9bdbec08859f2a40df2425f97f2ef\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\ccb9bdbec08859f2a40df2425f97f2ef\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\dcbba86985897de0cd9ade66d9be57e4\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\dcbba86985897de0cd9ade66d9be57e4\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\40a7468c3f06a8bc94547ee207a1bdcf\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\40a7468c3f06a8bc94547ee207a1bdcf\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\0425c88f052ee252973f5486d905995b\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\0425c88f052ee252973f5486d905995b\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\ccd5f27103398735dce637e85cd6778e\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\ccd5f27103398735dce637e85cd6778e\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\bdc34209a073e1875e58c29457d03dc3\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\bdc34209a073e1875e58c29457d03dc3\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\f2ba1cc13a9abe6dec99a3d8036e64b0\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+		ADDED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+		INJECTED from C:\AndroidProjects\VantageBasic_Original\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:AvayaClientServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\fc7ffa310c86284b2aae3fd52ba9d7b3\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [:AvayaClientServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\fc7ffa310c86284b2aae3fd52ba9d7b3\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.DEVICE_POWER
+ADDED from [:AvayaClientServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\fc7ffa310c86284b2aae3fd52ba9d7b3\AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from [:AvayaClientServices:] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\fc7ffa310c86284b2aae3fd52ba9d7b3\AndroidManifest.xml:14:22-68
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\f2ba1cc13a9abe6dec99a3d8036e64b0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\b8f17e75d70b6c71620b1b9b989f4de2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\b8f17e75d70b6c71620b1b9b989f4de2\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\349b5327403b3e644f0f40ae0ca386d5\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\349b5327403b3e644f0f40ae0ca386d5\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\445fe40637601e33b7059e8aa5cae0f0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\445fe40637601e33b7059e8aa5cae0f0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\1c2d3ebcbfe8e6f8fa6c336ffddaa506\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\1c2d3ebcbfe8e6f8fa6c336ffddaa506\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\3d93e8848016f4799c9aec8d96fc2da4\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\3d93e8848016f4799c9aec8d96fc2da4\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\ccb9bdbec08859f2a40df2425f97f2ef\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\ccb9bdbec08859f2a40df2425f97f2ef\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\dcbba86985897de0cd9ade66d9be57e4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\dcbba86985897de0cd9ade66d9be57e4\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\40a7468c3f06a8bc94547ee207a1bdcf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\40a7468c3f06a8bc94547ee207a1bdcf\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\0425c88f052ee252973f5486d905995b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\0425c88f052ee252973f5486d905995b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\ccd5f27103398735dce637e85cd6778e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\ccd5f27103398735dce637e85cd6778e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\bdc34209a073e1875e58c29457d03dc3\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\bdc34209a073e1875e58c29457d03dc3\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\f2ba1cc13a9abe6dec99a3d8036e64b0\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:25.4.0] C:\Users\garcia76\.gradle\caches\transforms-2\files-2.1\f2ba1cc13a9abe6dec99a3d8036e64b0\AndroidManifest.xml:27:13-51

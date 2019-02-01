@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/error_overlay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="closeErrorNotification"
+    android:orientation="vertical"
+    android:paddingTop="82dp"
+    tools:context=".activities.ErrorMessageActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/error_notification_stroke"
+        android:clickable="true">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/error_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/errorBackgroundColor" />
+</LinearLayout>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="1000dp"
+    android:background="@color/colorPrimaryDark"
+    android:layoutDirection="ltr">
+
+    <ImageView
+        android:id="@+id/brand"
+        android:layout_width="142dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_branding_avaya"
+        tools:ignore="ContentDescription"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginTop="20dp"/>
+
+    <FrameLayout
+        android:id="@+id/user"
+        android:layout_width="190dp"
+        android:layout_height="56dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorStatusBG"
+        android:contentDescription="@string/user_content_description"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/status_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="40dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:maxWidth="150dp"
+            android:minWidth="120dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/extension"
+                android:maxEms="15"
+                android:ellipsize="end"
+                android:singleLine="true"
+                style="@style/StatusFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewEnd"/>
+
+            <TextView
+                android:id="@+id/number"
+                style="@style/SubStatusFont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="viewEnd"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/open"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="9dp"
+            android:src="@drawable/ic_expand_more"
+            tools:ignore="ContentDescription"/>
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/topBarError"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:layout_marginTop="44dp"
+        android:layout_toStartOf="@+id/user"
+        android:contentDescription="@string/error_description"
+        android:src="@drawable/ic_topbar_error"
+        android:visibility="gone"/>
+
+
+
+
+    <ImageView
+        android:id="@+id/search_button"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="94dp"
+        android:src="@drawable/ic_common_search" />
+
+    <ImageView
+        android:id="@+id/addcontact_button"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="34dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_ripple_effect"
+        android:layout_marginTop="94dp"
+        android:src="@drawable/ic_add" />
+
+
+    <ImageView
+        android:id="@+id/filterRecent"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_marginRight="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="94dp"
+        android:src="@drawable/ic_expand_more" />
+
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="708dp"
+        android:layout_below="@id/brand"
+        android:layout_marginTop="@dimen/margin_large"
+
+        android:layout_marginRight="@dimen/margin_large"
+        android:layout_marginLeft="@dimen/margin_large">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_normal"
+            android:fitsSystemWindows="true"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            app:elevation="0dp">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_height"
+                app:tabBackground="@drawable/tab_bg"
+                app:tabGravity="fill"
+                app:tabIndicatorHeight="4dp"
+                app:tabMaxWidth="0dp"
+                app:tabMode="fixed"
+                app:tabPaddingEnd="4dp"
+                app:tabPaddingStart="4dp"/>
+
+            <ImageView
+                android:id="@+id/dialer_tab"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_height"
+                android:contentDescription="@string/dialer_content_description"
+                android:padding="14dp"
+                android:src="@drawable/ic_dialpad"
+                android:tint="@color/tab_tint"
+                android:visibility="gone"/>
+        </android.support.design.widget.AppBarLayout>
+
+        <com.avaya.android.vantage.basic.activities.ElanCustomViewPager
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:layout_marginTop="8dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+    <FrameLayout
+        android:id="@+id/persistent_contrls_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        android:paddingTop="8dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="40dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ToggleButton
+            android:id="@+id/video_mute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="70dp"
+            android:background="@drawable/pc_video_mute"
+            android:contentDescription="@string/cd_video_mute"
+            android:enabled="true"
+            android:stateListAnimator="@null"
+            android:textOff="@null"
+            android:textOn="@null"
+            android:visibility="invisible"
+            android:textSize="0sp"
+            />
+
+        <ToggleButton
+            android:id="@+id/audio_mute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="16dp"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/pc_audio_mute"
+            android:contentDescription="@string/mute_button_content_description"
+            android:enabled="false"
+            android:visibility="gone"
+            android:stateListAnimator="@null"
+            android:textOff="@null"
+            android:textOn="@null"
+            android:textSize="0sp"/>
+
+
+        <ToggleButton
+            android:id="@+id/transducer_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/transducer_button"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            android:stateListAnimator="@null"
+            android:textOff="@null"
+            android:textOn="@null"
+            android:textSize="0sp"
+            />
+
+        <ToggleButton
+            android:id="@+id/off_hook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="70dp"
+            android:visibility="gone"
+            android:background="@drawable/pc_off_hook"
+            android:contentDescription="@string/cd_off_hook"
+            android:stateListAnimator="@null"
+            android:textOff="@null"
+            android:textOn="@null"
+            android:textSize="0sp"
+
+            />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/blur_frame"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D93C5064"
+        android:visibility="gone"
+        android:clickable="true">
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/edit_contact_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/user"
+        android:paddingTop="@dimen/margin_normal"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"/>
+
+    <FrameLayout
+        android:id="@+id/active_call"
+        android:layout_width="match_parent"
+        android:layout_height="708dp"
+        android:layout_below="@id/user"
+        android:layout_marginTop="@dimen/margin_large"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"/>
+
+    <FrameLayout
+        android:id="@+id/frameAll"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:clickable="true"
+        android:visibility="gone"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:layout_marginRight="@dimen/margin_large"/>
+
+    <include
+        android:id="@+id/preferences"
+        layout="@layout/menu_user_preferences"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/user"
+        android:layout_below="@+id/user"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/pick_contacts"
+        layout="@layout/picking_contact_header"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="370dp"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/selectPhoneNumberContainer"
+        layout="@layout/menu_pick_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/selectAudioMenu"
+        layout="@layout/menu_select_audio_device"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45sp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="@+id/persistent_contrls_container"
+        android:visibility="visible"/>
+
+
+    <FrameLayout
+        android:id="@+id/call_status"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+</RelativeLayout>

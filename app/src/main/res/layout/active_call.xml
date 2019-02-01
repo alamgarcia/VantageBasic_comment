@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/active_call_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/colorActiveCallBG"
+    android:gravity="center"
+    android:layoutDirection="ltr">
+    <!-- This view is used for removing dialogs if they are open
+     and user click outside of them. So it should cover all screen. -->
+
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/back_button_content_description"
+        android:src="@drawable/midcall_back" />
+
+    <LinearLayout
+        android:id="@+id/call_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/control_dialpad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/mid_controls_dtmf_selector"
+            android:contentDescription="@string/mid_control_dtmf"
+            android:textOff="@null"
+            android:textOn="@null"
+            android:textSize="0sp" />
+
+        <ToggleButton
+            android:id="@+id/control_endcall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:background="@drawable/mid_controls_end_call"
+            android:contentDescription="@string/end_button_content_descritpion"
+            android:textOff="@null"
+            android:textOn="@null"
+            android:textSize="0sp" />
+
+        <ToggleButton
+            android:id="@+id/control_hold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:background="@drawable/mid_controls_hold_selector"
+            android:contentDescription="@string/pause_button_content_descritpion"
+            android:textOff="@null"
+            android:textOn="@null"
+            android:textSize="0sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="@string/more_button_content_description"
+        android:src="@drawable/mid_controls_more_selector" />
+
+    <com.avaya.android.vantage.basic.views.AutoResizeTextView
+        android:id="@+id/contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="56sp" />
+
+    <TextView
+        android:id="@+id/call_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_name"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/calling"
+        android:textColor="@color/colorCallStateText"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/contact_image"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/ic_avatar_generic"
+        android:contentDescription="@string/active_call_contact_image_description" />
+
+    <include
+        android:id="@+id/video_layout"
+        layout="@layout/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/call_controls"
+        android:layout_below="@+id/back"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="8dp" />
+
+    <View
+        android:id="@+id/viewRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <include
+        android:id="@+id/dtmf"
+        layout="@layout/active_call_dialpad"
+        android:layout_width="380dp"
+        android:layout_height="440dp"
+        android:layout_below="@+id/call_state"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:visibility="visible" />
+
+    <include
+        android:id="@+id/more_call_features"
+        layout="@layout/call_features"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/transfer_dialog"
+        layout="@layout/transfer_call_dialog_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:elevation="8sp"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/merge_dialog"
+        layout="@layout/merge_call_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginTop="8dp"
+        android:elevation="8sp"
+        android:visibility="gone" />
+
+    <com.daasuu.bl.BubbleLayout
+        android:id="@+id/call_features_hint"
+        android:layout_width="346dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        app:bl_strokeColor="@color/whiteStroke"
+        app:bl_bubbleColor="@color/colorActiveCallBG"
+        app:bl_arrowDirection="bottom"
+        app:bl_arrowHeight="12dp"
+        app:bl_arrowWidth="24dp"
+        app:bl_arrowPosition="296dp"
+        app:bl_cornersRadius="6dp"
+        app:bl_strokeWidth="1dp"
+        android:layout_above="@+id/call_controls"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/tap_to_access"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingTop="24dp"
+            android:paddingRight="24dp"
+            android:paddingLeft="24dp"
+            android:paddingBottom="24dp"
+            android:textSize="18sp"
+            android:fontFamily="Roboto-Regular"
+            android:text="@string/tap_to_access"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/dont_show_again"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="right"
+            android:layout_below="@+id/tap_to_access"
+            android:paddingRight="24dp"
+            android:paddingLeft="24dp"
+            android:paddingBottom="24dp"
+            android:clickable="true"
+            android:textSize="18sp"
+            android:fontFamily="Roboto-Medium"
+            android:text="@string/dont_show_again"
+            android:textColor="@color/midOrange" />
+
+        <TextView
+            android:id="@+id/dismiss"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_gravity="right"
+            android:layout_below="@+id/dont_show_again"
+            android:paddingRight="24dp"
+            android:paddingLeft="24dp"
+            android:paddingBottom="24dp"
+            android:clickable="true"
+            android:textSize="18sp"
+            android:fontFamily="Roboto-Medium"
+            android:text="@string/dismiss"
+            android:textColor="@color/midOrange" />
+        </LinearLayout>
+
+    </com.daasuu.bl.BubbleLayout>
+
+</RelativeLayout>

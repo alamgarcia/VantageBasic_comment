@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/call_dialpad_root">
+
+    <TextView
+        android:id="@+id/dialpad_active_call"
+        android:layout_width="236dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="128dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:maxLines="2"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <FrameLayout
+        android:id="@+id/dialer_display_root"
+        android:layout_width="450dp"
+        android:layout_height="166dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="192dp"
+        android:background="@drawable/dialer_display_background"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/dialer_display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:maxLines="2"
+            android:minLines="2"
+            android:text="@string/dialog_empty_display"
+            android:textColor="@color/colorSubGrey"
+            android:textSize="24sp"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/new_call_dialpad_panel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_marginBottom="21dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:id="@+id/call_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:text="@string/sample_dialer_display_name"
+                    style="@style/new_call_dialpad_dialer_text_name"/>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/digits_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="16dp"
+                android:paddingStart="16dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true">
+                <ImageView
+                    android:id="@+id/call_delete"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/ic_dialpad_backspace"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/margin_normal"
+                    android:contentDescription="@string/delete_description"/>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none"
+                    android:fillViewport="true"
+                    android:id="@+id/scroll_call_digits"
+                    android:layout_marginStart="@dimen/margin_xlarge"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_toStartOf="@id/call_delete"
+                    android:layout_centerHorizontal="true"                    >
+                    <TextView
+                        android:id="@+id/call_digits"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/new_call_dialpad_dialer_text"
+                        android:textAlignment="center"
+                        android:maxLines="1"
+                        android:text="@string/dialer_display_number" />
+                </HorizontalScrollView>
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/incoming_matched_dialog"
+        android:layout_width="450dp"
+        android:layout_height="490dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="358dp"
+        android:background="@drawable/dialog_dialer_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/keypad"
+            layout="@layout/dialpad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginEnd="48dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="64dp" />
+
+        <LinearLayout
+            android:id="@+id/call_controls"
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            android:gravity="center"
+            android:measureWithLargestChild="false"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/redialButton"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:elevation="5dp"
+                android:visibility="invisible"
+                android:src="@drawable/dialer_redial"
+                android:contentDescription="@string/redial_button_content_description"/>
+
+            <TextView
+                android:id="@+id/audio_call_button"
+                android:layout_width="154dp"
+                android:layout_height="64dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:background="@drawable/action_button_rectangle"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/contact_item_call_video"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:elevation="5dp"
+                android:visibility="invisible"
+                android:src="@drawable/dialer_video_grey"
+                android:contentDescription="@string/audio_call_content_description"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/exit_dialpad"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="500dp"
+        android:layout_marginTop="168dp"
+        android:src="@drawable/ic_close_panel"
+        android:contentDescription="@string/exit_button_content_description"/>
+</FrameLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tab_height">56dp</dimen>
+    <dimen name="persistent_control_radius">32dp</dimen>
+    <dimen name="persistent_control_stroke_width">2dp</dimen>
+    <dimen name="dialer_button_letters_offset">-5dp</dimen>
+    <dimen name="contact_initial_diameter">40dp</dimen>
+    <dimen name="contact_edit_name_text_size">30sp</dimen>
+    <dimen name="contact_edit_other_text_size">26sp</dimen>
+    <dimen name="sync_button_text_size">18sp</dimen>
+
+    <!-- default values -->
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_normal">8dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+
+    <!-- delete confirmation screen -->
+    <dimen name="contact_delete_dialog_width">350dp</dimen>
+    <dimen name="contact_delete_dialog_text_height">90dp</dimen>
+    <dimen name="contact_delete_dialog_text_buttons_height">50dp</dimen>
+    <dimen name="tutorialLargeButton">28sp</dimen>
+    <dimen name="tutorialTextSize">22sp</dimen>
+    <dimen name="preferenceItemDialogWidth">500dp</dimen>
+    <dimen name="dialogPreferenceTitlePadding">15dp</dimen>
+    <dimen name="dialogPreferenceTitle">20sp</dimen>
+    <dimen name="preferenceRadioButtonTitle">17sp</dimen>
+    <dimen name="preferenceDialogCancelText">14sp</dimen>
+</resources>

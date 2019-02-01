@@ -1,0 +1,206 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/menu_select_audio_root"
+    android:background="@android:color/white"
+    android:elevation="8dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/menu_title_leyout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <TextView
+            android:id="@+id/menu_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:maxWidth="250dp"
+            android:minWidth="172dp"
+            android:text="@string/select_audio_dev_title"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerSpeaker"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/layout_on_press"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="24dp"
+        android:paddingStart="0dp"
+        android:contentDescription="@string/select_audio_dev_speaker">
+
+        <ImageView
+            android:id="@+id/speaker_image_view"
+            android:layout_width="64dp"
+            android:layout_height="24dp"
+            android:paddingStart="24dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_audioselect_picker_speaker"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/speaker_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:maxWidth="250dp"
+            android:minWidth="132dp"
+            android:text="@string/select_audio_dev_speaker"
+            android:contentDescription="@string/select_audio_dev_speaker"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerHeadset"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/layout_on_press"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="24dp"
+        android:paddingStart="0dp"
+        android:visibility="visible"
+        android:contentDescription="@string/select_audio_dev_headset">
+
+        <ImageView
+            android:id="@+id/headset_image_view"
+            android:layout_width="64dp"
+            android:layout_height="24dp"
+            android:paddingStart="24dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_audioselect_picker_headset_selector"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/headset_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:maxWidth="250dp"
+            android:minWidth="132dp"
+            android:text="@string/select_audio_dev_headset"
+            android:contentDescription="@string/select_audio_dev_headset"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerHandset"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/layout_on_press"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="24dp"
+        android:visibility="visible"
+        android:contentDescription="@string/select_audio_dev_handset">
+
+        <ImageView
+            android:id="@+id/handset_image_view"
+            android:layout_width="64dp"
+            android:layout_height="24dp"
+            android:paddingStart="24dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_audioselect_picker_handset_selector"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/handset_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:maxWidth="250dp"
+            android:minWidth="132dp"
+            android:text="@string/select_audio_dev_handset"
+            android:contentDescription="@string/select_audio_dev_handset"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerBTHeadset"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/layout_on_press"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="24dp"
+        android:paddingStart="0dp"
+        android:visibility="visible"
+        android:contentDescription="@string/select_audio_dev_bt_headset">
+
+        <ImageView
+            android:id="@+id/bt_headset_image_view"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:paddingEnd="0dp"
+            android:paddingStart="24dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_audioselect_bluetooth_selector"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/bt_headset_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:maxWidth="250dp"
+            android:minWidth="132dp"
+            android:text="@string/select_audio_dev_bt_headset"
+            android:contentDescription="@string/select_audio_dev_bt_headset"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container35Headset"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/layout_on_press"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="24dp"
+        android:paddingStart="0dp"
+        android:visibility="visible"
+        android:contentDescription="@string/select_audio_dev_35headset">
+
+        <ImageView
+            android:id="@+id/headset35_image_view"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:paddingEnd="0dp"
+            android:paddingStart="24dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/ic_audioselect_35mm_selector"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/headset35_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:maxWidth="250dp"
+            android:minWidth="132dp"
+            android:text="@string/select_audio_dev_35headset"
+            android:contentDescription="@string/select_audio_dev_35headset"
+            android:textSize="17sp" />
+    </LinearLayout>
+</LinearLayout>

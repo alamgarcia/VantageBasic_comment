@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/recent_tab_view_root">
+    <ImageView
+        android:id="@+id/recent_tab_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_recents_normal"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="-15dp"
+        tools:ignore="ContentDescription"/>
+    <RelativeLayout
+        android:id="@+id/recent_tab_layout"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/recent_tab_image"
+        android:layout_height="20dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/recent_tab_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:paddingLeft="6dp"
+            android:paddingRight="6dp"
+            android:background="@drawable/ic_badge_small_normal"
+            android:text=""
+            android:textColor="@color/colorLightGrey"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

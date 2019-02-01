@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="71dp"
+    android:layout_width="117dp"
+    android:orientation="horizontal"
+    android:id="@+id/dialer_button_root"
+    android:gravity="center_horizontal"
+    android:background="@drawable/dialpad_on_press"
+    android:contentDescription="@string/dialer_button_content_description">
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/digit"
+        android:gravity="center"
+        android:text="@string/ac_dialer_number"
+        style="@style/Display1"
+        android:textColor="@color/primary"/>
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/letters"
+        android:text="@string/ac_dialer_letters"
+        android:elegantTextHeight="false"
+        android:gravity="center|start"
+        android:textAlignment="gravity"
+        android:translationY="@dimen/dialer_button_letters_offset"
+        style="@style/Subheading"
+        android:textColor="@color/secondary"/>
+</LinearLayout>

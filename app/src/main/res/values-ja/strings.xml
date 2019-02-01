@@ -1,0 +1,489 @@
+
+<!--suppress CheckTagEmptyBody --><resources>
+    
+    <string name="action_settings">設定</string>
+    
+    <string name="cd_video_mute">ビデオのミュート</string>
+    <string name="cd_off_hook">オフフック</string>
+    <string name="mid_control_dtmf">dtmf のミッドコントロール</string>
+    <string name="sample_dialer_display_name">%1$s &lt;b&gt;%2$s&lt;/b&gt;</string>
+    <string name="device_not_supported">これらのアプリケーションは、Avaya Vantage\u2122 デバイスでのみ動作します。\nアプリケーションが終了します。</string>
+
+    <string-array name="nameDisplayPref">
+        <item>名、姓の順で表示</item>
+        <item>姓、名の順で表示</item>
+    </string-array>
+
+    <string-array name="newContactPref">
+        <item>@string/contact_details_add_contact_local</item>
+        <item>@string/contact_details_add_contact_enterprise</item>
+    </string-array>
+
+    <string-array name="newContactPrefIpo">
+        <item>@string/contact_details_add_contact_local</item>
+        <item>@string/contact_details_add_contact_personal_directory</item>
+    </string-array>
+
+    <string-array name="newContactValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="nameSortPrefValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Dialer activity -->
+    <string-array name="dialer_numbers" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>*</item>
+        <item>0</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="dialer_letters" translatable="false">
+        <item>.,@</item>
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZ</item>
+        <item></item>
+        <item>+</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="number_entry_options">
+        <item>連絡先を選択</item>
+        <item>番号を入力</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="voice_contact_search_hint">連絡先を検索</string>
+
+    <string name="cancel">キャンセル</string>
+    <string name="ok">OK</string>
+    <string name="searching">検索中…</string>
+    <string name="all_contacts">すべての連絡先</string>
+    <string name="local_contacts">ローカルの連絡先</string>
+    <string name="bt_sync">Bluetooth の同期</string>
+    <string name="enterprise_contacts">エンタープライズ連絡先</string>
+    <string name="personal_directory_contacts">個人用連絡先</string>
+    <string name="calling">発信中…</string>
+    <string name="on_hold">保留中</string>
+    <string name="no_contacts_to_display">表示する連絡先がありません</string>
+
+    <!-- Favorites screen -->
+    <string name="favorites_title">お気に入り</string>
+    <string name="favorites_empty_list">表示するお気に入りの連絡先はありません</string>
+
+    <string name="recent_call_all">すべての通話</string>
+    <string name="recent_call_missed">不在着信</string>
+    <string name="recent_call_outgoing">発信</string>
+    <string name="recent_call_incoming">着信</string>
+    <string name="recent_call_delete_history">すべての通話を消去する</string>
+    <string name="no_recent_calls_to_display">表示する最近の通話はありません</string>
+    <string name="recent_call_at">%1$s：%2$s</string>
+
+    <string name="contact_details_title">連絡先の詳細</string>
+    <string name="contact_details_edit">編集</string>
+    <string name="contact_details_delete">削除</string>
+    <string name="contact_details_add_contact">ローカルの連絡先を作成</string>
+    <string name="contact_details_add_contact_local">ローカルの連絡先</string>
+    <string name="contact_details_add_contact_enterprise">エンタープライズの連絡先</string>
+    <string name="contact_details_add_contact_personal_directory">個人用連絡先</string>
+    <string name="contact_details_ipo_only_one_number">このタイプの連絡先に指定できる電話番号は 1 つのみです</string>
+
+    <string name="new_contact_header_text">%1$s の作成</string>
+    <string name="edit_contact_header_text">%1$s の編集</string>
+    <string name="contact_name_char_limit">このタイプの連絡先の名前は %s  文字以下である必要があります</string>
+    <string name="contact_add_label">連絡先に追加</string>
+    <string name="contact_details_make_a_call">発信する</string>
+    <string name="contact_details_work">勤務先</string>
+    <string name="contact_details_mobile">携帯</string>
+    <string name="contact_details_home">自宅</string>
+    <string name="contact_details_handle">ハンドル</string>
+    <string name="contact_details_fax">ファックス</string>
+    <string name="contact_details_pager">ポケットベル</string>
+    <string name="contact_details_assistant">アシスタント</string>
+    <string name="contact_details_other">その他</string>
+    <string name="contact_details_primary">プライマリ</string>
+
+    <string-array name="phone_type_array" translatable="false">
+        <item>@string/contact_details_work</item>
+        <item>@string/contact_details_mobile</item>
+        <item>@string/contact_details_home</item>
+        <item>@string/contact_details_handle</item>
+        <item>@string/contact_details_fax</item>
+        <item>@string/contact_details_pager</item>
+        <item>@string/contact_details_assistant</item>
+        <item>@string/contact_details_other</item>
+        <item>@string/contact_details_primary</item>
+    </string-array>
+
+    <!-- Tutorial Activity -->
+    <string name="quick_tutorial">クイックチュートリアル</string>
+    <string name="dial_pad">ダイヤルパッド</string>
+    <string name="call_screen">アクティブ通話</string>
+    <string name="call_features">通話機能</string>
+    <string name="contacts">連絡先</string>
+    <string name="recents">履歴</string>
+    <string name="skip_button">スキップ</string>
+    <string name="next">次へ</string>
+    <string name="back">戻る</string>
+    <string name="done">完了</string>
+    <string name="tutorial_welcome">Avaya Vantage Basic\u2122 の概要</string>
+    <string name="tutorial_volume">ボリュームボタンは\nユニットの背面に\nあります</string>
+    <string name="tutorial_optional_handset">（オプションのハンドセット）</string>
+    <string name="tutorial_stand_angle">スタンドの角度が\n調整できます</string>
+    <string name="tutorial_tap_access">ここをタップして基本設定に\nアクセスします</string>
+    <string name="tutorial_block">カメラを\nブロックします</string>
+    <string name="tutorial_mute">マイクを\nミュートします</string>
+    <string name="tutorial_tap_handsfree">ハンズフリーまたは矢印を\nタップするとオーディオ\nデバイスを変更できます</string>
+    <string name="tutorial_tap_back">タップすると前の\n画面に戻ります</string>
+    <string name="tutorial_tap_advanced">タップして拡張コントロールにアクセスします</string>
+    <string name="tutorial_transfer_call">アクティブ通話を別の受信者に転送します</string>
+    <string name="tutorial_hold_and_start_new_one">現在の通話を保留して\n別の通話を開始します</string>
+    <string name="tutorial_add_participant">現在の通話に新しい参加者を追加します</string>
+    <string name="tutorial_merge_call">既存の通話を会議通話に結合します</string>
+    <string name="tutorial_escalate_video">ビデオ通話に昇格します</string>
+    <string name="tutorial_bring_focus">アクティブ通話をタップすると\n詳細が表示されます</string>
+    <string name="tutorial_add_new">新しい連絡先を追加します</string>
+    <string name="tutorial_tap_row">連絡先をタップすると連絡先の\n詳細が表示されます</string>
+    <string name="tutorial_tap_default">タップして音声または\nビデオで既定の番号に\n発信します</string>
+    <string name="tutorial_sync_contacts">モバイルデバイスの\n連絡先を同期します</string>
+    <string name="tutorial_sync_recent">モバイルデバイスの\n通話履歴を同期します</string>
+    <string name="tutorial_tap_to_call">タップして音声または\nビデオで既定の番号に\n発信します</string>
+
+    <!-- Preferences -->
+    <string name="preference_version">バージョン</string>
+    <string name="preference_build">ビルド</string>
+    <string name="preference_build_date">ビルドの日付</string>
+    <string name="preference_sdk_version">Avaya Breeze Client SDK バージョン</string>
+    <string name="first_name_first">名、姓の順で表示</string>
+    <string name="last_name_first">姓、名の順で表示</string>
+    <string name="ring_preferences">着信音設定</string>
+    <string name="choose_ringtone">着信音を選択</string>
+    <string name="ringtone_default">デフォルトの着信音</string>
+    <string name="ringtone_silent">なし</string>
+    <string name="display_preferences">表示設定</string>
+    <string name="contact_preferences">連絡先の基本設定</string>
+    <string name="name_display_preferences">名前の表示設定</string>
+    <string name="name_sort_preferences">名前の並べ替え設定</string>
+    <string name="new_contact_type_preferences">新しい連絡先の作成先</string>
+    <string name="application">アプリケーション</string>
+    <string name="audio_preferences">オーディオ</string>
+    <string name="audio_video">オーディオ/ビデオ</string>
+
+    <!-- Active call -->
+    <string name="pick_contact">通話に追加する連絡先を選択</string>
+
+    <string name="feature_dialog_title">通話機能</string>
+    <string name="feature_dialog_transfer">転送</string>
+    <string name="feature_dialog_merge">結合</string>
+    <string name="feature_dialog_start_video">ビデオの開始</string>
+    <string name="feature_dialog_stop_video">ビデオの停止</string>
+    <string name="feature_dialog_conference">参加者の追加</string>
+    <string name="feature_dialog_new_call">新しい通話</string>
+    <string name="feature_dialog_drop_last">最後の参加者を切断する</string>
+    <string name="dialog_empty_display">通話の転送先となる番号を入力</string>
+
+    <string name="operation_failed">操作に失敗しました。少し待ってからもう一度実行してください</string>
+    <string name="max_participants_in_conference">操作に失敗しました。参加者の最大数に達しました。</string>
+    <string name="escalation_failed">ビデオ通話へのエスカレーションに失敗しました</string>
+    <string name="merge_complete">統合が完了しました</string>
+    <string name="trasfer_complete">転送リクエストが完了しました</string>
+
+    <!-- Temporary strings -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Select audio device -->
+    <string name="select_audio_dev_title">オーディオデバイスを選択</string>
+    <string name="select_audio_dev_bt_headset">BT ヘッドセット</string>
+    <string name="select_audio_dev_35headset">3.5 ヘッドセット</string>
+    <string name="select_audio_dev_headset">ヘッドセット</string>
+    <string name="select_audio_dev_handset">ハンドセット</string>
+    <string name="select_audio_dev_speaker">スピーカー</string>
+
+    <!-- User preferences menu -->
+    <string name="user_settings">ユーザー設定</string>
+    <string name="support">サポート</string>
+    <string name="user_preferences">ユーザー設定</string>
+    <string name="application_settings">アプリケーション設定</string>
+    <string name="audio_video_settings">オーディオ/ビデオ設定</string>
+    <string name="audio_settings">オーディオ設定</string>
+
+    <!-- Legal -->
+    <string name="eula_accept">承諾</string>
+    <string name="eula_decline">辞退</string>
+    <string name="transfer_dialog_choose_contact">連絡先を選択</string>
+    <string name="transfer_dialog_enter_number">番号を入力</string>
+    <string name="transfer_dialog_title">通話を転送</string>
+    <string name="merge_dialog_title">通話を会議に結合する</string>
+
+    <string name="logout">EULA が拒否されました</string>
+    <string name="logout_msg">EULA を拒否するとデバイスがログアウトします。実行しますか？</string>
+
+    <!-- Apply config changes dialog -->
+    <string name="logout_to_apply_changes_title">設定をアップデートします。</string>
+    <string name="logout_to_apply_changes_text">設定のアップデートが使用可能です。このアップデートを適用するとアクティブな通話が切断し、すべてのアプリケーションサービスが再起動されます。</string>
+    <string name="apply_changes">アップデート</string>
+    <string name="postpone_logout">今は実行しない</string>
+    <string name="conference_dialog_title">会議の設定</string>
+    <string name="conference_dialog_description">連絡先を会議へ選択</string>
+
+    <!-- Support Activity -->
+    <string name="support_activity_support">サポート</string>
+    <string name="support_activity_about">バージョン情報</string>
+    <string name="support_activity_tutorial">チュートリアル</string>
+    <string name="support_activity_legal">法的情報</string>
+
+    <!-- Contacts edit -->
+    <string name="contact_edit_title">連絡先の編集</string>
+    <string name="contact_edit_cancel">キャンセル</string>
+    <string name="contact_edit_done">完了</string>
+    <string name="contact_edit_add_number">電話番号の追加</string>
+    <string name="contact_edit_phone_hint">電話</string>
+    <string name="contact_edit_first_name_hint">名</string>
+    <string name="contact_edit_last_name_hint">姓</string>
+    <string name="contact_edit_job_title_hint">役職</string>
+    <string name="contact_edit_company_hint">会社</string>
+    <string name="contact_edit_address_hint">住所</string>
+    <string name="contact_edit_change_photo">写真の変更</string>
+    <string name="contact_edit_take_photo">写真を撮影する</string>
+    <string name="contact_edit_delete_photo">写真を削除</string>
+    <string name="contact_edit_choose_photo">写真を選択する</string>
+    <string name="contact_edit_name_required">姓名どちらかの入力が必須です</string>
+    <string name="contact_edit_number_required">1 つ以上の電話番号が必須です</string>
+    <string name="contact_edit_enterprise_contact_not_found">連絡先は変更できません。\n後でもう一度実行してください。</string>
+    <string name="contact_edit_non_edit_first_name">名は編集できません。\n詳細は管理者までお問い合わせください。</string>
+    <string name="contact_edit_non_edit_last_name">姓は編集できません。\n詳細は管理者までお問い合わせください。</string>
+    <string name="contact_edit_non_edit_job">役職は編集できません。\n詳細は管理者までお問い合わせください。</string>
+    <string name="contact_edit_non_edit_company">会社は編集できません。\n詳細は管理者までお問い合わせください。</string>
+    <string name="contact_edit_non_edit_address">住所は編集できません。\n詳細は管理者までお問い合わせください。</string>
+    <string name="contact_edit_non_edit_favorite">お気に入りのステータスは編集できません。\n詳細は管理者までお問い合わせください。</string>
+    <string name="contact_edit_not_savable_toast">連絡先は保存できません。\n詳細は管理者までお問い合わせください。</string>
+    <string name="contact_edit_success">連絡先が正常に編集されました。</string>
+    <string name="contact_edit_user_not_found">連絡先を編集できません。ユーザーが見つかりません。\詳細は管理者までお問い合わせください。</string>
+    <string name="contact_edit_server_not_available">連絡先はサーバー上で見つかりませんでした。\n後でもう一度実行してください。</string>
+    <string name="contact_edit_general_error">連絡先の更新に失敗しました。</string>
+    <string name="enterprise_contact_create_error">連絡先の更新に失敗しました</string>
+    <string name="contact_create_with_name">次の名前で新しい連絡先が作成されました：\u0020</string>
+    <string name="contact_uneditable_error">この連絡先は編集できません。</string>
+    <string name="contact_not_found">連絡先にアクセスできません。</string>
+    <string name="contact_deleted">連絡先が削除されました</string>
+    <string name="contact_undeletable_error">この連絡先は削除できません</string>
+    <string name="contact_delete_confirmation_message">この連絡先を削除しますか？</string>
+    <string name="contact_delete_confirmation_message_yes">はい</string>
+    <string name="contact_delete_confirmation_message_no">いいえ</string>
+
+    <!-- Content description -->
+    <string name="dialer_button_content_description">番号</string>
+    <string name="more_button_content_description">その他</string>
+    <string name="back_button_content_description">戻る</string>
+    <string name="pause_button_content_descritpion">一時停止</string>
+    <string name="end_button_content_descritpion">通話の終了</string>
+    <string name="mute_button_content_description">通話のミュート</string>
+    <string name="user_content_description">ユーザー設定</string>
+    <string name="redial_button_content_description">リダイヤル</string>
+    <string name="audio_call_content_description">音声通話</string>
+    <string name="exit_button_content_description">［終了］ボタン</string>
+    <string name="transfer_content_description">転送</string>
+    <string name="conference_content_description">会議</string>
+    <string name="new_call_start_video">ビデオの開始</string>
+    <string name="new_call_stop_video">ビデオの停止</string>
+    <string name="new_call_content_description">新しい通話</string>
+    <string name="video_call_content_description">ビデオ通話</string>
+    <string name="add_favorite_content_description">お気に入り</string>
+    <string name="sync_contact_content_description">連絡先を同期</string>
+    <string name="edit_content_description">編集</string>
+    <string name="back_content_description">戻る</string>
+    <string name="delete_content_description">削除</string>
+    <string name="voice_mail_content_description">ボイスメール</string>
+    <string name="first_name_content_description">名</string>
+    <string name="last_name_content_description">姓</string>
+    <string name="cancel_content_description">キャンセル</string>
+    <string name="find_contact_content_description">連絡先を探す</string>
+    <string name="choose_list_content_description">リストの選択</string>
+    <string name="add_contact_content_description">連絡先の追加</string>
+    <string name="choose_calls_list_content_description">通話リストの選択</string>
+    <string name="accept_call_audio_content_description">音声通話の応答</string>
+    <string name="accept_call_video_content_description">ビデオ通話の応答</string>
+    <string name="end_call_content_description">通話の終了</string>
+    <string name="decline_content_description">辞退</string>
+    <string name="accept_content_description">承諾</string>
+    <string name="clear_calls_content_description">すべての通話を消去する</string>
+    <string name="user_settings_content_description">ユーザー設定</string>
+    <string name="about_content_description">サポート</string>
+    <string name="dialer_content_description">ダイヤラー</string>
+    <string name="favorites_content_description">お気に入り</string>
+    <string name="contacts_content_description">連絡先</string>
+    <string name="recent_calls_content_description">通話履歴</string>
+    <string name="incoming_content_description">着信通話</string>
+    <string name="missed_content_description">不在着信</string>
+    <string name="outgoing_content_description">発信通話</string>
+    <string name="edit_job_title_clear_description">役職の削除</string>
+    <string name="active_call_contact_image_description">連絡先の画像</string>
+    <string name="unknown_incoming_call_image_description">不明な着信画像</string>
+    <string name="edit_clear_last_name_description">姓の削除</string>
+    <string name="error_description">エラー</string>
+    <string name="delete_description">削除</string>
+    <string name="set_default_number_description">既定ユーザーとして設定する</string>
+    <string name="first_name_clear_description">名の削除</string>
+    <string name="edit_phone_clear_description">電話のクリア</string>
+    <string name="edit_phone_delete_description">電話の削除</string>
+    <string name="close_description">閉じる</string>
+    <string name="recent_number_type_description">種類</string>
+    <string name="is_calling_content_description">が呼び出しています</string>
+
+    <!-- Rate us alert dialog -->
+    <string name="rate_us">評価する</string>
+    <string name="rate_us_now">評価を付ける</string>
+    <string name="rate_us_not_now">今は実行しない</string>
+    <string name="rate_us_description">このアプリケーションをお気に入りいただけましたら、Google Play ストアで評価にご協力ください</string>
+    <string name="rate_us_title">Google Play ストアで Avaya Vantage\u2122 Basic を評価する</string>
+
+    <!-- User Survey -->
+    
+    
+
+    <!-- Share Feedback -->
+    <string name="share_feedback">フィードバックの共有（英語のみ）</string>
+    <string name="share_feedback_description">アプリケーションログを含むフィードバックをメールで共有します。問題がある場合は管理者に連絡し、サービスリクエストを通常の手段で Avaya までお送りください。</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Error codes -->
+    <string name="error_unknown">不明なエラー</string>
+
+    <string name="error_title_sip_extension">SIP ログインの失敗</string>
+    <string name="error_message_sip_extension">内線番号またはパスワードが正しくありません。もう一度やり直してください</string>
+    <string name="error_title_general">SIP ログインの失敗</string>
+    <string name="error_message_general">Avaya Aura サーバーへの接続中に、一般的なエラーが発生しました</string>
+    <string name="error_message_general_ipo">IPO サーバーへの接続中に、一般的なエラーが発生しました</string>
+    <string name="error_title_invalid_domain">SIP ログインの失敗</string>
+    <string name="error_message_invalid_domain">ログインに失敗しました。ドメインが正しくありません。</string>
+    <string name="error_title_voip">SIP ログインの失敗</string>
+    <string name="error_message_voip">現在、VoIP 電話サービスは限定されたサービスでのみ使用できます。</string>
+    <string name="error_title_phone_service">SIP ログインの失敗</string>
+    <string name="error_message_phone_service">電話サービスは現在利用できません。</string>
+    <string name="error_title_certificate">SIP ログインの失敗</string>
+    <string name="error_message_certificate">VoIP 電話サービスに必要なセキュリティ証明書に問題があります。</string>
+    <string name="error_title_device_limit">SIP ログインの失敗</string>
+    <string name="error_message_device_limit">内線番号数がデバイスの最大数に達しました。</string>
+    <string name="error_title_sip_credentials">統合ログインの失敗</string>
+    <string name="error_message_sip_credentials">ユーザー名またはパスワードが正しくありません。もう一度やり直してください</string>
+    <string name="error_message_ul_credentials">ユーザー名とパスワードの情報が不足しています。入力してください。</string>
+    <string name="error_message_empty">SIP 内線番号またはパスワードが入力されていません。入力してください。</string>
+    <string name="error_message_service_not_available">Avaya Aura Device Services は現在使用できません。</string>
+
+    <!-- Transfer and conference -->
+    <string name="no_number_message">有効な電話番号を入力してください</string>
+    <string name="display_local_contact_information">ローカルの連絡先情報を表示しています</string>
+    <string name="display_enterprise_contact_information">エンタープライズの連絡先情報を表示しています</string>
+    <string name="display_directory_contact_information">ディレクトリの連絡先情報を表示しています</string>
+    <string name="display_personal_directory_contact_information">IPO の連絡先情報を表示しています</string>
+
+    <!-- Pinning -->
+    <string name="exit_pin_mode">アプリケーションのピン留めモード</string>
+    <string name="password_dialog_title">アプリケーションのピン留め認証</string>
+    <string name="admin_pass_not_set">管理者パスワードが設定されていません</string>
+    <string name="incorrect_password">パスワードが正しくありません</string>
+    <string name="advanced">詳細設定</string>
+    <string name="feature_dialog_add_someone">参加者の追加</string>
+    <string name="feature_dialog_add_somene_cd">参加者の追加</string>
+    <string name="transfer_dialog_body">\"%1$s\" を \"%2$s\" に転送しますか？</string>
+    <string name="transfer_direct_dialog_title">転送確認</string>
+    <string name="conference_direct_dialog_title">通話の結合：</string>
+    <string name="merge">結合</string>
+    <string name="call_feature">通話機能</string>
+    <string name="please_enter_administrator_password">管理者パスワードを入力してください</string>
+    <string name="must_set_primary">1 つ以上の電話番号を主要番号に設定する必要があります</string>
+
+    <string name="tap_to_access">タップしてその他の\n通話機能にアクセスします</string>
+    <string name="dont_show_again">今後、このメッセージを表示しない</string>
+    <string name="dismiss">閉じる</string>
+
+    <string name="default_app_closing">Vantage Basic は電話アプリケーションとして設定されていないため、機能しないことに注意してください。</string>
+
+    <string name="notification_online">オンライン</string>
+    <string name="logged_out">ログアウト済み</string>
+    <string name="bluetooth_settings">Bluetooth の設定</string>
+    <string name="more_settings">その他の設定</string>
+    <string name="directory_separator_display">ディレクトリ %1$s（%2$s） </string>
+
+    <!-- Sync call history dialog text -->
+    <string name="sync_call_history_title">コール履歴を同期しますか？</string>
+    <string name="sync_call_history_text">ペアリングされたモバイルデバイスのコール履歴は、コール履歴タブに自動的に表示され、デバイスが切断したときに削除されます。</string>
+
+    <!-- Contacts dialog text -->
+    <string name="sync_contact_title">連絡先を同期しますか？</string>
+    <string name="sync_contact_text">ペアリングされたモバイルデバイスの連絡先は、連絡先タブに自動的に表示され、デバイスが切断したときに削除されます。</string>
+
+    <string name="delete_call_history_text">通話ログを削除してよろしいですか？</string>
+    <string name="photo_not_supported">このタイプの連絡先に画像は追加できません</string>
+    <string name="not_enterprise_found">エンタープライズアカウントが見つかりません。少し待ってからもう一度実行してください</string>
+
+    <string name="conference">会議</string>
+    <string name="private_address">非公開</string>
+    <string name="contact_edit_ipo_name_hint">名前</string>
+    <string name="tutorialBlockCamera">"カメラを\nブロック"</string>
+    <string name="tutorialMute">ミュート</string>
+    <string name="tutorialVolume">音量</string>
+    <string name="tutorialTransducerSelection">"トランスデューサー\n選択"</string>
+    <string name="tutorialNavigationButtons">ナビゲーションボタン</string>
+    <string name="tutorialMain">メイン</string>
+    <string name="tutorialActiveCall">アクティブなコール</string>
+    <string name="tutorialHistory">履歴</string>
+    <string name="tutorialPreviousScreen">前の画面</string>
+    <string name="tutorialHomeScreen">ホーム画面</string>
+    <string name="tutorialRecentApps">最近のアプリ</string>
+    <string name="tutorialAccessPreferences">アクセス基本設定</string>
+    <string name="tutorialSearch">検索</string>
+    <string name="tutorialTapToNavigate">"タップして\n移動"</string>
+    <string name="tutorialGoBackToPreviousScreen">"前の画面に\n戻る"</string>
+    <string name="tutorialShowAllControlls">"すべてのコントロールを表示\n（転送や結合など）"</string>
+    <string name="tutorialTapToCallDefault">"タップして音声または\nビデオで既定の番号に\n発信"</string>
+    <string name="tutorialTapToContactDetails">"行をタップして連絡先の\n詳細を表示"</string>
+    <string name="tutorialTapToCallHistoryDetails">"行をタップして\nコール履歴の詳細を表示"</string>
+    <string name="tutorialReturnByVoiceOrVideo">"音声またはビデオで\nコールを折り返す"</string>
+    <string name="tutorialTapToFocusCurrentCall">タップして現在の通話をフォーカス</string>
+
+    <string name="waitBluetoothContactSharing">Bluetooth による連絡先が同期するまでお待ちください</string>
+    <string name="turnOffBluetoothContactSharing">Bluetooth による連絡先共有をオフにする</string>
+    <string name="turnOffBluetoothCallHistorySharing">Bluetooth によるコール履歴共有をオフにする</string>
+    <string name="waitBluetoothCallHistorySharing">Bluetooth によるコール履歴が同期するまでお待ちください</string>
+</resources>

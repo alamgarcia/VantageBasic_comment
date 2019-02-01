@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="450dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/delete_call_history_root"
+    android:elevation="8dp"
+    android:background="@android:color/white"
+    android:clickable="true">
+
+    <include
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        layout="@layout/exit_button_layout"
+        android:layout_height="42dp"
+        android:layout_width="42dp" />
+
+    <TextView
+        android:id="@+id/delete_callhistory_dialog_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lines="3"
+        android:paddingBottom="50dp"
+        android:paddingTop="50dp"
+        android:layout_centerVertical="true"
+        android:text="@string/delete_call_history_text"
+        android:textSize="26dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/delete_callhistory_dialog_ok"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ok"
+            android:gravity="center"
+            android:textSize="@dimen/sync_button_text_size"/>
+
+        <TextView
+            android:id="@+id/delete_callhistory_dialog_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel"
+            android:gravity="center"
+            android:textSize="@dimen/sync_button_text_size"/>
+    </LinearLayout>
+
+</RelativeLayout>

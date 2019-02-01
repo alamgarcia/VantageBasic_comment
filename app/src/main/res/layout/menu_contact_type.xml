@@ -1,0 +1,23 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_user_preferences_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:elevation="@dimen/margin_normal"
+    android:minWidth="150dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/contact_type_local"
+        style="@style/contact_type_spinner"
+        android:contentDescription="@string/local_contacts"
+        android:text="@string/contact_details_add_contact_local"/>
+
+    <TextView
+        android:id="@+id/contact_type_enterprise"
+        style="@style/contact_type_spinner"
+        android:contentDescription="@string/contact_details_add_contact_enterprise"
+        android:text="@string/contact_details_add_contact_enterprise"/>
+
+</LinearLayout>

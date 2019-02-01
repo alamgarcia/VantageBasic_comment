@@ -1,0 +1,221 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/menu_call_history_root"
+    android:background="@android:color/white"
+    android:elevation="8dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/containerAllHistory"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/layout_on_press"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:contentDescription="@string/recent_call_all">
+
+        <ImageView
+            android:id="@+id/recent_call_image_view"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:src="@drawable/ic_menu_allhistory"
+            android:layout_gravity="center_vertical"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/recent_call_text_view"
+            style="@style/Body1"
+            android:textColor="@color/primary"
+            android:layout_width="wrap_content"
+            android:minWidth="152dp"
+            android:maxWidth="190dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:text="@string/recent_call_all" />
+
+        <ImageView
+            android:id="@+id/recentAllCheck"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_check"
+            android:visibility="visible"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerIncomingCalls"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="@drawable/layout_on_press"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:contentDescription="@string/recent_call_incoming">
+
+        <ImageView
+            android:id="@+id/incoming_call_image_view"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:src="@drawable/ic_menu_incomingcalls"
+            android:layout_gravity="center_vertical"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/incoming_call_text_view"
+            style="@style/Body1"
+            android:textColor="@color/primary"
+            android:layout_width="wrap_content"
+            android:minWidth="152dp"
+            android:maxWidth="190dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:text="@string/recent_call_incoming" />
+
+        <ImageView
+            android:id="@+id/recentIncomingCheck"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_check"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerOugtoingCalls"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="@drawable/layout_on_press"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:contentDescription="@string/recent_call_outgoing">
+
+        <ImageView
+            android:id="@+id/outgoing_calls_image_view"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:src="@drawable/ic_menu_outgoingcalls"
+            android:layout_gravity="center_vertical"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/outgoing_calls_text_view"
+            style="@style/Body1"
+            android:textColor="@color/primary"
+            android:layout_width="wrap_content"
+            android:minWidth="152dp"
+            android:maxWidth="190dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:text="@string/recent_call_outgoing" />
+
+        <ImageView
+            android:id="@+id/recentOutCheck"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_check"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/containerMissedCalls"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="@drawable/layout_on_press"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:contentDescription="@string/recent_call_missed">
+
+        <ImageView
+            android:id="@+id/missed_calls_image_view"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_menu_missedcalls"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/missed_calls_text_view"
+            style="@style/Body1"
+            android:textColor="@color/primary"
+            android:layout_width="wrap_content"
+            android:minWidth="152dp"
+            android:maxWidth="190dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:text="@string/recent_call_missed" />
+
+        <ImageView
+            android:id="@+id/recentMissedCheck"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_check"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_menu"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGreyStroke" />
+
+        <TextView
+            android:id="@+id/containerDeleteAllHistory"
+            style="@style/Body1"
+            android:textColor="@color/presenceRed"
+            android:layout_width="wrap_content"
+            android:minWidth="280dp"
+            android:maxLines="1"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="@string/recent_call_delete_history"
+            android:background="@drawable/layout_on_press"
+            android:contentDescription="@string/clear_calls_content_description"/>
+
+</LinearLayout>

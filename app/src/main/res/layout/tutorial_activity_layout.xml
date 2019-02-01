@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tutorial_frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@color/colorDarkGrey">
+
+    <ImageView
+        android:id="@+id/tutorial_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="false"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/tutorial_description_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tutorial_image_title"
+            style="@style/tutorial_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/tutorial_pinters_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/tutorial_first_image"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_marginEnd="45dp"
+                android:orientation="vertical"
+                android:src="@drawable/orange_circle"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/tutorial_second_image"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_marginEnd="45dp"
+                android:orientation="vertical"
+                android:src="@drawable/orange_circle"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/tutorial_third_image"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_marginEnd="45dp"
+                android:orientation="vertical"
+                android:src="@drawable/orange_circle"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/tutorial_forth_image"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_marginEnd="45dp"
+                android:orientation="vertical"
+                android:src="@drawable/orange_circle"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/tutorial_fifth_image"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_marginEnd="45dp"
+                android:orientation="vertical"
+                android:src="@drawable/orange_circle"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/tutorial_sixt_image"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:orientation="vertical"
+                android:src="@drawable/orange_circle"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tutorial_left"
+        style="@style/tutorial_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+
+    <TextView
+        android:id="@+id/tutorial_right"
+        style="@style/tutorial_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+
+    <TextView
+        android:id="@+id/tutorial_done"
+        style="@style/tutorial_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_marginTop="10dp"
+        android:text="@string/done"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" />
+
+    <TextView
+        android:id="@+id/empty_text_1"
+        style="@style/tutorial_description_text_style"
+        android:textAlignment="viewStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/empty_text_2"
+        style="@style/tutorial_description_text_style"
+        android:textAlignment="viewStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/empty_text_3"
+        style="@style/tutorial_description_text_style"
+        android:textAlignment="viewStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/empty_text_4"
+        style="@style/tutorial_description_text_style"
+        android:textAlignment="viewStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/empty_text_5"
+        style="@style/tutorial_description_text_style"
+        android:textAlignment="viewStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>

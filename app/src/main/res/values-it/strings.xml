@@ -1,0 +1,489 @@
+
+<!--suppress CheckTagEmptyBody --><resources>
+    
+    <string name="action_settings">Impostazioni</string>
+    
+    <string name="cd_video_mute">disattivazione video</string>
+    <string name="cd_off_hook">Sganciato</string>
+    <string name="mid_control_dtmf">DTMF per controllo azioni durante chiamata</string>
+    <string name="sample_dialer_display_name">%1$s &lt;b&gt;%2$s&lt;/b&gt;</string>
+    <string name="device_not_supported">Questa applicazione può essere eseguita solo su dispositivi Avaya Vantage\u2122.\nL\'applicazione verrà chiusa.</string>
+
+    <string-array name="nameDisplayPref">
+        <item>Prima il nome</item>
+        <item>Prima il cognome</item>
+    </string-array>
+
+    <string-array name="newContactPref">
+        <item>@string/contact_details_add_contact_local</item>
+        <item>@string/contact_details_add_contact_enterprise</item>
+    </string-array>
+
+    <string-array name="newContactPrefIpo">
+        <item>@string/contact_details_add_contact_local</item>
+        <item>@string/contact_details_add_contact_personal_directory</item>
+    </string-array>
+
+    <string-array name="newContactValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="nameSortPrefValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Dialer activity -->
+    <string-array name="dialer_numbers" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>*</item>
+        <item>0</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="dialer_letters" translatable="false">
+        <item>.,@</item>
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZ</item>
+        <item></item>
+        <item>+</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="number_entry_options">
+        <item>Scegli un contatto</item>
+        <item>Immetti un numero</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="voice_contact_search_hint">trova qualcuno</string>
+
+    <string name="cancel">Annulla</string>
+    <string name="ok">OK</string>
+    <string name="searching">Ricerca in corso…</string>
+    <string name="all_contacts">Tutti i contatti</string>
+    <string name="local_contacts">Contatti locali</string>
+    <string name="bt_sync">Sinc. Bluetooth</string>
+    <string name="enterprise_contacts">Contatti aziendali</string>
+    <string name="personal_directory_contacts">Contatti personali</string>
+    <string name="calling">Chiamata in corso…</string>
+    <string name="on_hold">In attesa</string>
+    <string name="no_contacts_to_display">Nessun contatto da visualizzare</string>
+
+    <!-- Favorites screen -->
+    <string name="favorites_title">Preferiti</string>
+    <string name="favorites_empty_list">Nessun contatto preferito da visualizzare</string>
+
+    <string name="recent_call_all">Tutte le chiamate</string>
+    <string name="recent_call_missed">Chiamate perse</string>
+    <string name="recent_call_outgoing">Chiamate in uscita</string>
+    <string name="recent_call_incoming">Chiamate in arrivo</string>
+    <string name="recent_call_delete_history">Cancella tutte le chiamate</string>
+    <string name="no_recent_calls_to_display">Nessuna chiamata recente da visualizzare</string>
+    <string name="recent_call_at">%1$s alle %2$s</string>
+
+    <string name="contact_details_title">Dettagli contatto</string>
+    <string name="contact_details_edit">Modifica</string>
+    <string name="contact_details_delete">Elimina</string>
+    <string name="contact_details_add_contact">Crea contatto locale</string>
+    <string name="contact_details_add_contact_local">Contatto locale</string>
+    <string name="contact_details_add_contact_enterprise">Contatto aziendale</string>
+    <string name="contact_details_add_contact_personal_directory">Contatto personale</string>
+    <string name="contact_details_ipo_only_one_number">Questo tipo di contatto può disporre di un solo numero di telefono</string>
+
+    <string name="new_contact_header_text">Crea %1$s</string>
+    <string name="edit_contact_header_text">Modifica %1$s</string>
+    <string name="contact_name_char_limit">Questo tipo di contatti non può avere un nome contenente più di %s caratteri</string>
+    <string name="contact_add_label">Crea contatto</string>
+    <string name="contact_details_make_a_call">Effettua una chiamata</string>
+    <string name="contact_details_work">Lavoro</string>
+    <string name="contact_details_mobile">Cellulare</string>
+    <string name="contact_details_home">Casa</string>
+    <string name="contact_details_handle">Identificatore</string>
+    <string name="contact_details_fax">Fax</string>
+    <string name="contact_details_pager">Cercapersone</string>
+    <string name="contact_details_assistant">Assistente</string>
+    <string name="contact_details_other">Altro</string>
+    <string name="contact_details_primary">Primario</string>
+
+    <string-array name="phone_type_array" translatable="false">
+        <item>@string/contact_details_work</item>
+        <item>@string/contact_details_mobile</item>
+        <item>@string/contact_details_home</item>
+        <item>@string/contact_details_handle</item>
+        <item>@string/contact_details_fax</item>
+        <item>@string/contact_details_pager</item>
+        <item>@string/contact_details_assistant</item>
+        <item>@string/contact_details_other</item>
+        <item>@string/contact_details_primary</item>
+    </string-array>
+
+    <!-- Tutorial Activity -->
+    <string name="quick_tutorial">Esercitazione veloce</string>
+    <string name="dial_pad">Tastiera di composizione</string>
+    <string name="call_screen">Chiamata attiva</string>
+    <string name="call_features">Funzioni delle chiamate</string>
+    <string name="contacts">Contatti</string>
+    <string name="recents">Recenti</string>
+    <string name="skip_button">SALTA</string>
+    <string name="next">AVANTI</string>
+    <string name="back">INDIETRO</string>
+    <string name="done">FINE</string>
+    <string name="tutorial_welcome">Benvenuti in Avaya Vantage\u2122 Basic</string>
+    <string name="tutorial_volume">I pulsanti del volume\nsi trovano sulla parte posteriore\ndell\'unità</string>
+    <string name="tutorial_optional_handset">(ricevitore opzionale)</string>
+    <string name="tutorial_stand_angle">L\'angolo del sostegno\nè regolabile</string>
+    <string name="tutorial_tap_access">Toccare per accedere alle preferenze</string>
+    <string name="tutorial_block">Blocca la\ntelecamera</string>
+    <string name="tutorial_mute">Disattiva il\nmicrofono</string>
+    <string name="tutorial_tap_handsfree">Toccare per il vivavoce o\ntoccare la freccia per cambiare\nil dispositivo audio</string>
+    <string name="tutorial_tap_back">Toccare per tornare alla schermata\nprecedente</string>
+    <string name="tutorial_tap_advanced">Toccare per accedere ai controlli avanzati</string>
+    <string name="tutorial_transfer_call">Trasferisci la chiamata attiva a un altro partecipante</string>
+    <string name="tutorial_hold_and_start_new_one">Metti in attesa la chiamata\ncorrente e avviane un\'altra</string>
+    <string name="tutorial_add_participant">Aggiungi un nuovo partecipante alla chiamata corrente</string>
+    <string name="tutorial_merge_call">Unisci le chiamate esistenti in una conferenza</string>
+    <string name="tutorial_escalate_video">Promuovi a videochiamata</string>
+    <string name="tutorial_bring_focus">Chiamata corrente: toccare\nper portarla in primo piano</string>
+    <string name="tutorial_add_new">Aggiungere un nuovo contatto</string>
+    <string name="tutorial_tap_row">Toccare una riga per visualizzare\ni dettagli dei contatti</string>
+    <string name="tutorial_tap_default">Toccare per chiamare il numero\npredefinito tramite voce o video</string>
+    <string name="tutorial_sync_contacts">Sincronizza contatti di un\ndispositivo mobile</string>
+    <string name="tutorial_sync_recent">Sincronizza le chiamate recenti di\nun dispositivo mobile</string>
+    <string name="tutorial_tap_to_call">Toccare per chiamare il numero\npredefinito tramite voce o\nvideo</string>
+
+    <!-- Preferences -->
+    <string name="preference_version">Versione</string>
+    <string name="preference_build">Build</string>
+    <string name="preference_build_date">Data build</string>
+    <string name="preference_sdk_version">Versione del client SDK Avaya Breeze</string>
+    <string name="first_name_first">Prima il nome</string>
+    <string name="last_name_first">Prima il cognome</string>
+    <string name="ring_preferences">Preferenze squillo</string>
+    <string name="choose_ringtone">Scegli suoneria</string>
+    <string name="ringtone_default">Suoneria predefinita</string>
+    <string name="ringtone_silent">Nessuno</string>
+    <string name="display_preferences">Preferenze di visualizzazione</string>
+    <string name="contact_preferences">Preferenze dei contatti</string>
+    <string name="name_display_preferences">Preferenze di visualizzazione del nome</string>
+    <string name="name_sort_preferences">Preferenze di ordinamento del nome</string>
+    <string name="new_contact_type_preferences">Crea nuovo contatto come</string>
+    <string name="application">Applicazione</string>
+    <string name="audio_preferences">Audio</string>
+    <string name="audio_video">Audio/Video</string>
+
+    <!-- Active call -->
+    <string name="pick_contact">Scegli un contatto da aggiungere alla chiamata</string>
+
+    <string name="feature_dialog_title">Funzioni delle chiamate</string>
+    <string name="feature_dialog_transfer">Trasferisci</string>
+    <string name="feature_dialog_merge">Unisci</string>
+    <string name="feature_dialog_start_video">Avvia video</string>
+    <string name="feature_dialog_stop_video">Interrompi video</string>
+    <string name="feature_dialog_conference">Aggiungi qualcuno</string>
+    <string name="feature_dialog_new_call">Nuova chiamata</string>
+    <string name="feature_dialog_drop_last">Disconnetti l\'ultimo partecipante</string>
+    <string name="dialog_empty_display">Immetti un numero a cui\ntrasferire la chiamata</string>
+
+    <string name="operation_failed">Operazione non riuscita. Riprovare più tardi</string>
+    <string name="max_participants_in_conference">Operazione non riuscita. È stato raggiunto il numero massimo di partecipanti.</string>
+    <string name="escalation_failed">Passaggio a video non riuscito</string>
+    <string name="merge_complete">Unione completata</string>
+    <string name="trasfer_complete">Richiesta trasferimento completata</string>
+
+    <!-- Temporary strings -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Select audio device -->
+    <string name="select_audio_dev_title">Seleziona dispositivo audio</string>
+    <string name="select_audio_dev_bt_headset">Cuffia BT</string>
+    <string name="select_audio_dev_35headset">Cuffia 3.5</string>
+    <string name="select_audio_dev_headset">Cuffia</string>
+    <string name="select_audio_dev_handset">Ricevitore</string>
+    <string name="select_audio_dev_speaker">Altoparlante</string>
+
+    <!-- User preferences menu -->
+    <string name="user_settings">Impostazioni utente</string>
+    <string name="support">Assistenza</string>
+    <string name="user_preferences">Preferenze utente</string>
+    <string name="application_settings">Impostazioni applicazione</string>
+    <string name="audio_video_settings">Impostazioni audio/video</string>
+    <string name="audio_settings">Impostazioni audio</string>
+
+    <!-- Legal -->
+    <string name="eula_accept">Accetta</string>
+    <string name="eula_decline">Rifiuta</string>
+    <string name="transfer_dialog_choose_contact">Selezionare una persona</string>
+    <string name="transfer_dialog_enter_number">Immetti un numero</string>
+    <string name="transfer_dialog_title">Trasferisci la chiamata</string>
+    <string name="merge_dialog_title">Unisci le chiamate in una conferenza</string>
+
+    <string name="logout">EULA rifiutato</string>
+    <string name="logout_msg">Rifiutando l\'EULA, il dispositivo si disconnetterà. Procedere?</string>
+
+    <!-- Apply config changes dialog -->
+    <string name="logout_to_apply_changes_title">Aggiornamento delle impostazioni.</string>
+    <string name="logout_to_apply_changes_text">È disponibile un aggiornamento della configurazione. L\'applicazione dell\'aggiornamento provocherà l\'interruzione delle chiamate attive e il riavvio di tutti i servizi dell\'applicazione.</string>
+    <string name="apply_changes">Aggiorna</string>
+    <string name="postpone_logout">Non ora</string>
+    <string name="conference_dialog_title">Imposta una conferenza</string>
+    <string name="conference_dialog_description">Seleziona contatto per la conferenza</string>
+
+    <!-- Support Activity -->
+    <string name="support_activity_support">Assistenza</string>
+    <string name="support_activity_about">Informazioni su</string>
+    <string name="support_activity_tutorial">Esercitazione</string>
+    <string name="support_activity_legal">Aspetti legali</string>
+
+    <!-- Contacts edit -->
+    <string name="contact_edit_title">Modifica contatto</string>
+    <string name="contact_edit_cancel">Annulla</string>
+    <string name="contact_edit_done">Fine</string>
+    <string name="contact_edit_add_number">Aggiungi numero di telefono</string>
+    <string name="contact_edit_phone_hint">Telefono</string>
+    <string name="contact_edit_first_name_hint">Nome</string>
+    <string name="contact_edit_last_name_hint">Cognome</string>
+    <string name="contact_edit_job_title_hint">Occupazione</string>
+    <string name="contact_edit_company_hint">Società</string>
+    <string name="contact_edit_address_hint">Indirizzo</string>
+    <string name="contact_edit_change_photo">Modifica foto</string>
+    <string name="contact_edit_take_photo">Scatta una foto</string>
+    <string name="contact_edit_delete_photo">Elimina foto</string>
+    <string name="contact_edit_choose_photo">Scegli una foto</string>
+    <string name="contact_edit_name_required">Sono richiesti nome o cognome.</string>
+    <string name="contact_edit_number_required">È richiesto almeno un numero di telefono</string>
+    <string name="contact_edit_enterprise_contact_not_found">Impossibile modificare il contatto\nRiprovare più tardi</string>
+    <string name="contact_edit_non_edit_first_name">Il nome non è modificabile\nContattare l\'amministratore per ulteriori informazioni</string>
+    <string name="contact_edit_non_edit_last_name">Il cognome non è modificabile\nContattare l\'amministratore per ulteriori informazioni</string>
+    <string name="contact_edit_non_edit_job">L\'occupazione non è modificabile\nContattare l\'amministratore per ulteriori informazioni</string>
+    <string name="contact_edit_non_edit_company">L\'azienda non è modificabile\nContattare l\'amministratore per ulteriori informazioni</string>
+    <string name="contact_edit_non_edit_address">L\'indirizzo non è modificabile\nContattare l\'amministratore per ulteriori informazioni</string>
+    <string name="contact_edit_non_edit_favorite">Lo stato preferito non è modificabile\nContattare l\'amministratore per ulteriori informazioni</string>
+    <string name="contact_edit_not_savable_toast">Impossibile salvare il contatto\nContattare l\'amministratore per ulteriori informazioni</string>
+    <string name="contact_edit_success">Contatto modificato correttamente</string>
+    <string name="contact_edit_user_not_found">Modifiche al contatto non disponibili, utente non trovato\Contattare l\'amministratore per ulteriori informazioni</string>
+    <string name="contact_edit_server_not_available">Impossibile trovare il contatto nel server\nRiprovare più tardi</string>
+    <string name="contact_edit_general_error">Impossibile aggiornare il contatto</string>
+    <string name="enterprise_contact_create_error">Impossibile creare il contatto</string>
+    <string name="contact_create_with_name">Nuovo contatto creato con nome: \u0020</string>
+    <string name="contact_uneditable_error">Questo contatto non può essere modificato</string>
+    <string name="contact_not_found">Impossibile accedere al contatto</string>
+    <string name="contact_deleted">Contatto eliminato</string>
+    <string name="contact_undeletable_error">Impossibile eliminare questo contatto</string>
+    <string name="contact_delete_confirmation_message">Eliminare questo contatto?</string>
+    <string name="contact_delete_confirmation_message_yes">Sì</string>
+    <string name="contact_delete_confirmation_message_no">No</string>
+
+    <!-- Content description -->
+    <string name="dialer_button_content_description">Numero</string>
+    <string name="more_button_content_description">Altro</string>
+    <string name="back_button_content_description">Indietro</string>
+    <string name="pause_button_content_descritpion">Pausa</string>
+    <string name="end_button_content_descritpion">Termina chiamata</string>
+    <string name="mute_button_content_description">Disattiva audio chiamata</string>
+    <string name="user_content_description">Preferenze utente</string>
+    <string name="redial_button_content_description">Ricomponi</string>
+    <string name="audio_call_content_description">Chiamata audio</string>
+    <string name="exit_button_content_description">Pulsante Esci</string>
+    <string name="transfer_content_description">Trasferisci</string>
+    <string name="conference_content_description">Conferenza</string>
+    <string name="new_call_start_video">Avvia video</string>
+    <string name="new_call_stop_video">Interrompi video</string>
+    <string name="new_call_content_description">Nuova chiamata</string>
+    <string name="video_call_content_description">Videochiamata</string>
+    <string name="add_favorite_content_description">Preferito</string>
+    <string name="sync_contact_content_description">Sincr contatto</string>
+    <string name="edit_content_description">Modifica</string>
+    <string name="back_content_description">Indietro</string>
+    <string name="delete_content_description">Elimina</string>
+    <string name="voice_mail_content_description">Posta vocale</string>
+    <string name="first_name_content_description">Nome</string>
+    <string name="last_name_content_description">Cognome</string>
+    <string name="cancel_content_description">Annulla</string>
+    <string name="find_contact_content_description">Trova contatto</string>
+    <string name="choose_list_content_description">Scegli un elenco</string>
+    <string name="add_contact_content_description">Aggiungi contatto</string>
+    <string name="choose_calls_list_content_description">Scegli elenco chiamate</string>
+    <string name="accept_call_audio_content_description">Accetta chiamata audio</string>
+    <string name="accept_call_video_content_description">Accetta videochiamata</string>
+    <string name="end_call_content_description">Termina chiamata</string>
+    <string name="decline_content_description">Rifiuta</string>
+    <string name="accept_content_description">Accetta</string>
+    <string name="clear_calls_content_description">Cancella tutte le chiamate</string>
+    <string name="user_settings_content_description">Impostazioni utente</string>
+    <string name="about_content_description">Assistenza</string>
+    <string name="dialer_content_description">Generatore di chiamata</string>
+    <string name="favorites_content_description">Preferiti</string>
+    <string name="contacts_content_description">Contatti</string>
+    <string name="recent_calls_content_description">Chiamate recenti</string>
+    <string name="incoming_content_description">Chiamata in arrivo</string>
+    <string name="missed_content_description">Chiamata persa</string>
+    <string name="outgoing_content_description">Chiamata in uscita</string>
+    <string name="edit_job_title_clear_description">Cancella occupazione</string>
+    <string name="active_call_contact_image_description">Immagine del contatto</string>
+    <string name="unknown_incoming_call_image_description">Immagine chiamata in arrivo sconosciuta</string>
+    <string name="edit_clear_last_name_description">Cancella cognome</string>
+    <string name="error_description">Errore</string>
+    <string name="delete_description">Elimina</string>
+    <string name="set_default_number_description">Imposta come numero predefinito</string>
+    <string name="first_name_clear_description">Cancella nome</string>
+    <string name="edit_phone_clear_description">Cancella telefono</string>
+    <string name="edit_phone_delete_description">Elimina telefono</string>
+    <string name="close_description">Chiudi</string>
+    <string name="recent_number_type_description">Tipo</string>
+    <string name="is_calling_content_description">sta chiamando</string>
+
+    <!-- Rate us alert dialog -->
+    <string name="rate_us">Valutaci</string>
+    <string name="rate_us_now">Valutaci subito</string>
+    <string name="rate_us_not_now">Non ora</string>
+    <string name="rate_us_description">Se ti piace la nostra applicazione, valutaci su Google Play Store!</string>
+    <string name="rate_us_title">Valuta Avaya Vantage\u2122 Basic su Google Play Store</string>
+
+    <!-- User Survey -->
+    
+    
+
+    <!-- Share Feedback -->
+    <string name="share_feedback">Condividi il feedback (solo in inglese)</string>
+    <string name="share_feedback_description">Verrà richiesto di condividere via e-mail un feedback che include i registri dell\'applicazione. In caso di problemi, contattare l\'amministratore e inviare una richiesta di assistenza ad Avaya utilizzando i canali consueti.</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Error codes -->
+    <string name="error_unknown">Errore sconosciuto</string>
+
+    <string name="error_title_sip_extension">Errore di accesso SIP</string>
+    <string name="error_message_sip_extension">Interno o password non corretta. Riprovare.</string>
+    <string name="error_title_general">Errore di accesso SIP</string>
+    <string name="error_message_general">Si è verificato un errore generale durante il tentativo di connessione al server Avaya Aura</string>
+    <string name="error_message_general_ipo">Si è verificato un errore generale durante il tentativo di connessione al server IPO</string>
+    <string name="error_title_invalid_domain">Errore di accesso SIP</string>
+    <string name="error_message_invalid_domain">Accesso non riuscito. Dominio non valido.</string>
+    <string name="error_title_voip">Errore di accesso SIP</string>
+    <string name="error_message_voip">Il servizio telefonico VoIP è al momento disponibile in modalità limitata.</string>
+    <string name="error_title_phone_service">Errore di accesso SIP</string>
+    <string name="error_message_phone_service">Servizio telefonico attualmente non disponibile.</string>
+    <string name="error_title_certificate">Errore di accesso SIP</string>
+    <string name="error_message_certificate">Si è verificato un problema con il certificato di sicurezza necessario per il servizio telefonico VoIP.</string>
+    <string name="error_title_device_limit">Errore di accesso SIP</string>
+    <string name="error_message_device_limit">Questo interno ha raggiunto il numero massimo di dispositivi.</string>
+    <string name="error_title_sip_credentials">Errore di accesso unificato</string>
+    <string name="error_message_sip_credentials">Nome utente o password non corretta. Riprovare.</string>
+    <string name="error_message_ul_credentials">Nome utente e password mancanti. Immetterli.</string>
+    <string name="error_message_empty">Interno SIP o password vuota. Immetterli</string>
+    <string name="error_message_service_not_available">Avaya Aura Device Services non è al momento disponibile.</string>
+
+    <!-- Transfer and conference -->
+    <string name="no_number_message">Immettere un numero di telefono valido</string>
+    <string name="display_local_contact_information">Visualizzazione delle informazioni dei contatti locali</string>
+    <string name="display_enterprise_contact_information">Visualizzazione delle informazioni dei contatti aziendali</string>
+    <string name="display_directory_contact_information">Visualizzazione delle informazioni dei contatti della rubrica</string>
+    <string name="display_personal_directory_contact_information">Visualizzazione delle informazioni dei contatti personali</string>
+
+    <!-- Pinning -->
+    <string name="exit_pin_mode">Modalità pinning applicazione</string>
+    <string name="password_dialog_title">Autorizzazione pinning applicazione</string>
+    <string name="admin_pass_not_set">Password dell\'amministratore non impostata</string>
+    <string name="incorrect_password">Password errata</string>
+    <string name="advanced">Avanzate</string>
+    <string name="feature_dialog_add_someone">Aggiungi qualcuno</string>
+    <string name="feature_dialog_add_somene_cd">Aggiungi qualcuno</string>
+    <string name="transfer_dialog_body">%1$s a %2$s</string>
+    <string name="transfer_direct_dialog_title">Trasferire</string>
+    <string name="conference_direct_dialog_title">Unisci la chiamata con…</string>
+    <string name="merge">UNISCI</string>
+    <string name="call_feature">Funzioni delle chiamate</string>
+    <string name="please_enter_administrator_password">Immettere la password dell\'amministratore</string>
+    <string name="must_set_primary">Almeno un numero di telefono deve essere impostato come principale.</string>
+
+    <string name="tap_to_access">Toccare per accedere alle funzioni\nchiamate aggiuntive</string>
+    <string name="dont_show_again">NON MOSTRARE PIÙ</string>
+    <string name="dismiss">CHIUDI</string>
+
+    <string name="default_app_closing">Si prega di notare che Vantage Basic non funziona in quanto non è configurata come applicazione attiva del telefono</string>
+
+    <string name="notification_online">In linea</string>
+    <string name="logged_out">Disconnesso</string>
+    <string name="bluetooth_settings">Impostazioni Bluetooth</string>
+    <string name="more_settings">Altre impostazioni</string>
+    <string name="directory_separator_display">Rubrica: %1$s (%2$s) </string>
+
+    <!-- Sync call history dialog text -->
+    <string name="sync_call_history_title">Sincronizzare cronologia chiamate?</string>
+    <string name="sync_call_history_text">La cronologia chiamate del dispositivo mobile associato sarà visualizzata automaticamente nella scheda Cronologia chiamate e rimossa una volta che il dispositivo verrà disconnesso.</string>
+
+    <!-- Contacts dialog text -->
+    <string name="sync_contact_title">Sincronizzare i contatti?</string>
+    <string name="sync_contact_text">I contatti del dispositivo mobile associato saranno visualizzati automaticamente nella scheda Contatti e rimossi una volta che il dispositivo verrà disconnesso.</string>
+
+    <string name="delete_call_history_text">Eliminare il registro chiamate?</string>
+    <string name="photo_not_supported">L\'aggiunta di foto non è supportata per questo tipo di contatto</string>
+    <string name="not_enterprise_found">Impossibile trovare l\'account aziendale. Riprovare più tardi</string>
+
+    <string name="conference">CONFERENZA</string>
+    <string name="private_address">PERSONALE</string>
+    <string name="contact_edit_ipo_name_hint">Nome</string>
+    <string name="tutorialBlockCamera">"blocca\n fotocamera"</string>
+    <string name="tutorialMute">disattiva audio</string>
+    <string name="tutorialVolume">volume</string>
+    <string name="tutorialTransducerSelection">"selezione \ntrasduttore"</string>
+    <string name="tutorialNavigationButtons">Pulsanti di navigazione</string>
+    <string name="tutorialMain">Principale</string>
+    <string name="tutorialActiveCall">Chiamata attiva</string>
+    <string name="tutorialHistory">Cronologia</string>
+    <string name="tutorialPreviousScreen">schermata precedente</string>
+    <string name="tutorialHomeScreen">Home page</string>
+    <string name="tutorialRecentApps">app recenti</string>
+    <string name="tutorialAccessPreferences">preferenze di accesso</string>
+    <string name="tutorialSearch">cerca</string>
+    <string name="tutorialTapToNavigate">"toccare per\n navigare"</string>
+    <string name="tutorialGoBackToPreviousScreen">"tornare alla \nschermata precedente"</string>
+    <string name="tutorialShowAllControlls">"mostrare tutti i controlli \ncome trasferisci o unisci"</string>
+    <string name="tutorialTapToCallDefault">"toccare per chiamare \nil numero predefinito\n tramite voce o video"</string>
+    <string name="tutorialTapToContactDetails">"toccare una riga\nper visualizzare\ni dettagli dei contatti"</string>
+    <string name="tutorialTapToCallHistoryDetails">"toccare una riga \nper visualizzare i dettagli  \ndella cronologia chiamate"</string>
+    <string name="tutorialReturnByVoiceOrVideo">"ritornare alla chiamata \n tramite voce o video"</string>
+    <string name="tutorialTapToFocusCurrentCall">toccare per portare in primo piano la chiamata corrente</string>
+
+    <string name="waitBluetoothContactSharing">Attendere che i contatti bluetooth contacts siano sincronizzati.</string>
+    <string name="turnOffBluetoothContactSharing">Disattivazione della condivisione contatti bluetooth</string>
+    <string name="turnOffBluetoothCallHistorySharing">Disattivazione della cronologia chiamate bluetooth</string>
+    <string name="waitBluetoothCallHistorySharing">Attendere che la cronologia chiamate bluetooth Call History sia sincronizzata</string>
+</resources>

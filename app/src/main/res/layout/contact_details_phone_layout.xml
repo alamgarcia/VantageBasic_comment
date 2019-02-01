@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/contact_detail_phone_root"
+    android:background="@color/colorStatusBG"
+    android:layout_marginBottom="8dp"
+    android:clipToPadding="false"
+    >
+    <ImageView
+        android:id="@+id/contact_detail_phone_default"
+        android:layout_marginStart="8dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/ic_default_indicator"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        tools:ignore="ContentDescription" />
+    <LinearLayout
+        android:id="@+id/contact_detail_layout"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_gravity="center_vertical">
+    <TextView
+        android:id="@+id/contact_detail_phone_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_details_work"
+        android:layout_gravity="center_vertical"
+        style="@style/Body1"
+        android:textColor="@color/primary"/>
+    <TextView
+        android:id="@+id/contact_detail_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_details_number"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.03"
+        style="@style/Body1"
+        android:textColor="@color/secondary"/>
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/contact_detail_phone_call_audio"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:src="@drawable/contact_item_call_audio"
+        android:layout_gravity="center"
+        android:contentDescription="@string/audio_call_content_description"/>
+
+    <ImageButton
+        android:id="@+id/contact_detail_phone_call_video"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@null"
+        android:src="@drawable/contact_item_call_video"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:contentDescription="@string/video_call_content_description"/>
+</LinearLayout>

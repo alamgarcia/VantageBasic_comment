@@ -1,0 +1,489 @@
+
+<!--suppress CheckTagEmptyBody --><resources>
+    
+    <string name="action_settings">Настройки</string>
+    
+    <string name="cd_video_mute">выключить микрофон для видеовызова</string>
+    <string name="cd_off_hook">Трубка снята</string>
+    <string name="mid_control_dtmf">Двухтональный многочастотный набор во время вызова</string>
+    <string name="sample_dialer_display_name">%1$s &lt;b&gt;%2$s&lt;/b&gt;</string>
+    <string name="device_not_supported">Это приложение выполняется только на устройствах Avaya Vantage\u2122.\nПриложение будет закрыто.</string>
+
+    <string-array name="nameDisplayPref">
+        <item>Сначала имя</item>
+        <item>Сначала фамилия</item>
+    </string-array>
+
+    <string-array name="newContactPref">
+        <item>@string/contact_details_add_contact_local</item>
+        <item>@string/contact_details_add_contact_enterprise</item>
+    </string-array>
+
+    <string-array name="newContactPrefIpo">
+        <item>@string/contact_details_add_contact_local</item>
+        <item>@string/contact_details_add_contact_personal_directory</item>
+    </string-array>
+
+    <string-array name="newContactValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="nameSortPrefValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Dialer activity -->
+    <string-array name="dialer_numbers" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>*</item>
+        <item>0</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="dialer_letters" translatable="false">
+        <item>.,@</item>
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZ</item>
+        <item></item>
+        <item>+</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="number_entry_options">
+        <item>Выберите контакт</item>
+        <item>Введите номер</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="voice_contact_search_hint">найти кого-нибудь</string>
+
+    <string name="cancel">Отмена</string>
+    <string name="ok">ОК</string>
+    <string name="searching">Поиск…</string>
+    <string name="all_contacts">Все контакты</string>
+    <string name="local_contacts">Локальные контакты</string>
+    <string name="bt_sync">Синхронизация по Bluetooth</string>
+    <string name="enterprise_contacts">Корпоративные контакты</string>
+    <string name="personal_directory_contacts">Личные контакты</string>
+    <string name="calling">Вызов…</string>
+    <string name="on_hold">На удержании</string>
+    <string name="no_contacts_to_display">Нет контактов для отображения</string>
+
+    <!-- Favorites screen -->
+    <string name="favorites_title">Избранное</string>
+    <string name="favorites_empty_list">Нет избранных контактов для отображения</string>
+
+    <string name="recent_call_all">Все вызовы</string>
+    <string name="recent_call_missed">Пропущенные</string>
+    <string name="recent_call_outgoing">Исходящие</string>
+    <string name="recent_call_incoming">Входящие</string>
+    <string name="recent_call_delete_history">Удалить все вызовы</string>
+    <string name="no_recent_calls_to_display">Нет недавних вызовов для отображения</string>
+    <string name="recent_call_at">%1$s в %2$s</string>
+
+    <string name="contact_details_title">Контакт</string>
+    <string name="contact_details_edit">Редактировать</string>
+    <string name="contact_details_delete">Удалить</string>
+    <string name="contact_details_add_contact">Создать локальный контакт</string>
+    <string name="contact_details_add_contact_local">Локальный контакт</string>
+    <string name="contact_details_add_contact_enterprise">Корпоративный контакт</string>
+    <string name="contact_details_add_contact_personal_directory">Личный контакт</string>
+    <string name="contact_details_ipo_only_one_number">У контакта этого типа может быть только один номер телефона</string>
+
+    <string name="new_contact_header_text">Создать %1$s</string>
+    <string name="edit_contact_header_text">Редактировать %1$s</string>
+    <string name="contact_name_char_limit">Длина имени контакта этого типа не может превышать %s символов</string>
+    <string name="contact_add_label">Создать контакт</string>
+    <string name="contact_details_make_a_call">Выполнить вызов</string>
+    <string name="contact_details_work">Рабочий</string>
+    <string name="contact_details_mobile">Мобильный</string>
+    <string name="contact_details_home">Домашний</string>
+    <string name="contact_details_handle">Идентификатор</string>
+    <string name="contact_details_fax">Факс</string>
+    <string name="contact_details_pager">Пейджер</string>
+    <string name="contact_details_assistant">Помощник</string>
+    <string name="contact_details_other">Другой</string>
+    <string name="contact_details_primary">Основной</string>
+
+    <string-array name="phone_type_array" translatable="false">
+        <item>@string/contact_details_work</item>
+        <item>@string/contact_details_mobile</item>
+        <item>@string/contact_details_home</item>
+        <item>@string/contact_details_handle</item>
+        <item>@string/contact_details_fax</item>
+        <item>@string/contact_details_pager</item>
+        <item>@string/contact_details_assistant</item>
+        <item>@string/contact_details_other</item>
+        <item>@string/contact_details_primary</item>
+    </string-array>
+
+    <!-- Tutorial Activity -->
+    <string name="quick_tutorial">Учебник</string>
+    <string name="dial_pad">Панель набора номера</string>
+    <string name="call_screen">Активный вызов</string>
+    <string name="call_features">Функции вызова</string>
+    <string name="contacts">Контакты</string>
+    <string name="recents">Последние</string>
+    <string name="skip_button">ПРОПУСТИТЬ</string>
+    <string name="next">ДАЛЕЕ</string>
+    <string name="back">НАЗАД</string>
+    <string name="done">ГОТОВО</string>
+    <string name="tutorial_welcome">Добро пожаловать в Avaya Vantage\u2122 Basic</string>
+    <string name="tutorial_volume">Кнопки регулировки громкости\nнаходятся на задней панели\n устройства.</string>
+    <string name="tutorial_optional_handset">(Дополнительная\nтелефонная трубка.)</string>
+    <string name="tutorial_stand_angle">Угол установки\nможно регулировать.</string>
+    <string name="tutorial_tap_access">Коснитесь, чтобы получить доступ к параметрам.</string>
+    <string name="tutorial_block">Заблокировать\nкамеру.</string>
+    <string name="tutorial_mute">Выключить\nмикрофон.</string>
+    <string name="tutorial_tap_handsfree">Коснитесь, чтобы включить беспроводную связь,\nили коснитесь стрелки, чтобы изменить звуковое устройство.</string>
+    <string name="tutorial_tap_back">Коснитесь, чтобы вернуться\nк предыдущему экрану.</string>
+    <string name="tutorial_tap_advanced">Коснитесь, чтобы получить доступ к дополнительным элементам управления.</string>
+    <string name="tutorial_transfer_call">Перевести активный вызов другому участнику.</string>
+    <string name="tutorial_hold_and_start_new_one">Удерживать текущий вызов и начать новый</string>
+    <string name="tutorial_add_participant">Добавить участника к текущему вызову</string>
+    <string name="tutorial_merge_call">Объединить существующие вызовы в конференцию.</string>
+    <string name="tutorial_escalate_video">Сменить на видеовызов.</string>
+    <string name="tutorial_bring_focus">Текущий вызов — коснитесь,\nчтобы переместить фокус.</string>
+    <string name="tutorial_add_new">Добавить новый контакт</string>
+    <string name="tutorial_tap_row">Коснитесь строки, чтобы просмотреть\nсведения о контакте.</string>
+    <string name="tutorial_tap_default">Коснитесь, чтобы выполнить голосовой\nили видеовызов на номер по умолчанию.</string>
+    <string name="tutorial_sync_contacts">Синхронизировать контакты\nс мобильным устройством</string>
+    <string name="tutorial_sync_recent">Синхронизировать недавние вызовы\nс мобильным устройством</string>
+    <string name="tutorial_tap_to_call">Коснитесь, чтобы осуществить аудио или видеовызов по умолчанию</string>
+
+    <!-- Preferences -->
+    <string name="preference_version">Версия ПО</string>
+    <string name="preference_build">Сборка</string>
+    <string name="preference_build_date">Дата сборки</string>
+    <string name="preference_sdk_version">Версия клиента SDK Avaya Breeze</string>
+    <string name="first_name_first">Сначала имя</string>
+    <string name="last_name_first">Сначала фамилия</string>
+    <string name="ring_preferences">Предпочтения звонка</string>
+    <string name="choose_ringtone">Мелодия звонка телефона</string>
+    <string name="ringtone_default">Мелодия по умолчанию</string>
+    <string name="ringtone_silent">Нет</string>
+    <string name="display_preferences">Параметры дисплея</string>
+    <string name="contact_preferences">Параметры контактов</string>
+    <string name="name_display_preferences">Параметры отображения имени</string>
+    <string name="name_sort_preferences">Параметры сортировки имен</string>
+    <string name="new_contact_type_preferences">Создать новый контакт как</string>
+    <string name="application">Приложение</string>
+    <string name="audio_preferences">Аудио</string>
+    <string name="audio_video">Аудио/видео</string>
+
+    <!-- Active call -->
+    <string name="pick_contact">Выберите контакт</string>
+
+    <string name="feature_dialog_title">Функции вызова</string>
+    <string name="feature_dialog_transfer">Перевести</string>
+    <string name="feature_dialog_merge">Объединить</string>
+    <string name="feature_dialog_start_video">Запустить видео</string>
+    <string name="feature_dialog_stop_video">Остановить видео</string>
+    <string name="feature_dialog_conference">Добавить пользователя</string>
+    <string name="feature_dialog_new_call">Новый вызов</string>
+    <string name="feature_dialog_drop_last">Сбросить последнего участника</string>
+    <string name="dialog_empty_display">Введите номер, на который\nследует перевести вызов</string>
+
+    <string name="operation_failed">Операция не выполнена. Повторите попытку позднее</string>
+    <string name="max_participants_in_conference">Операция не выполнена. Достигнуто максимальное число участников.</string>
+    <string name="escalation_failed">Ошибка перевода в режим видео</string>
+    <string name="merge_complete">Объединение завершено</string>
+    <string name="trasfer_complete">Запрос на перевод выполнен</string>
+
+    <!-- Temporary strings -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Select audio device -->
+    <string name="select_audio_dev_title">Выбрать аудиоустройство</string>
+    <string name="select_audio_dev_bt_headset">Гарнитура BT</string>
+    <string name="select_audio_dev_35headset">Гарнитура 3,5 мм</string>
+    <string name="select_audio_dev_headset">Гарнитура</string>
+    <string name="select_audio_dev_handset">Трубка</string>
+    <string name="select_audio_dev_speaker">Динамик</string>
+
+    <!-- User preferences menu -->
+    <string name="user_settings">Предпочтения</string>
+    <string name="support">Поддержка</string>
+    <string name="user_preferences">Предпочтения пользователя</string>
+    <string name="application_settings">Настройки приложения</string>
+    <string name="audio_video_settings">Настройки аудио/видео</string>
+    <string name="audio_settings">Настройки аудио</string>
+
+    <!-- Legal -->
+    <string name="eula_accept">Принять</string>
+    <string name="eula_decline">Отклонить</string>
+    <string name="transfer_dialog_choose_contact">Выбрать контакт</string>
+    <string name="transfer_dialog_enter_number">Введите номер</string>
+    <string name="transfer_dialog_title">Перевести вызов</string>
+    <string name="merge_dialog_title">Объединить вызовы в конференцию</string>
+
+    <string name="logout">EULA отклонено</string>
+    <string name="logout_msg">Отклонение EULA вызовет выход из системы. Вы уверены?</string>
+
+    <!-- Apply config changes dialog -->
+    <string name="logout_to_apply_changes_title">Обновление настроек.</string>
+    <string name="logout_to_apply_changes_text">Доступно обновление конфигурации. В результате применения этого обновления все активные вызовы будут сброшены, а все службы приложений перезапущены.</string>
+    <string name="apply_changes">Обновить</string>
+    <string name="postpone_logout">Не сейчас</string>
+    <string name="conference_dialog_title">Создать конференцию</string>
+    <string name="conference_dialog_description">Выбрать контакт для конференции</string>
+
+    <!-- Support Activity -->
+    <string name="support_activity_support">Поддержка</string>
+    <string name="support_activity_about">О программе</string>
+    <string name="support_activity_tutorial">Учебник</string>
+    <string name="support_activity_legal">Юридические сведения</string>
+
+    <!-- Contacts edit -->
+    <string name="contact_edit_title">Редактировать контакт</string>
+    <string name="contact_edit_cancel">Отмена</string>
+    <string name="contact_edit_done">Готово</string>
+    <string name="contact_edit_add_number">Введите номер телефона</string>
+    <string name="contact_edit_phone_hint">Телефон</string>
+    <string name="contact_edit_first_name_hint">Имя</string>
+    <string name="contact_edit_last_name_hint">Фамилия</string>
+    <string name="contact_edit_job_title_hint">Должность</string>
+    <string name="contact_edit_company_hint">Компания</string>
+    <string name="contact_edit_address_hint">Адрес</string>
+    <string name="contact_edit_change_photo">Изменить фотографию</string>
+    <string name="contact_edit_take_photo">Сделать фотографию</string>
+    <string name="contact_edit_delete_photo">Удалить фотографию</string>
+    <string name="contact_edit_choose_photo">Выбрать фотографию</string>
+    <string name="contact_edit_name_required">Следует ввести имя или фамилию.</string>
+    <string name="contact_edit_number_required">Требуется хотя бы один номер телефона.</string>
+    <string name="contact_edit_enterprise_contact_not_found">Невозможно изменить контакт\nПовторите попытку позже</string>
+    <string name="contact_edit_non_edit_first_name">Невозможно отредактировать имя\nСвяжитесь с системным администратором</string>
+    <string name="contact_edit_non_edit_last_name">Невозможно отредактировать фамилию\nСвяжитесь с системным администратором</string>
+    <string name="contact_edit_non_edit_job">Невозможно отредактировать должность\nСвяжитесь с системным администратором</string>
+    <string name="contact_edit_non_edit_company">Невозможно отредактировать компанию\nСвяжитесь с системным администратором</string>
+    <string name="contact_edit_non_edit_address">Невозможно отредактировать адрес\nСвяжитесь с системным администратором</string>
+    <string name="contact_edit_non_edit_favorite">Невозможно отредактировать статус избранного\nСвяжитесь с системным администратором</string>
+    <string name="contact_edit_not_savable_toast">Невозможно сохранить контакт\nСвяжитесь с системным администратором</string>
+    <string name="contact_edit_success">Контакт успешно отредактирован</string>
+    <string name="contact_edit_user_not_found">Невозможно отредактировать контакт, пользователь не найден\nСвяжитесь с системным администратором</string>
+    <string name="contact_edit_server_not_available">Контакт не найден на сервере\nПовторите попытку позже</string>
+    <string name="contact_edit_general_error">Ошибка при обновлении контакта.</string>
+    <string name="enterprise_contact_create_error">Ошибка при создании контакта.</string>
+    <string name="contact_create_with_name">Создан новый контакт с именем: \u0020</string>
+    <string name="contact_uneditable_error">Этот контакт нельзя редактировать</string>
+    <string name="contact_not_found">Нет доступа к контакту</string>
+    <string name="contact_deleted">Контакт удален.</string>
+    <string name="contact_undeletable_error">Этот контакт нельзя удалить</string>
+    <string name="contact_delete_confirmation_message">Удалить данный контакт?</string>
+    <string name="contact_delete_confirmation_message_yes">Да</string>
+    <string name="contact_delete_confirmation_message_no">Нет</string>
+
+    <!-- Content description -->
+    <string name="dialer_button_content_description">Номер</string>
+    <string name="more_button_content_description">Дополнительно</string>
+    <string name="back_button_content_description">Назад</string>
+    <string name="pause_button_content_descritpion">Пауза</string>
+    <string name="end_button_content_descritpion">Завершить вызов</string>
+    <string name="mute_button_content_description">Выключить микрофон для вызова</string>
+    <string name="user_content_description">Предпочтения пользователя</string>
+    <string name="redial_button_content_description">Повторный набор</string>
+    <string name="audio_call_content_description">Аудиовызов</string>
+    <string name="exit_button_content_description">Кнопка \"Выход\"</string>
+    <string name="transfer_content_description">Перевести</string>
+    <string name="conference_content_description">Конференция</string>
+    <string name="new_call_start_video">Запустить видео</string>
+    <string name="new_call_stop_video">Остановить видео</string>
+    <string name="new_call_content_description">Новый вызов</string>
+    <string name="video_call_content_description">Видеовызов</string>
+    <string name="add_favorite_content_description">Избранный</string>
+    <string name="sync_contact_content_description">Синхронизировать контакт</string>
+    <string name="edit_content_description">Редактировать</string>
+    <string name="back_content_description">Назад</string>
+    <string name="delete_content_description">Удалить</string>
+    <string name="voice_mail_content_description">Голосовая почта</string>
+    <string name="first_name_content_description">Имя</string>
+    <string name="last_name_content_description">Фамилия</string>
+    <string name="cancel_content_description">Отмена</string>
+    <string name="find_contact_content_description">Найти контакт</string>
+    <string name="choose_list_content_description">Выберите список</string>
+    <string name="add_contact_content_description">Добавить контакт</string>
+    <string name="choose_calls_list_content_description">Выберите список вызовов</string>
+    <string name="accept_call_audio_content_description">Принять аудиовызов</string>
+    <string name="accept_call_video_content_description">Принять видеовызов</string>
+    <string name="end_call_content_description">Завершить вызов</string>
+    <string name="decline_content_description">Отклонить</string>
+    <string name="accept_content_description">Принять</string>
+    <string name="clear_calls_content_description">Удалить все вызовы</string>
+    <string name="user_settings_content_description">Предпочтения</string>
+    <string name="about_content_description">Поддержка</string>
+    <string name="dialer_content_description">Номеронабиратель</string>
+    <string name="favorites_content_description">Избранное</string>
+    <string name="contacts_content_description">Контакты</string>
+    <string name="recent_calls_content_description">Недавние вызовы</string>
+    <string name="incoming_content_description">Входящий вызов</string>
+    <string name="missed_content_description">Пропущенный вызов</string>
+    <string name="outgoing_content_description">Исходящий вызов</string>
+    <string name="edit_job_title_clear_description">Очистить должность</string>
+    <string name="active_call_contact_image_description">Изображение контакта</string>
+    <string name="unknown_incoming_call_image_description">Неизвестный аватар входящего вызова</string>
+    <string name="edit_clear_last_name_description">Очистить фамилию</string>
+    <string name="error_description">Ошибка</string>
+    <string name="delete_description">Удалить</string>
+    <string name="set_default_number_description">Использовать как номер по умолчанию</string>
+    <string name="first_name_clear_description">Очистить имя</string>
+    <string name="edit_phone_clear_description">Очистить телефон</string>
+    <string name="edit_phone_delete_description">Удалить телефон</string>
+    <string name="close_description">Закрыть</string>
+    <string name="recent_number_type_description">Тип</string>
+    <string name="is_calling_content_description">вызывает</string>
+
+    <!-- Rate us alert dialog -->
+    <string name="rate_us">Оцените нас</string>
+    <string name="rate_us_now">Оценить сейчас</string>
+    <string name="rate_us_not_now">Не сейчас</string>
+    <string name="rate_us_description">Если вам понравилось приложение, оцените его в магазине Google Play!</string>
+    <string name="rate_us_title">Оцените Avaya Vantage\u2122 Basic в магазине Google Play.</string>
+
+    <!-- User Survey -->
+    
+    
+
+    <!-- Share Feedback -->
+    <string name="share_feedback">Поделиться отзывами (только по-английски)</string>
+    <string name="share_feedback_description">\tВам будет предложено отправить отзыв по электронной почте с вложением файлов журнала приложения. При возникновении проблемы, свяжитесь с вашим системным администратором и откройте по обычным каналам Avaya запрос на обслуживание.</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Error codes -->
+    <string name="error_unknown">Неизвестная ошибка</string>
+
+    <string name="error_title_sip_extension">Ошибка входа SIP</string>
+    <string name="error_message_sip_extension">Неверные внутренний номер или пароль. Повторите попытку</string>
+    <string name="error_title_general">Ошибка входа SIP</string>
+    <string name="error_message_general">Произошла общая ошибка при попытке соединения с сервером Avaya Aura.</string>
+    <string name="error_message_general_ipo">Общая ошибка при соединении с сервером IPO</string>
+    <string name="error_title_invalid_domain">Ошибка входа SIP</string>
+    <string name="error_message_invalid_domain">Ошибка входа, неверный домен</string>
+    <string name="error_title_voip">Ошибка входа SIP</string>
+    <string name="error_message_voip">В данный момент работа телефонной службы VoIP ограничена.</string>
+    <string name="error_title_phone_service">Ошибка входа SIP</string>
+    <string name="error_message_phone_service">Телефонная служба в данный момент недоступна.</string>
+    <string name="error_title_certificate">Ошибка входа SIP</string>
+    <string name="error_message_certificate">Проблема с сертификатом безопасности, который требуется для телефонной службы VoIP.</string>
+    <string name="error_title_device_limit">Ошибка входа SIP</string>
+    <string name="error_message_device_limit">Количество устройств для этого внутреннего номера достигло максимального.</string>
+    <string name="error_title_sip_credentials">Ошибка единого входа</string>
+    <string name="error_message_sip_credentials">Неверные имя пользователя или пароль. Повторите попытку</string>
+    <string name="error_message_ul_credentials">Отсутствуют имя пользователя и пароль. Введите их.</string>
+    <string name="error_message_empty">Отсутствует внутренний номер SIP или пароль. Введите их.</string>
+    <string name="error_message_service_not_available">Avaya Aura Device Services недоступны.</string>
+
+    <!-- Transfer and conference -->
+    <string name="no_number_message">Введите действительный номер телефона</string>
+    <string name="display_local_contact_information">Отображение сведений о локальном контакте</string>
+    <string name="display_enterprise_contact_information">Отображение сведений о корпоративном контакте</string>
+    <string name="display_directory_contact_information">Отображение сведений о корпоративном контакте</string>
+    <string name="display_personal_directory_contact_information">Отображение сведений о личном контакте</string>
+
+    <!-- Pinning -->
+    <string name="exit_pin_mode">Режим закрепления приложения</string>
+    <string name="password_dialog_title">Авторизация закрепления приложения</string>
+    <string name="admin_pass_not_set">Пароль администратора не задан</string>
+    <string name="incorrect_password">Неправильный пароль</string>
+    <string name="advanced">Дополнительно</string>
+    <string name="feature_dialog_add_someone">Добавить пользователя</string>
+    <string name="feature_dialog_add_somene_cd">Добавить пользователя</string>
+    <string name="transfer_dialog_body">%1$s на %2$s</string>
+    <string name="transfer_direct_dialog_title">Перевести?</string>
+    <string name="conference_direct_dialog_title">Объединить вызов с…</string>
+    <string name="merge">ОБЪЕДИНИТЬ</string>
+    <string name="call_feature">Функции вызова</string>
+    <string name="please_enter_administrator_password">Введите пароль администратора</string>
+    <string name="must_set_primary">Хотя бы один номер телефона должен быть указан как основной.</string>
+
+    <string name="tap_to_access">Коснитесь для доступа к дополнительным\nфункциям вызова</string>
+    <string name="dont_show_again">НЕ ПОКАЗЫВАТЬ СНОВА</string>
+    <string name="dismiss">ЗАКРЫТЬ</string>
+
+    <string name="default_app_closing">Обратите внимание, что Vantage Basic не работает, поскольку он не настроен как приложение для активного телефона.</string>
+
+    <string name="notification_online">В сети</string>
+    <string name="logged_out">Выход из системы</string>
+    <string name="bluetooth_settings">Параметры Bluetooth</string>
+    <string name="more_settings">Дополнительные параметры</string>
+    <string name="directory_separator_display">Справочник: %1$s (%2$s) </string>
+
+    <!-- Sync call history dialog text -->
+    <string name="sync_call_history_title">Синхронизировать журнал вызовов?</string>
+    <string name="sync_call_history_text">Журнал вызовов вашего спаренного мобильного устройства будет автоматически отображен на вкладке Журнал вызовов, а при отсоединении устройства будет удален.</string>
+
+    <!-- Contacts dialog text -->
+    <string name="sync_contact_title">Синхронизировать контакты?</string>
+    <string name="sync_contact_text">Контакты из вашего спаренного мобильного устройства будут автоматически отображены на вкладке Контакты, а при отсоеднении устройства будут удалены.</string>
+
+    <string name="delete_call_history_text">Удалить журнал вызовов?</string>
+    <string name="photo_not_supported">Добавление фотографии для контакта этого типа не поддерживается</string>
+    <string name="not_enterprise_found">Корпоративная учетная запись не найдена Повторите попытку позднее</string>
+
+    <string name="conference">КОНФЕРЕНЦИЯ</string>
+    <string name="private_address">ЛИЧНЫЙ</string>
+    <string name="contact_edit_ipo_name_hint">Имя</string>
+    <string name="tutorialBlockCamera">"блокировка\n камеры"</string>
+    <string name="tutorialMute">выключить микрофон</string>
+    <string name="tutorialVolume">громкость</string>
+    <string name="tutorialTransducerSelection">"выход \nаудио"</string>
+    <string name="tutorialNavigationButtons">Кнопки навигации</string>
+    <string name="tutorialMain">Основной экран</string>
+    <string name="tutorialActiveCall">Активный вызов</string>
+    <string name="tutorialHistory">Журнал</string>
+    <string name="tutorialPreviousScreen">предыдущий экран</string>
+    <string name="tutorialHomeScreen">начальный экран</string>
+    <string name="tutorialRecentApps">недавние приложения</string>
+    <string name="tutorialAccessPreferences">доступ к параметрам</string>
+    <string name="tutorialSearch">поиск</string>
+    <string name="tutorialTapToNavigate">"коснитесь для\n перехода"</string>
+    <string name="tutorialGoBackToPreviousScreen">"вернуться к\n предыдущему экрану"</string>
+    <string name="tutorialShowAllControlls">"показать все элементы, \nнапример, перевода или объединения"</string>
+    <string name="tutorialTapToCallDefault">"коснитесь, чтобы выполнить голосовой\nили видеовызов на номер по умолчанию"</string>
+    <string name="tutorialTapToContactDetails">"коснитесь строки, чтобы просмотреть\nсведения о контакте"</string>
+    <string name="tutorialTapToCallHistoryDetails">"коснитесь строки, чтобы просмотреть \nжурнал звонков"</string>
+    <string name="tutorialReturnByVoiceOrVideo">"перезвонить, используя \nголосовую или видеосвязь"</string>
+    <string name="tutorialTapToFocusCurrentCall">коснитесь, чтобы переместить фокус на текущий вызов</string>
+
+    <string name="waitBluetoothContactSharing">Дождитесь окончания синхронизации контактов по Bluetooth.</string>
+    <string name="turnOffBluetoothContactSharing">Отключение совместного использования контактов по Bluetooth</string>
+    <string name="turnOffBluetoothCallHistorySharing">Отключение совместного использования журнала вызовов по Bluetooth</string>
+    <string name="waitBluetoothCallHistorySharing">Дождитесь окончания синхронизации журнала вызовов по Bluetooth.</string>
+</resources>

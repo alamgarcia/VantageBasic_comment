@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/active_call_root"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@color/colorActiveCallBG"
+    android:gravity="center"
+    android:animateLayoutChanges="true"
+    android:layoutDirection="ltr">
+    <!-- This view is used for removing dialogs if they are open
+     and user click outside of them. So it should cover all screen. -->
+
+    <include
+        android:id="@+id/video_layout"
+        layout="@layout/video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+    />
+
+        <RelativeLayout
+            android:id="@+id/audio_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/call_controls"
+                android:alpha="@fraction/video_controls_alpha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/margin_large"
+                android:orientation="horizontal">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ToggleButton
+                    android:id="@+id/more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="-10dp"
+                    android:background="@drawable/mid_controls_more_selector"
+                    android:contentDescription="@string/more_button_content_description"
+                    android:textOff="@null"
+                    android:textOn="@null"
+                    android:textSize="0sp" />
+
+                <ToggleButton
+                    android:id="@+id/control_hold"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@+id/more"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/mid_controls_hold_selector"
+                    android:contentDescription="@string/pause_button_content_descritpion"
+                    android:textOff="@null"
+                    android:textOn="@null"
+                    android:textSize="0sp" />
+
+
+                <ToggleButton
+                    android:id="@+id/control_dialpad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_toRightOf="@+id/more"
+                    android:background="@drawable/mid_controls_dtmf_selector"
+                    android:contentDescription="@string/mid_control_dtmf"
+                    android:textOff="@null"
+                    android:textOn="@null"
+                    android:textSize="0sp"
+                    android:visibility="gone" />
+
+                <ToggleButton
+                    android:id="@+id/control_endcall"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toRightOf="@+id/control_hold"
+                    android:background="@drawable/mid_controls_end_call"
+                    android:contentDescription="@string/end_button_content_descritpion"
+                    android:textOff="@null"
+                    android:textOn="@null"
+                    android:textSize="0sp" />
+
+                <ToggleButton
+                    android:id="@+id/transducer_button"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/transducer_button"
+                    android:stateListAnimator="@null"
+                    android:textOff="@null"
+                    android:textOn="@null"
+                    android:textSize="0sp"
+                    android:visibility="visible" />
+
+                <ToggleButton
+                    android:id="@+id/off_hook"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@+id/control_endcall"
+                    android:background="@drawable/pc_off_hook"
+                    android:contentDescription="@string/cd_off_hook"
+                    android:stateListAnimator="@null"
+                    android:textOff="@null"
+                    android:textOn="@null"
+                    android:textSize="0sp"
+                    android:visibility="visible" />
+            </RelativeLayout>
+        </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/top_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:contentDescription="@string/back_button_content_description"
+                    android:src="@drawable/midcall_back" />
+
+
+                <com.avaya.android.vantage.basic.views.AutoResizeTextView
+                    android:id="@+id/contact_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="16dp"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-thin"
+                    android:gravity="center_horizontal"
+                    android:maxLines="1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="24sp"
+                    android:visibility="visible"/>
+
+                <TextView
+                    android:id="@+id/call_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/contact_name"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="sans-serif-light"
+                    android:text="@string/calling"
+                    android:textColor="@color/colorCallStateText"
+                    android:textSize="16sp"
+                    android:visibility="visible"/>
+
+            </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/contact_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_avatar_generic"
+            android:contentDescription="@string/active_call_contact_image_description"
+           />
+
+            <com.avaya.android.vantage.basic.views.AutoResizeTextView
+                android:id="@+id/video_contact_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-thin"
+                android:gravity="center_horizontal"
+                android:maxLines="1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="24sp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/video_call_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="20dp"
+                android:layout_below="@+id/video_contact_name"
+                android:fontFamily="sans-serif-light"
+                android:text="@string/calling"
+                android:textColor="@color/colorCallStateText"
+                android:textSize="16sp"
+                android:visibility="gone"/>
+
+
+
+        <View
+            android:id="@+id/viewRoot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <include
+            android:id="@+id/dtmf"
+            layout="@layout/active_call_dialpad"
+            android:layout_width="380dp"
+            android:layout_height="440dp"
+            android:layout_below="@+id/top_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:visibility="visible" />
+
+        <include
+            android:id="@+id/more_call_features"
+            layout="@layout/call_features"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/transfer_dialog"
+            layout="@layout/transfer_call_dialog_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:elevation="8sp"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/merge_dialog"
+            layout="@layout/merge_call_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="8dp"
+            android:elevation="8sp"
+            android:visibility="gone" />
+
+        <com.daasuu.bl.BubbleLayout
+            android:id="@+id/call_features_hint"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/call_controls"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            app:bl_arrowDirection="bottom"
+            app:bl_arrowHeight="12dp"
+            app:bl_arrowPosition="296dp"
+            app:bl_arrowWidth="24dp"
+            app:bl_bubbleColor="@color/colorActiveCallBG"
+            app:bl_cornersRadius="6dp"
+            app:bl_strokeColor="@color/whiteStroke"
+            app:bl_strokeWidth="1dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tap_to_access"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:fontFamily="Roboto-Regular"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="12dp"
+                    android:text="@string/tap_to_access"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/dont_show_again"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/tap_to_access"
+                    android:layout_gravity="right"
+                    android:clickable="true"
+                    android:fontFamily="Roboto-Medium"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:text="@string/dont_show_again"
+                    android:textColor="@color/midOrange"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/dismiss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_below="@+id/dont_show_again"
+                    android:layout_gravity="right"
+                    android:clickable="true"
+                    android:fontFamily="Roboto-Medium"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:text="@string/dismiss"
+                    android:textColor="@color/midOrange"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </com.daasuu.bl.BubbleLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

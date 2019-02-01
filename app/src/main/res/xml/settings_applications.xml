@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/display_preferences">
+        <Preference
+            android:defaultValue="1"
+            android:entries="@array/nameDisplayPref"
+            android:key="nameDisplayPref"
+            android:title="@string/name_display_preferences" />
+
+        <Preference
+            android:defaultValue="1"
+            android:entryValues="@array/nameSortPrefValues"
+            android:key="nameSortPref"
+            android:title="@string/name_sort_preferences" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/contact_preferences">
+        <Preference android:entries="@array/newContactPref"
+            android:entryValues="@array/newContactValues"
+            android:defaultValue="1"
+            android:summary="%s"
+            android:key="newContactPref"
+            android:title="@string/new_contact_type_preferences"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/advanced">
+    <SwitchPreference
+        android:key="exit_pin"
+        android:title="@string/exit_pin_mode"
+        android:enabled="false"
+        android:defaultValue="true"
+        android:shouldDisableView="true"/>
+    </PreferenceCategory>
+</PreferenceScreen>

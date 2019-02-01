@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rate_us"
+    android:layout_width="500dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewAlertTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/rate_us_title"
+        android:textColor="@color/c8"
+        android:textSize="25dp"
+        tools:ignore="SpUsage" />
+
+    <TextView
+        android:id="@+id/textViewAlertDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/rate_us_description"
+        android:textSize="20dp"
+        tools:ignore="SpUsage" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonAlertCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_ripple_effect"
+            android:text="@string/rate_us_not_now"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            tools:ignore="SpUsage" />
+
+        <Button
+            android:id="@+id/buttonAlertSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_ripple_effect"
+            android:text="@string/rate_us_now"
+            android:textAlignment="center"
+            android:textSize="14dp"
+            tools:ignore="SpUsage" />
+    </LinearLayout>
+
+</LinearLayout>

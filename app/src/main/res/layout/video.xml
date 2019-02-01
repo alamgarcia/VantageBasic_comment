@@ -1,0 +1,9 @@
+<FrameLayout android:id="@+id/video_frame"
+    android:orientation="vertical"
+    android:layout_width="568dp"
+    android:layout_height="500dp"
+    android:layout_marginBottom="16dp"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_horizontal"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" />

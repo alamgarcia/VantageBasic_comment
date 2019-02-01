@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialpad_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:focusable="false"
+    android:layoutDirection="ltr">
+
+    <TableLayout
+        android:id="@+id/activity_dialer_pad"
+        android:layout_width="354dp"
+        android:layout_height="288dp"
+        android:background="@drawable/dialpad_background"
+        android:columnCount="3"
+        android:columnWidth="118dp"
+        android:gravity="center"
+        android:horizontalSpacing="1dp"
+        android:paddingBottom="1dp"
+        android:paddingTop="1dp"
+        android:rowCount="4"
+        android:scrollbars="none"
+        android:stretchColumns="*"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="1dp">
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="1dp">
+
+            <include
+                android:id="@+id/mb1"
+                layout="@layout/dialer_button"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:gravity="fill_horizontal" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:background="@color/colorLightGrey" />
+
+
+            <include
+                android:id="@+id/mb2"
+                layout="@layout/dialer_button"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:gravity="fill_horizontal" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:background="@color/colorLightGrey" />
+
+            <include
+                android:id="@+id/mb3"
+                layout="@layout/dialer_button"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:gravity="fill_horizontal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="1dp">
+
+            <include
+                android:id="@+id/mb4"
+                layout="@layout/dialer_button"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:gravity="fill_horizontal" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:background="@color/colorLightGrey" />
+
+            <include
+                android:id="@+id/mb5"
+                layout="@layout/dialer_button"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:gravity="fill_horizontal" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:background="@color/colorLightGrey" />
+
+            <include
+                android:id="@+id/mb6"
+                layout="@layout/dialer_button"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:gravity="fill_horizontal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="1dp">
+
+            <include
+                android:id="@+id/mb7"
+                layout="@layout/dialer_button"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:gravity="fill_horizontal" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:background="@color/colorLightGrey" />
+
+            <include
+                android:id="@+id/mb8"
+                layout="@layout/dialer_button"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:gravity="fill_horizontal" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:background="@color/colorLightGrey" />
+
+            <include
+                android:id="@+id/mb9"
+                layout="@layout/dialer_button"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:gravity="fill_horizontal" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <include
+                android:id="@+id/mba"
+                layout="@layout/dialer_button"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:gravity="fill_horizontal" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:background="@color/colorLightGrey" />
+
+            <include
+                android:id="@+id/mbz"
+                layout="@layout/dialer_button"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:gravity="fill_horizontal" />
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0"
+                android:background="@color/colorLightGrey" />
+
+            <include
+                android:id="@+id/mbp"
+                layout="@layout/dialer_button"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:gravity="fill_horizontal" />
+        </TableRow>
+    </TableLayout>
+</FrameLayout>

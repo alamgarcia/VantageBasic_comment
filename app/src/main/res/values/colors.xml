@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3c5064</color>
+    <color name="colorDialerKeyText">#304050</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#f7941e</color>
+    <color name="colorSelectedIndicator">#24303c</color>
+    <color name="colorControlDisable">#96a0aa</color>
+    <color name="colorGreyStroke">#96a0aa</color>
+    <color name="colorSubGrey">#96a0aa</color>
+    <color name="colorLightGrey">#f2f2f2</color>
+    <color name="colorSubStatus">#96a0aa</color>
+    <color name="colorControlActive">#007aff</color>
+    <color name="colorControlStroke">#a0c9e9</color>
+    <color name="colorStatusBG">#f1f1f1</color>
+    <color name="colorDialerDisplayBG">#ecf4fb</color>
+    <color name="colorOnHold">#a0c9e9</color>
+    <color name="colorActiveCallBG">#3C5064</color>
+    <color name="colorDarkGrey">#324557</color>
+    <color name="colorCallStateText">#F7941E</color>
+    <color name="colorPersistentContrlsBG">#27394A</color>
+    <color name="colorActiveCallDialpadBG">#081723</color>
+    <color name="colorDialpadSepratorLine">#5A646E</color>
+
+    <color name="colorDTMFPressed">#ECF4FB</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDefaultHint">#808080</color>
+
+
+
+    <!-- 11.07.16 spec -->
+    <color name="blackStroke">#e0e0e0</color>
+    <color name="whiteStroke">#dce1e6</color>
+    <color name="primary">#212121</color>
+    <color name="secondary">#757575</color>
+    <color name="disabled">#9e9e9e</color>
+    <color name="midOrange">#f7941e</color>
+    <color name="presenceRed">#ec1c24</color>
+    <color name="white">#ffffff</color>
+    <color name="midGray">#96a0aa</color>
+    <color name="lightGray">#dce1e6</color>
+    <color name="midBlue">#007aff</color>
+    <color name="iceBlue">#ecf4fb</color>
+
+
+    <color name="c1">#F44336</color>
+    <color name="c2">#ec1c24</color>
+    <color name="c3">#9c27b0</color>
+    <color name="c4">#673ab7</color>
+    <color name="c5">#3f51b5</color>
+    <color name="c6">#2196f3</color>
+    <color name="c7">#03a9f4</color>
+    <color name="c8">#00bcd4</color>
+    <color name="c9">#009688</color>
+    <color name="c10">#4caf50</color>
+    <color name="c11">#8bc34a</color>
+    <color name="c12">#cddc39</color>
+    <color name="c13">#FFEB3B</color>
+    <color name="c14">#FFC107</color>
+    <color name="c15">#FF9800</color>
+    <color name="c16">#FF5722</color>
+    <color name="c17">#795548</color>
+    <color name="c18">#9E9E9E</color>
+    <color name="c19">#607D8B</color>
+    <color name="holo_blue">#FF33B5E5</color>
+
+    <array name="material_colors">
+        <item>@color/c1</item>
+        <item>@color/c2</item>
+        <item>@color/c3</item>
+        <item>@color/c4</item>
+        <item>@color/c5</item>
+        <item>@color/c6</item>
+        <item>@color/c7</item>
+        <item>@color/c8</item>
+        <item>@color/c9</item>
+        <item>@color/c10</item>
+        <item>@color/c11</item>
+        <item>@color/c12</item>
+        <item>@color/c13</item>
+        <item>@color/c14</item>
+        <item>@color/c15</item>
+        <item>@color/c16</item>
+        <item>@color/c17</item>
+        <item>@color/c18</item>
+        <item>@color/c19</item>
+    </array>
+
+    <color name="dimBackgroundColor">#66000000</color>
+    <color name="dialogTransparentBackgroundColor">#77081723</color>
+
+    <color name="incomingCallPositiveColor">#4BAA39</color>
+    <color name="incomingCallNegativeColor">#FF1C24</color>
+
+    <color name="errorBackgroundColor">#61000000</color>
+    <color name="errorStrokeBackgroundColor">#38000000</color>
+
+</resources>

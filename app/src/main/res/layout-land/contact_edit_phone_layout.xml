@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contact_edit_phone_root"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="8dp"
+        android:background="@color/blackStroke" />
+
+    <ImageView
+        android:id="@+id/contact_edit_phone_delete"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/ic_contact_details_delete"
+        android:contentDescription="@string/edit_phone_delete_description" />
+
+    <TextView
+        android:id="@+id/phoneTypeText"
+        style="@style/Body1"
+        android:layout_width="136dp"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/contact_edit_other_text_size"
+        android:background="@drawable/contact_edit_spinner_background"
+        android:gravity="center_vertical"
+        android:paddingEnd="16dp"
+        android:paddingStart="0dp"
+        android:text="Mobile" />
+
+    <EditText
+        android:id="@+id/contact_edit_phone_number"
+        style="@style/Body1"
+        android:layout_width="356dp"
+        android:textSize="@dimen/contact_edit_other_text_size"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="24dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/contact_edit_phone_hint"
+        android:imeOptions="actionDone"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:textColor="@color/secondary"
+        tools:ignore="Deprecated"
+        android:privateImeOptions="nm"/>
+
+    <ImageView
+        android:id="@+id/contact_edit_phone_clear"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/edit_phone_clear_description"
+        android:src="@drawable/ic_clear_field"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/contact_edit_phone_default"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/set_default_number_description"
+        android:src="@drawable/ic_contact_details_default_off" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:background="@color/blackStroke" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+buildscript {
+    repositories {
+        //Red Avaya Bypass firewall
+        maven { url 'http://repo1.maven.org/maven2' }
+        google()
+        jcenter { url 'http://jcenter.bintray.com' }
+
+        //Se agrega la carpeta Libs a los recursos
+        flatDir {
+            dirs 'libs'
+        }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0-alpha02'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        //Red Avaya Bypass firewall
+        maven { url 'http://repo1.maven.org/maven2' }
+        google()
+        jcenter { url 'http://jcenter.bintray.com' }
+        //Se agrega la carpeta Libs a los recursos
+        flatDir {
+            dirs 'libs'
+        }
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

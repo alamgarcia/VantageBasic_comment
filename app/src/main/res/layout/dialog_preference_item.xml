@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialogNameDisplayPref"
+    android:layout_width="@dimen/preferenceItemDialogWidth"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialogPreferenceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dialogPreferenceTitlePadding"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dialogPreferenceTitle"
+        android:textStyle="bold"
+        tools:text="@string/name_display_preferences" />
+
+    <RadioGroup
+        android:id="@+id/dialogTwoRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_normal">
+
+        <RadioButton
+            android:id="@+id/firstRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_weight="1"
+            android:text="@string/first_name_first"
+            android:textSize="@dimen/preferenceRadioButtonTitle" />
+
+        <RadioButton
+            android:id="@+id/secondRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_normal"
+            android:layout_weight="1"
+            android:text="@string/last_name_first"
+            android:textSize="@dimen/preferenceRadioButtonTitle" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:contentDescription="@string/cancel_content_description"
+        android:text="@android:string/cancel"
+        android:textAllCaps="true"
+        android:textColor="@color/c8"
+        android:textSize="@dimen/preferenceDialogCancelText" />
+</LinearLayout>

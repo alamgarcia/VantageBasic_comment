@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/incoming_call_dialog_root"
+    android:elevation="22dp"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/incoming_dialog"
+        android:layout_width="480dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:outlineProvider="bounds"
+        android:paddingBottom="22dp"
+        android:paddingEnd="22dp"
+        android:paddingStart="22dp"
+        android:paddingTop="30dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/incoming_dialog_image"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/incoming_dialog_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            android:textSize="48sp" />
+
+        <TextView
+            android:id="@+id/incoming_dialog_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:maxLines="1"
+            android:textColor="@color/colorSubGrey"
+            android:textSize="27sp" />
+
+        <LinearLayout
+            android:id="@+id/incoming_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/accept_audio"
+                android:layout_width="200dp"
+                android:layout_height="64dp"
+                android:layout_marginEnd="36dp"
+                android:contentDescription="@string/accept_call_audio_content_description"
+                android:background="@drawable/incoming_call_accept_audio" />
+
+            <View
+                android:id="@+id/reject_call"
+                android:layout_width="200dp"
+                android:layout_height="64dp"
+                android:contentDescription="@string/end_call_content_description"
+                android:background="@drawable/incoming_call_end" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,489 @@
+
+<!--suppress CheckTagEmptyBody --><resources>
+    
+    <string name="action_settings">설정</string>
+    
+    <string name="cd_video_mute">비디오 음소거</string>
+    <string name="cd_off_hook">오프 후크</string>
+    <string name="mid_control_dtmf">DTMF 중앙 제어</string>
+    <string name="sample_dialer_display_name">%1$s &lt;b&gt;%2$s&lt;/b&gt;</string>
+    <string name="device_not_supported">이 애플리케이션은 Avaya Vantage\u2122 장치에서만 실행할 수 있습니다.\n애플리케이션이 종료됩니다.</string>
+
+    <string-array name="nameDisplayPref">
+        <item>이름 먼저</item>
+        <item>성 먼저</item>
+    </string-array>
+
+    <string-array name="newContactPref">
+        <item>@string/contact_details_add_contact_local</item>
+        <item>@string/contact_details_add_contact_enterprise</item>
+    </string-array>
+
+    <string-array name="newContactPrefIpo">
+        <item>@string/contact_details_add_contact_local</item>
+        <item>@string/contact_details_add_contact_personal_directory</item>
+    </string-array>
+
+    <string-array name="newContactValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="nameSortPrefValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Dialer activity -->
+    <string-array name="dialer_numbers" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>*</item>
+        <item>0</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="dialer_letters" translatable="false">
+        <item>.,@</item>
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZ</item>
+        <item></item>
+        <item>+</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="number_entry_options">
+        <item>연락처 선택</item>
+        <item>번호 입력</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="voice_contact_search_hint">참가자 찾기</string>
+
+    <string name="cancel">취소</string>
+    <string name="ok">확인</string>
+    <string name="searching">검색 중…</string>
+    <string name="all_contacts">모든 연락처</string>
+    <string name="local_contacts">로컬 연락처</string>
+    <string name="bt_sync">블루투스 동기화</string>
+    <string name="enterprise_contacts">엔터프라이즈 연락처</string>
+    <string name="personal_directory_contacts">개인 연락처</string>
+    <string name="calling">전화 거는 중…</string>
+    <string name="on_hold">통화 보류 중</string>
+    <string name="no_contacts_to_display">표시할 연락처 없음</string>
+
+    <!-- Favorites screen -->
+    <string name="favorites_title">즐겨찾기</string>
+    <string name="favorites_empty_list">표시할 즐겨찾기 연락처가 없음</string>
+
+    <string name="recent_call_all">모든 통화 내역</string>
+    <string name="recent_call_missed">부재중 통화</string>
+    <string name="recent_call_outgoing">발신 통화</string>
+    <string name="recent_call_incoming">수신 통화</string>
+    <string name="recent_call_delete_history">모든 통화 삭제</string>
+    <string name="no_recent_calls_to_display">표시할 최근 통화 없음</string>
+    <string name="recent_call_at">%1$s (%2$s)</string>
+
+    <string name="contact_details_title">연락처 상세 정보</string>
+    <string name="contact_details_edit">편집</string>
+    <string name="contact_details_delete">삭제</string>
+    <string name="contact_details_add_contact">로컬 연락처 만들기</string>
+    <string name="contact_details_add_contact_local">로컬 연락처</string>
+    <string name="contact_details_add_contact_enterprise">엔터프라이즈 연락처</string>
+    <string name="contact_details_add_contact_personal_directory">개인 연락처</string>
+    <string name="contact_details_ipo_only_one_number">이 유형의 연락처에는 하나의 전화 번호 만 지정할 수 있습니다.</string>
+
+    <string name="new_contact_header_text">%1$s 만들기</string>
+    <string name="edit_contact_header_text">%1$s 편집</string>
+    <string name="contact_name_char_limit">이 유형의 연락처에는 %s자 이상의 이름을 지정할 수 없습니다.</string>
+    <string name="contact_add_label">연락처 만들기</string>
+    <string name="contact_details_make_a_call">전화 걸기</string>
+    <string name="contact_details_work">직장</string>
+    <string name="contact_details_mobile">휴대 전화</string>
+    <string name="contact_details_home">자택</string>
+    <string name="contact_details_handle">핸들링</string>
+    <string name="contact_details_fax">팩스</string>
+    <string name="contact_details_pager">호출기</string>
+    <string name="contact_details_assistant">비서</string>
+    <string name="contact_details_other">기타</string>
+    <string name="contact_details_primary">주 번호</string>
+
+    <string-array name="phone_type_array" translatable="false">
+        <item>@string/contact_details_work</item>
+        <item>@string/contact_details_mobile</item>
+        <item>@string/contact_details_home</item>
+        <item>@string/contact_details_handle</item>
+        <item>@string/contact_details_fax</item>
+        <item>@string/contact_details_pager</item>
+        <item>@string/contact_details_assistant</item>
+        <item>@string/contact_details_other</item>
+        <item>@string/contact_details_primary</item>
+    </string-array>
+
+    <!-- Tutorial Activity -->
+    <string name="quick_tutorial">빠른 자습서</string>
+    <string name="dial_pad">다이얼 패드</string>
+    <string name="call_screen">활성 통화</string>
+    <string name="call_features">통화 기능</string>
+    <string name="contacts">연락처</string>
+    <string name="recents">최근 통화</string>
+    <string name="skip_button">건너뛰기</string>
+    <string name="next">다음</string>
+    <string name="back">뒤로</string>
+    <string name="done">완료</string>
+    <string name="tutorial_welcome">Avaya Vantage Basic\u2122 시작하기</string>
+    <string name="tutorial_volume">볼륨 버튼은\n장치 뒤에 있음</string>
+    <string name="tutorial_optional_handset">(핸드셋 선택 가능)</string>
+    <string name="tutorial_stand_angle">스탠드 각도\n조정 가능</string>
+    <string name="tutorial_tap_access">탭하여 기본 설정에 액세스</string>
+    <string name="tutorial_block">카메라\n차단</string>
+    <string name="tutorial_mute">마이크\n음소거</string>
+    <string name="tutorial_tap_handsfree">핸즈프리 또는 화살표를\n탭하여 오디오 장치 변경</string>
+    <string name="tutorial_tap_back">탭하여 이전 화면으로\n돌아가기</string>
+    <string name="tutorial_tap_advanced">탭하여 고급 컨트롤에 액세스</string>
+    <string name="tutorial_transfer_call">다른 참가자에게\n호 전환</string>
+    <string name="tutorial_hold_and_start_new_one">현재 통화를 보류하고\n새로운 통화 시작</string>
+    <string name="tutorial_add_participant">현재 통화에 새 참가자 추가</string>
+    <string name="tutorial_merge_call">현재 통화를 다자간 통화에 병합</string>
+    <string name="tutorial_escalate_video">비디오 통화로 확장</string>
+    <string name="tutorial_bring_focus">현재 통화 - 탭하여\n포커스 맞추기</string>
+    <string name="tutorial_add_new">새 컨택 추가</string>
+    <string name="tutorial_tap_row">열을 탭하여 연락처\n상세정보 보기</string>
+    <string name="tutorial_tap_default">탭하여 기본 번호로\n통화(음성 또는 비디오)</string>
+    <string name="tutorial_sync_contacts">휴대 전화 장치의\n연락처 동기화</string>
+    <string name="tutorial_sync_recent">휴대 전화 장치의\n통화 기록 동기화</string>
+    <string name="tutorial_tap_to_call">탭하여 기본 번호로 통화\n(음성 또는 비디오)</string>
+
+    <!-- Preferences -->
+    <string name="preference_version">버전</string>
+    <string name="preference_build">빌드</string>
+    <string name="preference_build_date">빌드 날짜</string>
+    <string name="preference_sdk_version">Avaya Breeze 클라이언트 SDK 버전</string>
+    <string name="first_name_first">이름 먼저</string>
+    <string name="last_name_first">성 먼저</string>
+    <string name="ring_preferences">벨울림 기본 설정</string>
+    <string name="choose_ringtone">벨소리 선택</string>
+    <string name="ringtone_default">기본 벨소리</string>
+    <string name="ringtone_silent">없음</string>
+    <string name="display_preferences">디스플레이 기본 설정</string>
+    <string name="contact_preferences">연락처 기본 설정</string>
+    <string name="name_display_preferences">이름 표시 기본 설정</string>
+    <string name="name_sort_preferences">이름 정렬 기본 설정</string>
+    <string name="new_contact_type_preferences">새 연락처 만들기</string>
+    <string name="application">애플리케이션</string>
+    <string name="audio_preferences">오디오</string>
+    <string name="audio_video">오디오/비디오</string>
+
+    <!-- Active call -->
+    <string name="pick_contact">통화에 추가할 연락처 선택</string>
+
+    <string name="feature_dialog_title">통화 기능</string>
+    <string name="feature_dialog_transfer">호 전환</string>
+    <string name="feature_dialog_merge">병합</string>
+    <string name="feature_dialog_start_video">비디오 시작</string>
+    <string name="feature_dialog_stop_video">비디오 중지</string>
+    <string name="feature_dialog_conference">참가자 추가</string>
+    <string name="feature_dialog_new_call">새 통화</string>
+    <string name="feature_dialog_drop_last">마지막 참가자 끊기</string>
+    <string name="dialog_empty_display">통화를 호 전환할\n번호 입력</string>
+
+    <string name="operation_failed">작업에 실패했습니다. 나중에 다시 시도하십시오.</string>
+    <string name="max_participants_in_conference">작업에 실패했습니다. 최대 참가자 수에 도달했습니다.</string>
+    <string name="escalation_failed">비디오 통화로 확장 실패</string>
+    <string name="merge_complete">병합 완료</string>
+    <string name="trasfer_complete">호 전환 요청 완료됨</string>
+
+    <!-- Temporary strings -->
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Select audio device -->
+    <string name="select_audio_dev_title">오디오 장치 선택</string>
+    <string name="select_audio_dev_bt_headset">블루투스 헤드셋</string>
+    <string name="select_audio_dev_35headset">3.5 헤드셋</string>
+    <string name="select_audio_dev_headset">헤드셋</string>
+    <string name="select_audio_dev_handset">핸드셋</string>
+    <string name="select_audio_dev_speaker">스피커</string>
+
+    <!-- User preferences menu -->
+    <string name="user_settings">사용자 설정</string>
+    <string name="support">지원</string>
+    <string name="user_preferences">사용자 기본 설정</string>
+    <string name="application_settings">애플리케이션 설정</string>
+    <string name="audio_video_settings">오디오/비디오 설정</string>
+    <string name="audio_settings">오디오 설정</string>
+
+    <!-- Legal -->
+    <string name="eula_accept">수락</string>
+    <string name="eula_decline">거절</string>
+    <string name="transfer_dialog_choose_contact">통화자 선택</string>
+    <string name="transfer_dialog_enter_number">번호 입력</string>
+    <string name="transfer_dialog_title">통화 호 전환</string>
+    <string name="merge_dialog_title">다자간 통화에 병합</string>
+
+    <string name="logout">EULA 거부됨</string>
+    <string name="logout_msg">EULA를 거부하면 장치에서 로그아웃됩니다. 계속하시겠습니까?</string>
+
+    <!-- Apply config changes dialog -->
+    <string name="logout_to_apply_changes_title">설정 업데이트.</string>
+    <string name="logout_to_apply_changes_text">구성 업데이트를 사용할 수 있습니다. 이 업데이트를 적용하면 모든 활성 통화가 끊어지고 모든 애플리케이션 서비스가 재시작됩니다.</string>
+    <string name="apply_changes">업데이트</string>
+    <string name="postpone_logout">나중에</string>
+    <string name="conference_dialog_title">다자간 통화 설정</string>
+    <string name="conference_dialog_description">다자간 통화를 위한 연락처 선택</string>
+
+    <!-- Support Activity -->
+    <string name="support_activity_support">지원</string>
+    <string name="support_activity_about">정보</string>
+    <string name="support_activity_tutorial">자습서</string>
+    <string name="support_activity_legal">법적 고지 사항</string>
+
+    <!-- Contacts edit -->
+    <string name="contact_edit_title">연락처 편집</string>
+    <string name="contact_edit_cancel">취소</string>
+    <string name="contact_edit_done">완료</string>
+    <string name="contact_edit_add_number">전화번호 추가</string>
+    <string name="contact_edit_phone_hint">전화</string>
+    <string name="contact_edit_first_name_hint">이름</string>
+    <string name="contact_edit_last_name_hint">성</string>
+    <string name="contact_edit_job_title_hint">직함</string>
+    <string name="contact_edit_company_hint">회사</string>
+    <string name="contact_edit_address_hint">주소</string>
+    <string name="contact_edit_change_photo">사진 변경</string>
+    <string name="contact_edit_take_photo">사진 촬영</string>
+    <string name="contact_edit_delete_photo">사진 삭제</string>
+    <string name="contact_edit_choose_photo">사진 선택</string>
+    <string name="contact_edit_name_required">이름 또는 성은 필수입니다.</string>
+    <string name="contact_edit_number_required">최소 하나 이상의 전화번호는 필수입니다.</string>
+    <string name="contact_edit_enterprise_contact_not_found">연락처를 변경할 수 없습니다.\n나중에 다시 시도하십시오.</string>
+    <string name="contact_edit_non_edit_first_name">이름을 편집할 수 없습니다.\n자세한 내용은 관리자에게 문의하십시오.</string>
+    <string name="contact_edit_non_edit_last_name">성을 편집할 수 없습니다.\n자세한 내용은 관리자에게 문의하십시오.</string>
+    <string name="contact_edit_non_edit_job">직함을 편집할 수 없습니다.\n자세한 내용은 관리자에게 문의하십시오.</string>
+    <string name="contact_edit_non_edit_company">회사를 편집할 수 없습니다.\n자세한 내용은 관리자에게 문의하십시오.</string>
+    <string name="contact_edit_non_edit_address">주소를 편집할 수 없습니다\n자세한 내용은 관리자에게 문의하십시오.</string>
+    <string name="contact_edit_non_edit_favorite">즐겨찾기 상태를 편집할 수 없습니다\n자세한 내용은 관리자에게 문의하십시오.</string>
+    <string name="contact_edit_not_savable_toast">연락처를 저장할 수 없습니다\n자세한 내용은 관리자에게 문의하십시오.</string>
+    <string name="contact_edit_success">연락처를 성공적으로 편집했습니다.</string>
+    <string name="contact_edit_user_not_found">연락처 편집 기능을 사용할 수 없습니다. 사용자를 찾을 수 없습니다.\자세한 내용은 관리자에게 문의하십시오.</string>
+    <string name="contact_edit_server_not_available">서버에서 연락처를 찾을 수 없습니다.\n나중에 다시 시도하십시오.</string>
+    <string name="contact_edit_general_error">연락처를 업데이트하지 못했습니다.</string>
+    <string name="enterprise_contact_create_error">연락처를 만들지 못했습니다.</string>
+    <string name="contact_create_with_name">새로 생성된 연락처 이름: \u0020</string>
+    <string name="contact_uneditable_error">이 연락처는 편집할 수 없습니다.</string>
+    <string name="contact_not_found">연락처에 액세스 할 수 없습니다.</string>
+    <string name="contact_deleted">연락처가 삭제되었습니다.</string>
+    <string name="contact_undeletable_error">이 연락처는 편집할 수 없습니다.</string>
+    <string name="contact_delete_confirmation_message">이 연락처를 삭제하시겠습니까?</string>
+    <string name="contact_delete_confirmation_message_yes">예</string>
+    <string name="contact_delete_confirmation_message_no">아니요</string>
+
+    <!-- Content description -->
+    <string name="dialer_button_content_description">번호</string>
+    <string name="more_button_content_description">더 보기</string>
+    <string name="back_button_content_description">뒤로</string>
+    <string name="pause_button_content_descritpion">일시 중지</string>
+    <string name="end_button_content_descritpion">통화 종료</string>
+    <string name="mute_button_content_description">통화 음소거</string>
+    <string name="user_content_description">사용자 기본 설정</string>
+    <string name="redial_button_content_description">재다이얼</string>
+    <string name="audio_call_content_description">오디오 통화</string>
+    <string name="exit_button_content_description">나가기 버튼</string>
+    <string name="transfer_content_description">호 전환</string>
+    <string name="conference_content_description">다자간 통화</string>
+    <string name="new_call_start_video">비디오 시작</string>
+    <string name="new_call_stop_video">비디오 중지</string>
+    <string name="new_call_content_description">새 통화</string>
+    <string name="video_call_content_description">비디오 통화</string>
+    <string name="add_favorite_content_description">즐겨찾기</string>
+    <string name="sync_contact_content_description">연락처 동기화</string>
+    <string name="edit_content_description">편집</string>
+    <string name="back_content_description">뒤로</string>
+    <string name="delete_content_description">삭제</string>
+    <string name="voice_mail_content_description">음성 메일</string>
+    <string name="first_name_content_description">이름</string>
+    <string name="last_name_content_description">성</string>
+    <string name="cancel_content_description">취소</string>
+    <string name="find_contact_content_description">연락처 찾기</string>
+    <string name="choose_list_content_description">목록 선택</string>
+    <string name="add_contact_content_description">연락처 추가</string>
+    <string name="choose_calls_list_content_description">전화 목록 선택</string>
+    <string name="accept_call_audio_content_description">오디오 통화 수락</string>
+    <string name="accept_call_video_content_description">비디오 통화 수락</string>
+    <string name="end_call_content_description">통화 종료</string>
+    <string name="decline_content_description">거절</string>
+    <string name="accept_content_description">수락</string>
+    <string name="clear_calls_content_description">모든 통화 삭제</string>
+    <string name="user_settings_content_description">사용자 설정</string>
+    <string name="about_content_description">지원</string>
+    <string name="dialer_content_description">다이얼러</string>
+    <string name="favorites_content_description">즐겨찾기</string>
+    <string name="contacts_content_description">연락처</string>
+    <string name="recent_calls_content_description">최근 통화</string>
+    <string name="incoming_content_description">수신 통화</string>
+    <string name="missed_content_description">부재 중 통화</string>
+    <string name="outgoing_content_description">발신 통화</string>
+    <string name="edit_job_title_clear_description">직함 지우기</string>
+    <string name="active_call_contact_image_description">연락처 이미지</string>
+    <string name="unknown_incoming_call_image_description">알 수 없는 수신 통화 이미지</string>
+    <string name="edit_clear_last_name_description">성 지우기</string>
+    <string name="error_description">오류</string>
+    <string name="delete_description">삭제</string>
+    <string name="set_default_number_description">기본 번호로 설정</string>
+    <string name="first_name_clear_description">이름 지우기</string>
+    <string name="edit_phone_clear_description">전화 지우기</string>
+    <string name="edit_phone_delete_description">전화 삭제</string>
+    <string name="close_description">닫기</string>
+    <string name="recent_number_type_description">유형</string>
+    <string name="is_calling_content_description">님이 통화 중</string>
+
+    <!-- Rate us alert dialog -->
+    <string name="rate_us">평가하기</string>
+    <string name="rate_us_now">지금 평가하기</string>
+    <string name="rate_us_not_now">나중에</string>
+    <string name="rate_us_description">애플리케이션이 마음에 드시면 Google Play 스토어에서 평가해 주십시오.</string>
+    <string name="rate_us_title">Google Play 스토어에서 Avaya Vantage\u2122 Basic 평가하기</string>
+
+    <!-- User Survey -->
+    
+    
+
+    <!-- Share Feedback -->
+    <string name="share_feedback">피드백 공유 (영어만 지원)</string>
+    <string name="share_feedback_description">애플리케이션 로그를 포함하는 피드백을 이메일로 즉시 공유합니다. 문제가 있을 시, 관리자에게 연락하여 정규 채널을 통해 Avaya에 서비스 요청을 보내십시오.</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Error codes -->
+    <string name="error_unknown">알 수 없는 오류</string>
+
+    <string name="error_title_sip_extension">SIP 로그인 실패</string>
+    <string name="error_message_sip_extension">내선 또는 암호가 잘못되었습니다. 다시 시도하십시오.</string>
+    <string name="error_title_general">SIP 로그인 실패</string>
+    <string name="error_message_general">Avaya Aura 서버에 연결을 시도하는 중 일반적인 오류가 발생했습니다.</string>
+    <string name="error_message_general_ipo">IPO 서버에 연결을 시도하는 도중 일반적인 오류가 발생했습니다.</string>
+    <string name="error_title_invalid_domain">SIP 로그인 실패</string>
+    <string name="error_message_invalid_domain">로그인에 실패했습니다. 잘못된 도메인입니다.</string>
+    <string name="error_title_voip">SIP 로그인 실패</string>
+    <string name="error_message_voip">현재 VoIP 전화 서비스를 사용할 수 있으나 서비스가 제한적입니다.</string>
+    <string name="error_title_phone_service">SIP 로그인 실패</string>
+    <string name="error_message_phone_service">현재 전화 서비스를 사용할 수 없습니다.</string>
+    <string name="error_title_certificate">SIP 로그인 실패</string>
+    <string name="error_message_certificate">VoIP 전화 서비스에 필요한 보안 인증서에 문제가 있습니다.</string>
+    <string name="error_title_device_limit">SIP 로그인 실패</string>
+    <string name="error_message_device_limit">이 내선은 허용되는 최대 장치 수에 도달했습니다.</string>
+    <string name="error_title_sip_credentials">통합 로그인 실패</string>
+    <string name="error_message_sip_credentials">사용자 이름 또는 암호가 잘못되었습니다. 다시 시도하십시오.</string>
+    <string name="error_message_ul_credentials">사용자 이름 및 암호 정보가 누락되었습니다. 사용자 이름 및 암호를 입력하십시오.</string>
+    <string name="error_message_empty">SIP 내선 또는 암호가 비어있습니다. 비어있는 항목을 입력하십시오.</string>
+    <string name="error_message_service_not_available">현재 Avaya Aura Device Services를 사용할 수 없습니다.</string>
+
+    <!-- Transfer and conference -->
+    <string name="no_number_message">유효한 전화번호를 입력하십시오.</string>
+    <string name="display_local_contact_information">로컬 연락처 정보 표시</string>
+    <string name="display_enterprise_contact_information">엔터프라이즈 연락처 정보 표시</string>
+    <string name="display_directory_contact_information">디렉토리 연락처 정보 표시</string>
+    <string name="display_personal_directory_contact_information">IP Office 연락처 정보 표시</string>
+
+    <!-- Pinning -->
+    <string name="exit_pin_mode">애플리케이션 고정 모드</string>
+    <string name="password_dialog_title">애플리케이션 고정 인증</string>
+    <string name="admin_pass_not_set">관리자 암호가 설정되지 않았습니다.</string>
+    <string name="incorrect_password">잘못된 암호입니다.</string>
+    <string name="advanced">고급</string>
+    <string name="feature_dialog_add_someone">참가자 추가</string>
+    <string name="feature_dialog_add_somene_cd">참가자 추가</string>
+    <string name="transfer_dialog_body">%1$s - %2$s</string>
+    <string name="transfer_direct_dialog_title">호 전환하시겠습니까?</string>
+    <string name="conference_direct_dialog_title">병합할 통화:</string>
+    <string name="merge">병합</string>
+    <string name="call_feature">통화 기능</string>
+    <string name="please_enter_administrator_password">관리자 암호를 입력하십시오.</string>
+    <string name="must_set_primary">최소 하나의 전화번호를 기본 전화번호로 설정해야 합니다.</string>
+
+    <string name="tap_to_access">탭하여 추가 전화 기능에\n액세스</string>
+    <string name="dont_show_again">다시 표시 안 함</string>
+    <string name="dismiss">해제</string>
+
+    <string name="default_app_closing">Vantage Basic은 활성 전화 애플리케이션으로 구성되어 있지 않으므로 작동하지 않습니다</string>
+
+    <string name="notification_online">온라인</string>
+    <string name="logged_out">로그아웃됨</string>
+    <string name="bluetooth_settings">블루투스 설정</string>
+    <string name="more_settings">추가 설정</string>
+    <string name="directory_separator_display">디렉토리: %1$s (%2$s) </string>
+
+    <!-- Sync call history dialog text -->
+    <string name="sync_call_history_title">통화 내역을 동기화 하시겠습니까?</string>
+    <string name="sync_call_history_text">페어링된 휴대 전화 장치의 통화 기록은 자동으로 통화 기록 탭에 표시되며 장치가 분리되면 삭제됩니다.</string>
+
+    <!-- Contacts dialog text -->
+    <string name="sync_contact_title">연락처를 동기화하시겠습니까?</string>
+    <string name="sync_contact_text">페어링된 휴대 전화 장치의 연락처는 자동으로 연락처 탭에 표시되며 장치가 분리되면 삭제됩니다.</string>
+
+    <string name="delete_call_history_text">통화 기록을 삭제하시겠습니까?</string>
+    <string name="photo_not_supported">이 유형의 연락처에는 사진 추가가 지원되지 않습니다.</string>
+    <string name="not_enterprise_found">엔터프라이즈 계정을 찾을 수 없습니다. 나중에 다시 시도하십시오.</string>
+
+    <string name="conference">다자간 통화</string>
+    <string name="private_address">비공개</string>
+    <string name="contact_edit_ipo_name_hint">이름</string>
+    <string name="tutorialBlockCamera">"카메라\n 차단"</string>
+    <string name="tutorialMute">음소거</string>
+    <string name="tutorialVolume">볼륨</string>
+    <string name="tutorialTransducerSelection">"변환기 \n선택"</string>
+    <string name="tutorialNavigationButtons">탐색 버튼</string>
+    <string name="tutorialMain">기본</string>
+    <string name="tutorialActiveCall">활성 통화</string>
+    <string name="tutorialHistory">내역</string>
+    <string name="tutorialPreviousScreen">이전 화면</string>
+    <string name="tutorialHomeScreen">홈 화면</string>
+    <string name="tutorialRecentApps">최근 앱</string>
+    <string name="tutorialAccessPreferences">기본 설정 액세스</string>
+    <string name="tutorialSearch">검색</string>
+    <string name="tutorialTapToNavigate">"탭하여\n 탐색"</string>
+    <string name="tutorialGoBackToPreviousScreen">"이전 화면으로 \n돌아가기"</string>
+    <string name="tutorialShowAllControlls">"전환 또는 병합 등 \n모든 컨트롤 표시"</string>
+    <string name="tutorialTapToCallDefault">"탭하여 \n기본 번호로 통화\n(음성 또는 비디오)"</string>
+    <string name="tutorialTapToContactDetails">"열을 탭하여 \n연락처 상세정보 보기"</string>
+    <string name="tutorialTapToCallHistoryDetails">"열을 탭하여 \n통화 내역 상세정보 보기"</string>
+    <string name="tutorialReturnByVoiceOrVideo">"전화에 답신하기\n(음성 또는 비디오)"</string>
+    <string name="tutorialTapToFocusCurrentCall">탭하여 현재 통화에 포커스 맞추기</string>
+
+    <string name="waitBluetoothContactSharing">블루투스 연락처를 동기화하는 동안 기다려주십시오.</string>
+    <string name="turnOffBluetoothContactSharing">블루투스 연락처 공유 끄기</string>
+    <string name="turnOffBluetoothCallHistorySharing">블루투스 통화 기록 공유 끄기</string>
+    <string name="waitBluetoothCallHistorySharing">블루투스 통화 내역을 동기화하는 동안 기다려주십시오.</string>
+</resources>

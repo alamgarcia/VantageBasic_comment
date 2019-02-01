@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/active_call_dialpad_root"
+    android:layoutDirection="ltr"
+    android:focusable="false">
+
+    <LinearLayout
+        android:id="@+id/active_call_dialer_frame_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:visibility="visible"
+        android:weightSum="1.0">
+
+
+        <RelativeLayout
+            android:id="@+id/dialer_pad_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ac_dialer_background">
+
+            <HorizontalScrollView
+                android:id="@+id/scroll_call_dtmf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/margin_xlarge"
+                android:layout_marginRight="@dimen/margin_xlarge"
+                android:fillViewport="true"
+                android:scrollbars="none">
+
+                <TextView
+                    android:id="@+id/active_call_dialer_text"
+                    style="@style/active_call_dialpad_dialer_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:gravity="center"
+                    android:maxLines="1" />
+            </HorizontalScrollView>
+        </RelativeLayout>
+
+        <TableLayout
+            android:id="@+id/buttons_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ac_dialpad_background"
+
+            android:columnCount="3"
+            android:rowCount="4"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <include
+                    android:id="@+id/b1"
+                    layout="@layout/ac_dialer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_horizontal" />
+
+                <include
+                    android:id="@+id/b2"
+                    layout="@layout/ac_dialer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_horizontal" />
+
+                <include
+                    android:id="@+id/b3"
+                    layout="@layout/ac_dialer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_horizontal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <include
+                    android:id="@+id/b4"
+                    layout="@layout/ac_dialer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_horizontal" />
+
+                <include
+                    android:id="@+id/b5"
+                    layout="@layout/ac_dialer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_horizontal" />
+
+                <include
+                    android:id="@+id/b6"
+                    layout="@layout/ac_dialer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_horizontal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <include
+                    android:id="@+id/b7"
+                    layout="@layout/ac_dialer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_horizontal" />
+
+                <include
+                    android:id="@+id/b8"
+                    layout="@layout/ac_dialer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_horizontal" />
+
+                <include
+                    android:id="@+id/b9"
+                    layout="@layout/ac_dialer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_horizontal" />
+            </TableRow>
+
+            <TableRow
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <include
+                    android:id="@+id/ba"
+                    layout="@layout/ac_dialer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_horizontal" />
+
+                <include
+                    android:id="@+id/bz"
+                    layout="@layout/ac_dialer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_horizontal" />
+
+                <include
+                    android:id="@+id/bp"
+                    layout="@layout/ac_dialer_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_horizontal" />
+            </TableRow>
+        </TableLayout>
+
+
+    </LinearLayout>
+
+    <include layout="@layout/exit_button_layout" />
+</FrameLayout>

@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/menu_user_preferences_root"
+    android:minWidth="150dp"
+    android:background="@android:color/white"
+    android:elevation="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/containerUserSettings"
+        android:layout_width="wrap_content"
+        android:minWidth="180dp"
+        android:maxWidth="300dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_height="48dp"
+        android:background="@drawable/layout_on_press"
+        android:gravity="center_vertical"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:text="@string/user_settings"
+        android:textColor="@color/colorActiveCallBG"
+        android:textSize="16sp"
+        android:contentDescription="@string/user_settings_content_description"/>
+
+    <TextView
+        android:id="@+id/containerAbout"
+        android:layout_width="wrap_content"
+        android:minWidth="180dp"
+        android:maxWidth="300dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:layout_height="48dp"
+        android:background="@drawable/layout_on_press"
+        android:gravity="center_vertical"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        android:text="@string/support"
+        android:textColor="@color/colorActiveCallBG"
+        android:textSize="16sp"
+        android:contentDescription="@string/about_content_description"/>
+
+</LinearLayout>

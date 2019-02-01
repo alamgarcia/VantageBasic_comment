@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/contact_delete_dialog_width"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:elevation="8dp"
+    android:clickable="true">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/contact_delete_dialog_text_height"
+        android:gravity="center"
+        android:text="@string/contact_delete_confirmation_message"
+        android:textSize="20sp"
+        android:padding="@dimen/margin_large"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/contact_delete_yes"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/contact_delete_dialog_text_buttons_height"
+            android:layout_weight="1"
+            android:background="@color/lightGray"
+            android:gravity="center"
+            android:textColor="@color/presenceRed"
+            android:text="@string/contact_delete_confirmation_message_yes"/>
+        <TextView
+            android:id="@+id/contact_delete_no"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/contact_delete_dialog_text_buttons_height"
+            android:layout_weight="1"
+            android:background="@color/lightGray"
+            android:gravity="center"
+            android:textColor="@color/c10"
+            android:text="@string/contact_delete_confirmation_message_no"/>
+
+    </LinearLayout>
+</LinearLayout>

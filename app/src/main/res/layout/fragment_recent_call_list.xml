@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/containerFL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/contact_search_bg">
+
+    <LinearLayout
+        android:id="@+id/fragment_recent_calls_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/fragment_recent_calls_header"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@drawable/contact_search_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="1.0"
+            android:contentDescription="@string/choose_calls_list_content_description">
+
+            <TextView
+                android:id="@+id/filterRecent"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:drawableEnd="@drawable/ic_expand_more"
+                android:gravity="center"
+                android:text="@string/recent_call_all"
+                style="@style/Title"
+                android:textColor="@color/primary"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="0.9" />
+
+            <ImageView
+                android:id="@+id/sync_contacts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_sync_black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/recent_calls_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical">
+
+            <com.avaya.android.vantage.basic.views.EmptyRecyclerView
+                android:id="@+id/list"
+                android:name="com.avaya.android.vantage.basic.RecentCallsFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/margin_normal"
+                android:paddingRight="@dimen/margin_normal"
+                app:layoutManager="LinearLayoutManager"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                tools:context=".basic.fragments.RecentCallsFragment"
+                tools:listitem="@layout/recent_call_item"
+                android:scrollbars="vertical"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/no_recent_calls_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+        <TextView
+            android:id="@+id/noRecentCalls"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            style="@style/Body1"
+            android:textColor="@color/secondary"
+            android:text="@string/no_recent_calls_to_display" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/frameRecentCallFilter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/select_history_filter"
+        layout="@layout/menu_call_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="18dp"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/sync_pop_up"
+        layout="@layout/sync_pop_up_layout"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <include
+        android:id="@+id/delete_call_history"
+        layout="@layout/delete_callhistory_layout"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+</FrameLayout>

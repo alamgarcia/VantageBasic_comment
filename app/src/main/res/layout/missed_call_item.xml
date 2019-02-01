@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recent_call_item_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="60dp"
+    android:layout_marginBottom="6dp"
+    android:background="@drawable/contact_list_ripple_effect"
+    android:clickable="true"
+    android:clipToPadding="false"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/initials"
+        style="@style/Title"
+        android:layout_width="@dimen/contact_initial_diameter"
+        android:layout_height="@dimen/contact_initial_diameter"
+        android:layout_gravity="center"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_weight="0.030"
+        android:background="@drawable/empty_circle"
+        android:gravity="center"
+        android:text="@string/call_list_contact"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/initials"
+        android:layout_toLeftOf="@+id/recent_call_type"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/recent_name"
+            style="@style/Body1"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:gravity="fill"
+            android:maxLines="1"
+            android:text="@string/call_list_text"
+            android:textColor="@color/presenceRed" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/recent_call_date"
+                style="@style/Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ellipsize="end"
+                android:gravity="fill"
+                android:maxLines="2"
+                android:text=""
+                android:textColor="@color/presenceRed" />
+
+            <TextView
+                android:id="@+id/recent_call_time"
+                style="@style/Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ellipsize="end"
+                android:gravity="fill"
+                android:maxLines="1"
+                android:text=""
+                android:textColor="@color/presenceRed" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/recent_call_type"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_weight="0.04"
+        android:button="@null"
+        android:checked="true"
+        android:contentDescription="@string/missed_content_description"
+        android:enabled="false"
+        android:scaleType="center"
+        android:src="@drawable/ic_recents_audio_missed"
+        android:textOff="@null"
+        android:textOn="@null" />
+
+
+    <TextView
+        android:id="@+id/recent_number_type"
+        style="@style/Body1"
+        android:layout_width="84dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="0.084"
+        android:ellipsize="end"
+        android:gravity="fill"
+        android:maxLines="1"
+        android:textAlignment="center"
+        android:textColor="@color/presenceRed" />
+
+    <ImageButton
+        android:id="@+id/call_audio"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="0.084"
+        android:background="@null"
+        android:contentDescription="@string/audio_call_content_description"
+        android:src="@drawable/contact_item_call_audio" />
+
+    <ImageButton
+        android:id="@+id/call_video"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="16dp"
+        android:background="@null"
+        android:contentDescription="@string/video_call_content_description"
+        android:src="@drawable/contact_item_filled_call_video" />
+
+    <ImageButton
+        android:id="@+id/add_participant"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="8dp"
+        android:background="@null"
+        android:contentDescription="@string/add_contact_content_description"
+        android:src="@drawable/contact_item_add_contact"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/incoming_call_dialog_root"
+    android:elevation="22dp"
+    android:layoutDirection="ltr"
+    android:gravity="center_horizontal"
+    android:padding="1dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/incoming_dialog"
+        android:layout_width="592dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_incoming_call_popup"
+        android:padding="0dp"
+        android:gravity="center_horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:textSize="28dp"
+            android:layout_margin="0dp"
+            android:textColor="#425064"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_top_incoming_call_popup"
+            android:text="@string/incoming_content_description"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/title"
+            android:background="#999999"/>
+
+        <ImageView
+            android:id="@+id/incoming_dialog_image"
+            android:layout_width="64dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_height="64dp"
+            android:layout_below="@+id/title"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentLeft="true"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/incoming_dialog_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_toRightOf="@+id/incoming_dialog_image"
+            android:layout_toLeftOf="@+id/incoming_layout"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-light"
+            android:maxLines="1"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/incoming_dialog_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/incoming_dialog_image"
+            android:layout_below="@+id/incoming_dialog_name"
+            android:layout_alignStart="@+id/incoming_dialog_name"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/colorSubGrey"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:id="@+id/incoming_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/accept_audio"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginRight="16dp"
+                android:contentDescription="@string/accept_call_audio_content_description"
+                android:background="@drawable/rounded_accepet_audio_call" />
+
+            <View
+                android:id="@+id/reject_call"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:contentDescription="@string/end_call_content_description"
+                android:background="@drawable/rounded_decline_call" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

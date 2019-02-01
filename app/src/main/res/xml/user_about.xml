@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="version"
+        android:title="@string/preference_version"
+        android:summary=""/>
+
+    <Preference
+        android:key="build"
+        android:title="@string/preference_build"
+        android:summary=""/>
+
+    <Preference
+        android:key="build_date"
+        android:title="@string/preference_build_date"
+        android:summary=""/>
+
+    <Preference
+        android:key="csdk_version"
+        android:title="@string/preference_sdk_version"
+        android:summary=""/>
+
+</PreferenceScreen>

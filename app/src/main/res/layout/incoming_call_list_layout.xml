@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/incoming1"
+        layout="@layout/incoming_call_audio_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:visibility="gone"
+    />
+
+    <include
+        android:id="@+id/incoming_video1"
+        layout="@layout/incoming_call_video_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:visibility="gone"
+        />
+
+    <include
+        android:id="@+id/incoming_video2"
+        layout="@layout/incoming_call_video_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+    <include
+        android:id="@+id/incoming2"
+        layout="@layout/incoming_call_audio_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+</LinearLayout>

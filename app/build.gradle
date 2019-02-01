@@ -1,0 +1,72 @@
+apply plugin: 'com.android.application'
+
+def getDateAsMillis() {
+    def Calendar cal = Calendar.getInstance();
+    return cal.getTimeInMillis().toString()
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '28.0.2'
+
+    defaultConfig {
+        applicationId 'com.avaya.android.vantage.basic'
+        minSdkVersion 23
+        //noinspection OldTargetApi
+        // 22 and not 23 in order to prevent requesting permissions at run-time
+        targetSdkVersion 22
+        versionCode 101
+        versionName "2.0.0.200.0004"
+        multiDexEnabled true
+
+        buildConfigField "java.util.Date", "buildTime", "new java.util.Date(" + getDateAsMillis() + "L)"
+        buildConfigField "java.lang.String", "CSDK_VERSION", "\"0\""
+        buildConfigField "java.lang.String", "AVAYA_BUILD_NUMBER", "\"0\""
+        buildConfigField "java.lang.String", "USER_AGENT_NAME", "\"0\""
+        buildConfigField "java.lang.String", "AVAYA_VERSION", "\"0\""
+    }
+
+    buildTypes {
+        //noinspection GroovyMissingReturnStatement
+        release {
+            //disable proguard
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    lintOptions {
+        //checkReleaseBuilds true
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+//Funcion para agregar todoos los AAR de la carpeta Libs
+
+    fileTree(dir: 'libs', include: '**/*.aar')
+            .each { File file ->
+        dependencies.add("implementation", [name: file.name.lastIndexOf('.').with { it != -1 ? file.name[0..<it] : file.name }, ext: 'aar'])
+    }
+//
+    implementation 'com.android.support:appcompat-v7:25.4.0'
+    implementation 'com.android.support:design:25.4.0'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'io.netty:netty-all:4.1.0.Beta3'
+    implementation 'com.android.support:recyclerview-v7:25.4.0'
+    implementation 'org.slf4j:slf4j-android:1.7.21'
+    implementation 'com.daasuu:BubbleLayout:1.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+
+}
+
+

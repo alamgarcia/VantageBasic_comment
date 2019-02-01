@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="recent_tab_big_width">40</integer>
+    <fraction name="video_controls_alpha">0.7</fraction>
+    <bool name="is_landscape">true</bool>
+</resources>

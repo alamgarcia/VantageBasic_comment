@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="378dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/call_features_root"
+    android:layout_gravity="center"
+    android:background="#D93C5064">
+
+    <com.avaya.android.vantage.basic.views.AutoResizeTextView
+        android:id="@+id/contact_name_feature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif-thin"
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="56sp"/>
+
+    <TextView
+        android:id="@+id/call_state_feature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/calling"
+        android:textColor="@color/colorCallStateText"
+        android:layout_marginTop="100dp"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/feature_linear_layout"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/call_features_white_stroke"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/feature_title"
+            style="@style/call_features_title_text_style"
+            android:text="@string/feature_dialog_title" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginStart="1dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/feature_transfer"
+            style="@style/call_features_text_style"
+            android:drawableStart="@drawable/ic_transfer48"
+            android:text="@string/feature_dialog_transfer"
+            android:contentDescription="@string/transfer_content_description"/>
+
+        <View style="@style/dialog_separator_line" />
+
+        <TextView
+            android:id="@+id/feature_new_call"
+            style="@style/call_features_text_style"
+            android:drawableStart="@drawable/ic_call_green48"
+            android:text="@string/feature_dialog_new_call"
+            android:contentDescription="@string/new_call_content_description"/>
+        <View style="@style/dialog_separator_line" />
+
+        <TextView
+            android:id="@+id/feature_conference"
+            style="@style/call_features_text_style"
+            android:drawableStart="@drawable/ic_new_call48"
+            android:text="@string/feature_dialog_add_someone"
+            android:contentDescription="@string/feature_dialog_add_somene_cd"/>
+        <View style="@style/dialog_separator_line" />
+
+        <TextView
+            android:id="@+id/feature_remove_last_participant"
+            style="@style/call_features_text_style"
+            android:drawableStart="@drawable/ic_droplastparticipant48"
+            android:text="@string/feature_dialog_drop_last"
+            android:contentDescription="@string/feature_dialog_drop_last"/>
+        <View style="@style/dialog_separator_line" />
+
+        <TextView
+            android:id="@+id/feature_merge"
+            style="@style/call_features_text_style"
+            android:drawableStart="@drawable/ic_conference48"
+            android:text="@string/feature_dialog_merge"
+            android:contentDescription="@string/conference_content_description"/>
+
+        <View style="@style/dialog_separator_line" />
+
+        <TextView
+            android:id="@+id/feature_start_video"
+            style="@style/call_features_text_style"
+            android:drawableStart="@drawable/ic_start_video48"
+            android:text="@string/feature_dialog_start_video"
+            android:contentDescription="@string/new_call_start_video"/>
+
+        <TextView
+            android:id="@+id/feature_stop_video"
+            style="@style/call_features_text_style"
+            android:drawableStart="@drawable/ic_stop_video48"
+            android:text="@string/feature_dialog_stop_video"
+            android:visibility="gone"
+            android:contentDescription="@string/new_call_stop_video"/>
+    </LinearLayout>
+
+    <include layout="@layout/feature_exit_button_layout" />
+</FrameLayout>

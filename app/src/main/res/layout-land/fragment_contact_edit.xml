@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/contact_edit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:clickable="true"
+        android:orientation="vertical"
+        android:paddingBottom="1dp">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+        <RelativeLayout
+            android:id="@+id/contact_edit_header"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:background="@drawable/contact_details_bg" >
+
+            <TextView
+                android:id="@+id/contact_edit_cancel"
+                style="@style/Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/button_ripple_effect"
+                android:contentDescription="@string/contact_edit_cancel"
+                android:minWidth="80dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="6dp"
+                android:text="@string/contact_edit_cancel"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/contact_edit_title"
+                style="@style/Body1"
+                android:layout_width="210dp"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="6dp"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/contact_edit_cancel"
+                android:drawableStart="@drawable/ic_expand_more"
+                android:text="@string/contact_edit_title"
+                android:textColor="@color/primary" />
+
+            <TextView
+                android:id="@+id/contact_edit_done"
+                style="@style/Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/button_ripple_effect"
+                android:contentDescription="@string/contact_edit_done"
+                android:enabled="false"
+                android:gravity="end|center_vertical"
+                android:minWidth="72dp"
+                android:paddingEnd="@dimen/margin_large"
+                android:paddingStart="0dp"
+                android:text="@string/contact_edit_done"
+                android:textColor="@color/midGray"
+                tools:ignore="RelativeOverlap" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/contact_details_bg">
+
+            <ListView
+                android:id="@+id/contact_edit_phone_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:dividerHeight="0dp" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/contact_edit_holder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/phone_type_menu_holder"
+        layout="@layout/menu_phone_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="310dp"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:layout_marginStart="55dp"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/phone_enterprise_type_menu_holder"
+        layout="@layout/menu_phone_type_enterprise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="250dp"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:layout_marginStart="55dp"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/contact_type_holder"
+        layout="@layout/menu_contact_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="@dimen/margin_normal"
+        android:layout_marginStart="24dp"
+        android:visibility="gone" />
+</FrameLayout>
+

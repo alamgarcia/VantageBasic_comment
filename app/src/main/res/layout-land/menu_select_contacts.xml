@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:id="@+id/menu_select_contacts_root"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:elevation="8dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/contacts_all_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="@drawable/layout_on_press"
+        android:paddingEnd="16dp"
+        android:contentDescription="@string/all_contacts">
+
+        <ImageView
+            android:id="@+id/contacts_all_icon"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_check"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/contacts_all"
+            style="@style/Body1"
+            android:textColor="@color/primary"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/all_contacts" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contacts_enterprise_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="@drawable/layout_on_press"
+        android:paddingEnd="16dp"
+        android:contentDescription="@string/enterprise_contacts">
+
+        <ImageView
+            android:id="@+id/contacts_enterprise_icon"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_check"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/contacts_enterprise"
+            style="@style/Body1"
+            android:textColor="@color/primary"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/enterprise_contacts" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contacts_local_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/layout_on_press"
+        android:contentDescription="@string/local_contacts">
+
+        <ImageView
+            android:id="@+id/contacts_local_icon"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_check"
+            android:visibility="invisible"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/contacts_local"
+            style="@style/Body1"
+            android:textColor="@color/primary"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/local_contacts" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorBlack"/>
+
+    <LinearLayout
+        android:id="@+id/contacts_bluetooth_sync_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:paddingEnd="16dp"
+        android:background="@drawable/layout_on_press"
+        android:contentDescription="@string/local_contacts">
+
+        <ImageView
+            android:id="@+id/contacts_bluetooth_sync_icon"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/ic_sync_unpaired_grey"
+            android:visibility="visible"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/contacts__bluetooth_sync"
+            style="@style/Body1"
+            android:textColor="@color/primary"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/bt_sync" />
+    </LinearLayout>
+
+</LinearLayout>

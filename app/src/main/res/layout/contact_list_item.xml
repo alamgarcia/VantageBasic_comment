@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/contact_list_ripple_effect"
+    android:clickable="true">
+    <TextView
+        android:id="@+id/directory_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/directory_separator_display"
+        android:visibility="visible"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/primary"/>
+
+    <RelativeLayout
+        android:id="@+id/contact_list_item_root"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/directory_info"
+        android:clipToPadding="false"
+        android:weightSum="1.0">
+
+        <TextView
+            android:id="@+id/initials"
+            style="@style/Title"
+            android:layout_width="@dimen/contact_initial_diameter"
+            android:layout_height="@dimen/contact_initial_diameter"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:background="@drawable/empty_circle"
+            android:text="@string/call_list_contact"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/contact_name"
+            style="@style/Body1"
+            android:layout_width="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:layout_marginRight="12dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/call_list_text"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/initials"
+            android:layout_toLeftOf="@+id/contact_location"
+            android:textColor="@color/primary" />
+
+        <ImageView
+            android:id="@+id/contact_is_sync"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/ic_sync_unknown_grey"
+            android:button="@null"
+            android:checked="true"
+            android:contentDescription="@string/sync_contact_content_description"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="180dp"
+            android:enabled="false"
+            android:textOff="@null"
+            android:textOn="@null" />
+
+        <ImageView
+            android:id="@+id/contact_is_favorite"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/ic_favorites24"
+            android:button="@null"
+            android:checked="true"
+            android:contentDescription="@string/add_favorite_content_description"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="135dp"
+            android:enabled="false"
+            android:textOff="@null"
+            android:textOn="@null" />
+
+        <TextView
+            android:id="@+id/contact_location"
+            style="@style/Body1"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@string/call_list_text"
+            android:layout_centerVertical="true"
+            android:layout_margin="8dp"
+            android:layout_toLeftOf="@+id/contact_is_sync"
+            android:textColor="@color/secondary" />
+
+        <ImageButton
+            android:id="@+id/call_audio"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_toLeftOf="@+id/call_video"
+            android:background="@null"
+            android:contentDescription="@string/audio_call_content_description"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="64dp"
+            android:src="@drawable/contact_item_filled_call_audio" />
+
+        <ImageButton
+            android:id="@+id/call_video"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:contentDescription="@string/video_call_content_description"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/contact_item_filled_call_video" />
+
+        <ImageButton
+            android:id="@+id/add_participant"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:contentDescription="@string/add_contact_content_description"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/contact_item_add_contact"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorLightGrey" />
+</RelativeLayout>

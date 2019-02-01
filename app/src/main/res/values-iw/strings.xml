@@ -1,0 +1,452 @@
+<!--suppress CheckTagEmptyBody -->
+<resources>
+    <string name="app_name" translatable="false">Avaya Vantage\u2122 Basic</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="section_format" translatable="false">Hello World from section: %1$d</string>
+    <string name="cd_video_mute">השתק סרטון</string>
+    <string name="cd_off_hook">הנחת השפופרת</string>
+    <string name="mid_control_dtmf">צליל חיוג לבקרת תוך שיחה</string>
+    <string name="sample_dialer_display_name">%1$s &lt;b>%2$s&lt;/b></string>
+    <string name="device_not_supported">יישום זה יפעל רק במכשירי Avaya Vantage\u2122.‏\nהיישום ייסגר כעת.</string>
+
+    <string-array name="nameDisplayPref">
+        <item>שם פרטי ראשון</item>
+        <item>שם משפחה ראשון</item>
+		
+		
+    </string-array>
+
+    <string-array name="newContactPref">
+        <item>@string/contact_details_add_contact_local</item>
+        <item>@string/contact_details_add_contact_enterprise</item>
+    </string-array>
+
+    <string-array name="newContactValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="nameSortPrefValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Dialer activity -->
+    <string-array name="dialer_numbers" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>*</item>
+        <item>0</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="dialer_letters" translatable="false">
+        <item>.,@</item>
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZ</item>
+        <item></item>
+        <item>+</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="number_entry_options">
+        <item>בחר איש קשר</item>
+        <item>הזן מספר</item>
+		
+		
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="voice_contact_search_hint">חפש מישהו</string>
+
+    <string name="cancel">ביטול</string>
+    <string name="ok">אישור</string>
+    <string name="searching">מחפש&#8230;</string>
+    <string name="all_contacts">כל אנשי הקשר</string>
+    <string name="local_contacts">אנשי קשר מקומיים</string>
+    <string name="enterprise_contacts">אנשי קשר ארגוניים</string>
+    <string name="calling">מתקשר&#8230;</string>
+    <string name="on_hold">בהמתנה</string>
+    <string name="no_contacts_to_display">לא קיימים אנשי קשר</string>
+
+    <!-- Favorites screen -->
+    <string name="favorites_title">מועדפים</string>
+    <string name="favorites_empty_list">אין אנשי קשר מועדפים</string>
+
+    <string name="recent_call_all">כל השיחות</string>
+    <string name="recent_call_missed">שיחות שלא נענו</string>
+    <string name="recent_call_outgoing">שיחות יוצאות</string>
+    <string name="recent_call_incoming">שיחות נכנסות</string>
+    <string name="recent_call_delete_history">מחק את כל השיחות</string>
+    <string name="no_recent_calls_to_display">אין שיחות אחרונות</string>
+    <string name="recent_call_at">%1$s ב-%2$s</string>
+
+    <string name="contact_details_title">פרטי איש קשר</string>
+    <string name="contact_details_edit">עריכה</string>
+    <string name="contact_details_delete">מחיקה</string>
+    <string name="contact_details_add_contact">צור איש קשר מקומי</string>
+    <string name="contact_details_add_contact_local">איש קשר מקומי</string>
+    <string name="contact_details_add_contact_enterprise">איש קשר ארגוני</string>
+    <string name="contact_details_ipo_only_one_number">ניתן לשייך רק מספר טלפון אחד עבור איש קשר IPO</string>
+
+    <string name="new_contact_header_text">צור %1$s</string>
+    <string name="edit_contact_header_text">ערוך %1$s</string>
+    <string name="contact_add_label">צור איש קשר</string>
+    <string name="contact_details_make_a_call">התקשר</string>
+    <string name="contact_details_work">עבודה</string>
+    <string name="contact_details_mobile">נייד</string>
+    <string name="contact_details_home">בית</string>
+    <string name="contact_details_handle">קידומת</string>
+    <string name="contact_details_fax">פקס</string>
+    <string name="contact_details_pager">איתורית</string>
+    <string name="contact_details_assistant">ארגונית</string>
+    <string name="contact_details_other">אחרים</string>
+    <string name="contact_details_primary">ראשי</string>
+
+    <string-array name="phone_type_array" translatable="false">
+        <item>@string/contact_details_work</item>
+        <item>@string/contact_details_mobile</item>
+        <item>@string/contact_details_home</item>
+        <item>@string/contact_details_handle</item>
+        <item>@string/contact_details_fax</item>
+        <item>@string/contact_details_pager</item>
+        <item>@string/contact_details_assistant</item>
+        <item>@string/contact_details_other</item>
+        <item>@string/contact_details_primary</item>
+    </string-array>
+
+    <!-- Tutorial Activity -->
+    <string name="quick_tutorial">מדריך מהיר</string>
+    <string name="dial_pad">חייגן</string>
+    <string name="call_screen">שיחה נוכחית</string>
+    <string name="call_features">אפשרויות שיחה</string>
+    <string name="contacts">אנשי קשר</string>
+    <string name="recents">שיחות אחרונות</string>
+    <string name="skip_button">דלג</string>
+    <string name="next">הבא</string>
+    <string name="back">חזור</string>
+    <string name="done">סיים</string>
+    <string name="tutorial_welcome">ברוכים הבאים ל-Avaya Vantage\u2122 Basic</string>
+    <string name="tutorial_volume">כפתורי כיוונון עוצמת\nהשמע נמצאים בצדו\nהאחורי של המכשיר</string>
+    <string name="tutorial_optional_handset">(שפופרת אופציונלית)</string>
+    <string name="tutorial_stand_angle">זווית הכן ניתנת\nלכוונון</string>
+    <string name="tutorial_tap_access">הקש לגישה להגדרות</string>
+    <string name="tutorial_block">חסום את\nהמצלמה שלך</string>
+    <string name="tutorial_mute">השתק את\nהמיקרופון שלך</string>
+    <string name="tutorial_tap_handsfree">הקש לחיוג ללא הרמת השפופרת או\nהקש על החץ לשינוי\nהתקן השמע שלך</string>
+    <string name="tutorial_tap_back">הקש לחזרה\nלמסך הקודם</string>
+    <string name="tutorial_tap_advanced">הקש לגישה לבקרים מתקדמים</string>
+    <string name="tutorial_transfer_call">העבר שיחה פעילה למשתתף אחר</string>
+    <string name="tutorial_hold_and_start_new_one">העבר את השיחה הפעילה להמתנה והתחלת שיחה חדשה</string>
+    <string name="tutorial_add_participant">הוסף משתתף חדש לשיחה הפעילה</string>
+    <string name="tutorial_merge_call">מזג את השיחות הפעילות לשיחת ועידה</string>
+    <string name="tutorial_escalate_video">עבור לשיחת וידאו</string>
+    <string name="tutorial_bring_focus">שיחתך הנוכחית – הקש\nכדי להביאה לקדמת המסך</string>
+    <string name="tutorial_add_new">הוסף איש קשר חדש</string>
+    <string name="tutorial_tap_row">הקש על שורה כדי לצפות\nבפרטי איש הקשר</string>
+    <string name="tutorial_tap_default">הקש לחיוג למספר ברירת\nהמחדל בשיחה קולית או שיחת וידאו</string>
+    <string name="tutorial_sync_contacts">סנכרן אנשי קשר \nממכשיר נייד</string>
+    <string name="tutorial_sync_recent">סנכרן שיחות אחרונות \nממכשיר נייד</string>
+    <string name="tutorial_tap_to_call">הקש לחיוג למספר ברירת\nהמחדל בשיחה קולית או \nשיחת וידאו</string>
+
+    <!-- Preferences -->
+    <string name="preference_version">בניית</string>
+    <string name="preference_build">גרסה</string>
+    <string name="preference_build_date">תאריך בניית גרסה</string>
+    <string name="preference_sdk_version">גרסת Avaya Breeze Client SDK</string>
+    <string name="first_name_first">שם פרטי ראשון</string>
+    <string name="last_name_first">שם משפחה ראשון</string>
+    <string name="ring_preferences">העדפות צלצול</string>
+    <string name="choose_ringtone">בחר נעימון (רינגטון)</string>
+    <string name="display_preferences">העדפות תצוגה</string>
+    <string name="contact_preferences">העדפות אנשי קשר</string>
+    <string name="name_display_preferences">העדפות תצוגת שם</string>
+    <string name="name_sort_preferences">העדפות מיון שמות</string>
+    <string name="new_contact_type_preferences">צור איש קשר חדש בתור</string>
+    <string name="application">אפליקציה</string>
+    <string name="audio_preferences">שמע</string>
+    <string name="audio_video">שמע/וידאו</string>
+
+
+    <!-- Active call -->
+    <string name="pick_contact">בחר איש קשר להוספה לשיחה</string>
+
+    <string name="feature_dialog_title">אפשרויות שיחה</string>
+    <string name="feature_dialog_transfer">העבר</string>
+    <string name="feature_dialog_merge">מזג שיחה</string>
+    <string name="feature_dialog_start_video">התחל שידור וידאו</string>
+    <string name="feature_dialog_stop_video">הפסק שידור וידאו</string>
+    <string name="feature_dialog_conference">הוסף משתתף</string>
+    <string name="feature_dialog_new_call">שיחה חדשה</string>
+    <string name="feature_dialog_drop_last">ניתוק המשתתף האחרון</string>
+    <string name="dialog_empty_display">הקש מספר\nלהעברת השיחה אליו</string>
+
+    <string name="operation_failed">הפעולה נכשלה. אנא נסה שנית מאוחר יותר</string>
+    <string name="max_participants_in_conference">הפעולה נכשלה. הגעת למספר המשתתפים המרבי.</string>
+    <string name="escalation_failed">המעבר לווידאו נכשל</string>
+    <string name="merge_complete">המיזוג בוצע בהצלחה</string>
+    <string name="trasfer_complete">בקשת ההעברה בוצעה בהצלחה</string>
+
+    <!-- Temporary strings -->
+    <string name="ac_dialer_number">5</string>
+    <string name="ac_dialer_letters">JKL</string>
+    <string name="ac_caller_name">דויד מלך ישראל</string>
+    <string name="call_list_contact">כל</string>
+    <string name="call_list_text">טקסט חדש</string>
+    <string name="call_list_duration">0:00</string>
+    <string name="contact_list_section_label">תווית המקטע</string>
+    <string name="dialer_display_number">1234567890</string>
+    <string name="contact_details_number">613–555-9052</string>
+
+    <!-- Select audio device -->
+    <string name="select_audio_dev_title">בחר התקן שמע</string>
+    <string name="select_audio_dev_bt_headset">אוזניות BT</string>
+    <string name="select_audio_dev_35headset">3.5 אוזניות</string>
+    <string name="select_audio_dev_headset">אוזניות</string>
+    <string name="select_audio_dev_handset">שפופרת</string>
+    <string name="select_audio_dev_speaker">רמקול</string>
+
+    <!-- User preferences menu -->
+    <string name="user_settings">הגדרות משתמש</string>
+    <string name="support">תמיכה</string>
+    <string name="user_preferences">העדפות משתמש</string>
+    <string name="application_settings">הגדרות תוכנה</string>
+    <string name="audio_video_settings">הגדרות שמע/וידאו</string>
+    <string name="audio_settings">הגדרות שמע</string>
+
+    <!-- Legal -->
+    <string name="eula_accept">קבל</string>
+    <string name="eula_decline">דחה</string>
+    <string name="transfer_dialog_choose_contact">בחר אדם</string>
+    <string name="transfer_dialog_enter_number">הזן מספר</string>
+    <string name="transfer_dialog_title">העבר את השיחה</string>
+    <string name="merge_dialog_title">מיזוג השיחות לשיחת ועידה</string>
+
+    <string name="logout">סירוב להסכם הרישיון למשתמש הקצה (EULA)</string>
+    <string name="logout_msg">סירוב ל-EULA יביא ליציאה מהמערכת במכשיר זה. אתה בטוח?</string>
+
+    <!-- Apply config changes dialog -->
+    <string name="logout_to_apply_changes_title">עדכון הגדרות.</string>
+    <string name="logout_to_apply_changes_text">קיים עדכון הגדרות זמין להורדה. החלת עדכון זה תביא לניתוק השיחות הפעילות, ולאתחול של כל שירותי האפליקציה.</string>
+    <string name="apply_changes">עדכון</string>
+    <string name="postpone_logout">לא עכשיו</string>
+    <string name="conference_dialog_title">צור שיחת ועידה</string>
+    <string name="conference_dialog_description">בחר איש קשר לשיחת ועידה</string>
+
+    <!-- Support Activity -->
+    <string name="support_activity_support">תמיכה</string>
+    <string name="support_activity_about">אודות</string>
+    <string name="support_activity_tutorial">מדריך</string>
+    <string name="support_activity_legal">תנאי שימוש</string>
+
+    <!-- Contacts edit -->
+    <string name="contact_edit_title">ערוך איש קשר</string>
+    <string name="contact_edit_cancel">ביטול</string>
+    <string name="contact_edit_done">הסתיים</string>
+    <string name="contact_edit_add_number">הוסף מספר טלפון</string>
+    <string name="contact_edit_phone_hint">טלפון</string>
+    <string name="contact_edit_first_name_hint">שם פרטי</string>
+    <string name="contact_edit_last_name_hint">שם משפחה</string>
+    <string name="contact_edit_job_title_hint">תפקיד</string>
+    <string name="contact_edit_company_hint">חברה</string>
+    <string name="contact_edit_address_hint">כתובת</string>
+    <string name="contact_edit_change_photo">שנה תמונה</string>
+    <string name="contact_edit_take_photo">צלם תמונה</string>
+    <string name="contact_edit_delete_photo">מחק תמונה</string>
+    <string name="contact_edit_choose_photo">בחר תמונה</string>
+    <string name="contact_edit_name_required">נדרש שם פרטי או שם משפחה</string>
+    <string name="contact_edit_number_required">נדרש לפחות מספר טלפון אחד</string>
+    <string name="contact_edit_enterprise_contact_not_found">לא ניתן לשנות את פרטי איש הקשר\nנסה שנית מאוחר יותר</string>
+    <string name="contact_edit_non_edit_first_name">לא ניתן לערוך את השם הפרטי\nלמידע נוסף צור קשר עם מנהל המערכת</string>
+    <string name="contact_edit_non_edit_last_name">לא ניתן לערוך את שם המשפחה\nלמידע נוסף צור קשר עם מנהל המערכת</string>
+    <string name="contact_edit_non_edit_job">לא ניתן לערוך את התפקיד\nלמידע נוסף צור קשר עם מנהל המערכת</string>
+    <string name="contact_edit_non_edit_company">לא ניתן לערוך את שם החברה\nלמידע נוסף צור קשר עם מנהל המערכת</string>
+    <string name="contact_edit_non_edit_address">לא ניתן לערוך את הכתובת\nלמידע נוסף צור קשר עם מנהל המערכת</string>
+    <string name="contact_edit_non_edit_favorite">לא ניתן לערוך את סטטוס המועדפים\nצור קשר עם מנהל המערכת</string>
+    <string name="contact_edit_not_savable_toast">לא ניתן לשמור את איש הקשר\nלמידע נוסף צור קשר עם מנהל המערכת</string>
+    <string name="contact_edit_success">עריכת פרטי איש הקשר בוצעה בהצלחה</string>
+    <string name="contact_edit_user_not_found">עריכת פרטי איש הקשר אינה זמינה, המשתמש לא נמצא\nלמידע נוסף צור קשר עם מנהל המערכת</string>
+    <string name="contact_edit_server_not_available">איש הקשר לא נמצא בשרת\nנסה שנית מאוחר יותר</string>
+    <string name="contact_edit_general_error">עדכון פרטי איש הקשר נכשל</string>
+    <string name="enterprise_contact_create_error">יצירת איש הקשר נכשלה</string>
+    <string name="contact_create_with_name">נוצר איש קשר חדש בשם: \u0020</string>
+    <string name="contact_uneditable_error">לא ניתן לערוך איש קשר זה</string>
+    <string name="contact_not_found">לא ניתן לגשת לאיש קשר זה</string>
+    <string name="contact_deleted">איש הקשר נמחק</string>
+    <string name="contact_undeletable_error">לא ניתן למחוק את איש הקשר הזה</string>
+    <string name="contact_delete_confirmation_message">האם אתה בטוח שברצונך \למחוק את איש הקשר הזה?</string>
+    <string name="contact_delete_confirmation_message_yes">כן</string>
+    <string name="contact_delete_confirmation_message_no">לא</string>
+
+    <!-- Content description -->
+    <string name="dialer_button_content_description">מספר</string>
+    <string name="more_button_content_description">עוד</string>
+    <string name="back_button_content_description">חזור</string>
+    <string name="pause_button_content_descritpion">עצור</string>
+    <string name="end_button_content_descritpion">סיים שיחה</string>
+    <string name="mute_button_content_description">השתק שיחה</string>
+    <string name="user_content_description">העדפות משתמש</string>
+    <string name="redial_button_content_description">חיוג חוזר</string>
+    <string name="audio_call_content_description">שיחת שמע</string>
+    <string name="exit_button_content_description">כפתור יציאה</string>
+    <string name="transfer_content_description">העבר</string>
+    <string name="conference_content_description">ועידה</string>
+    <string name="new_call_start_video">התחל שידור וידאו</string>
+    <string name="new_call_stop_video">הפסק שידור וידאו</string>
+    <string name="new_call_content_description">שיחה חדשה</string>
+    <string name="video_call_content_description">שיחת וידאו</string>
+    <string name="add_favorite_content_description">הוסף למועדפים</string>
+    <string name="sync_contact_content_description">סנכרן איש קשר</string>
+    <string name="edit_content_description">עריכה</string>
+    <string name="back_content_description">חזור</string>
+    <string name="delete_content_description">מחיקה</string>
+    <string name="voice_mail_content_description">תא קולי</string>
+    <string name="first_name_content_description">שם פרטי</string>
+    <string name="last_name_content_description">שם משפחה</string>
+    <string name="cancel_content_description">ביטול</string>
+    <string name="find_contact_content_description">חפש איש קשר</string>
+    <string name="choose_list_content_description">בחר רשימה</string>
+    <string name="add_contact_content_description">הוסף איש קשר</string>
+    <string name="choose_calls_list_content_description">בחר רשימת שיחות</string>
+    <string name="accept_call_audio_content_description">קבל שיחת שמע</string>
+    <string name="accept_call_video_content_description">קבל שיחת וידאו</string>
+    <string name="end_call_content_description">סיים שיחה</string>
+    <string name="decline_content_description">דחה</string>
+    <string name="accept_content_description">קבל</string>
+    <string name="clear_calls_content_description">מחק את כל השיחות</string>
+    <string name="user_settings_content_description">הגדרות משתמש</string>
+    <string name="about_content_description">תמיכה</string>
+    <string name="dialer_content_description">חייגן</string>
+    <string name="favorites_content_description">מועדפים</string>
+    <string name="contacts_content_description">אנשי קשר</string>
+    <string name="recent_calls_content_description">שיחות אחרונות</string>
+    <string name="incoming_content_description">שיחה נכנסת</string>
+    <string name="missed_content_description">שיחה שלא נענתה</string>
+    <string name="outgoing_content_description">שיחה יוצאת</string>
+    <string name="edit_job_title_clear_description">ניקוי שדה תפקיד</string>
+    <string name="active_call_contact_image_description">תמונת איש הקשר</string>
+    <string name="unknown_incoming_call_image_description">תמונה שתוצג בשיחה נכנסת ממספר לא מוכר</string>
+    <string name="edit_clear_last_name_description">מחק שם משפחה</string>
+    <string name="error_description">שגיאה</string>
+    <string name="delete_description">מחיקה</string>
+    <string name="set_default_number_description">קבע כמספר ברירת מחדל</string>
+    <string name="first_name_clear_description">מחק שם פרטי</string>
+    <string name="edit_phone_clear_description">נקה את שדה מספר הטלפון</string>
+    <string name="edit_phone_delete_description">מחק את שדה מספר הטלפון</string>
+    <string name="close_description">סגור</string>
+    <string name="recent_number_type_description">סוג</string>
+    <string name="is_calling_content_description">מתקשר/ת</string>
+
+    <!-- Rate us alert dialog -->
+    <string name="rate_us">דרג אותנו</string>
+    <string name="rate_us_now">דרג אותנו כעת</string>
+    <string name="rate_us_not_now">לא עכשיו</string>
+    <string name="rate_us_description">אם אהבת את האפליקציה, אנא דרג אותנו בחנות Google Play!</string>
+    <string name="rate_us_title">דרג את Avaya Vantage \nu2122 Basic בחנות Google Play</string>
+
+    <!-- User Survey -->
+    <string name="user_survey" translatable="false">סקר משתמשים</string>
+    <string name="survey_title" translatable="false">"סקר משתמשי אלפא\\בטא"</string>
+
+    <!-- Share Feedback -->
+    <string name="share_feedback">שתף את המשוב שלך (באנגלית בלבד)</string>
+    <string name="share_feedback_description">\tתתבקש לשתף את המשוב שלך באמצעות דואר אלקטרוני הכולל את יומני רישומי המערכת. אם קיימת בעיה, אנא צור קשר עם מנהל המערכת שלך לפתיחת קריאת שירות ב-Avaya בערוצים הרגילים.</string>
+	
+    <string name="email_subject" translatable="false">Avaya Vantage\u2122 Basic: משוב לקוח</string>
+    <string name="email_to" translatable="false">vantageclients@avaya.com</string>
+    <string name="send_feedback" translatable="false">שלח משוב</string>
+    <string name="email_company_name" translatable="false">שם החברה: \n</string>
+    <string name="email_descrition" translatable="false">משוב\\תיאור בעיה: \n</string>
+    <string name="email_details" translatable="false">סביבה מיוחדת\\פרטי תצורה: \n\n</string>
+    <string name="email_application_version" translatable="false">גרסת אפליקציה:</string>
+    <string name="email_locale" translatable="false">אזור:</string>
+    <string name="email_model" translatable="false">דגם:</string>
+    <string name="email_os" translatable="false">מערכת הפעלה:</string>
+    <string name="email_device_storage" translatable="false">ניצולת אחסון במכשיר:</string>
+    <string name="email_connection" translatable="false">חיבור:</string>
+    <string name="email_missing_permissions" translatable="false">הרשאות חסרות לאפליקציה:</string>
+    <string name="email_no_connection" translatable="false">אין חיבור</string>
+    <string name="email_wifi" translatable="false">WI-FI</string>
+    <string name="email_ethernet" translatable="false">אתרנט</string>
+
+    <!-- Error codes -->
+    <string name="error_unknown">שגיאה לא ידועה</string>
+
+    <string name="error_title_sip_extension">הכניסה לשירות SIP נכשלה</string>
+    <string name="error_message_sip_extension">השלוחה או הסיסמה שגויות. אנא נסה שנית</string>
+    <string name="error_title_general">הכניסה לשירות SIP נכשלה</string>
+    <string name="error_message_general">חלה שגיאה כללית בניסיון להתקשר לשרת Avaya Aura</string>
+    <string name="error_title_invalid_domain">הכניסה לשירות SIP נכשלה</string>
+    <string name="error_message_invalid_domain">הכניסה לשירות נכשלה, שם הדומיין אינו תקף</string>
+    <string name="error_title_voip">הכניסה לשירות SIP נכשלה</string>
+    <string name="error_message_voip">שירות טלפוניית VoIP זמין כעת בשירות מוגבל.</string>
+    <string name="error_title_phone_service">הכניסה לשירות SIP נכשלה</string>
+    <string name="error_message_phone_service">שירות הטלפון אינו זמין כעת.</string>
+    <string name="error_title_certificate">הכניסה לשירות SIP נכשלה</string>
+    <string name="error_message_certificate">קיימת בעיה בתעודת האבטחה הדרושה עבור שירות טלפוניית VoIP.</string>
+    <string name="error_title_device_limit">הכניסה לשירות SIP נכשלה</string>
+    <string name="error_message_device_limit">השלוחה הגיעה למספר ההתקנים המרבי.</string>
+    <string name="error_title_sip_credentials">כשל אחיד בכניסה לשירות</string>
+    <string name="error_message_sip_credentials">שם המשתמש או הסיסמה שגויים. אנא נסה שנית</string>
+    <string name="error_message_ul_credentials">שם המשתמש והססמה חסרים. אנא מלא אותם.</string>
+    <string name="error_message_empty">שדה שלוחת SIP או סיסמה ריקים. אנא מלא אותם</string>
+    <string name="error_message_service_not_available">שירותי Avaya Aurora Device Services אינם זמינים כעת.</string>
+
+    <!-- Transfer and conference -->
+    <string name="no_number_message">הזן מספר טלפון תקין</string>
+    <string name="display_local_contact_information">מציג מידע איש קשר מקומי</string>
+    <string name="display_enterprise_contact_information">מציג מידע איש קשר ארגוני</string>
+    <string name="display_directory_contact_information">מציג מידע איש קשר מהתיקייה</string>
+
+    <!-- Pinning -->
+    <string name="exit_pin_mode">מצב נעיצת אפליקציה</string>
+    <string name="password_dialog_title">הרשאת נעיצת אפליקציה</string>
+    <string name="admin_pass_not_set">סיסמת המנהל לא נקבעה</string>
+    <string name="incorrect_password">סיסמה שגויה</string>
+    <string name="advanced">מתקדם</string>
+    <string name="feature_dialog_add_someone">הוסף משתתף</string>
+    <string name="feature_dialog_add_somene_cd">הוסף משתתף</string>
+    <string name="transfer_dialog_body">%1$s עד %2$s</string>
+    <string name="transfer_direct_dialog_title">האם ברצונך להעביר</string>
+    <string name="conference_direct_dialog_title">מזג את השיחה עם...</string>
+    <string name="merge">מזג</string>
+    <string name="call_feature">אפשרויות שיחה</string>
+    <string name="please_enter_administrator_password">אנא הזן סיסמת מנהל</string>
+    <string name="must_set_primary">יש לקבוע מספר טלפון אחד לפחות כמספר ראשי</string>
+
+    <string name="tap_to_access">הקש כדי לגשת לאפשרויות\nהשיחה הנוספות</string>
+    <string name="dont_show_again">אל תציג הודעה זו שנית</string>
+    <string name="dismiss">בטל</string>
+    <string name="default_app_closing">אנא שים לב כי אפליקציית Vantage Basic אינה ניתן להפעלה ואינה קבועה כאפליקציית הטלפון הפעילה</string>
+
+	
+    <string name="notification_online">מצב מקוון</string>
+    <string name="bluetooth_settings">הגדרות Bluetooth</string>
+    <string name="more_settings">הגדרות נוספות</string>
+    <string name="directory_separator_display">תיקייה: %1$s (%2$s) </string>
+
+    <!-- Sync call history dialog text -->
+    <string name="sync_call_history_title">האם לסנכרן את היסטוריית השיחות?</string>
+    <string name="sync_call_history_text">היסטוריית השיחות שבמכשיר הנייד המקושר תוצג באופן אוטומטי בלשונית היסטוריית השיחות ותוסר עם ניתוק המכשיר.</string>
+
+	
+    <!-- Contacts dialog text -->
+    <string name="sync_contact_title">האם לסנכרן את אנשי הקשר?</string>
+    <string name="sync_contact_text">אנשי הקשר שבמכשיר הנייד המקושר יוצגו באופן אוטומטי בלשונית אנשי הקשר ויוסרו עם ניתוק המכשיר.</string>
+
+	
+    <string name="delete_call_history_text">האם אתה בטוח שברצונך למחוק את יומן השיחות?</string>
+    <string name="contact_edit_ipo_name_hint" >שם</string>
+</resources>

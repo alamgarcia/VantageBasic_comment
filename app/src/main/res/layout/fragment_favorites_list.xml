@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_favorites_list_root">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/favorite_swipe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/fragment_favorites_list_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/favorites_title"
+                style="@style/favorites_title_style"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="@string/favorites_title" />
+
+            <com.avaya.android.vantage.basic.views.EmptyRecyclerView
+                android:id="@+id/favorite_recycler_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/solidlightgrey_greystroke"
+                android:paddingBottom="1dp"
+                android:paddingTop="4dp"
+                android:paddingLeft="@dimen/margin_normal"
+                android:paddingRight="@dimen/margin_normal"
+                app:layoutManager="LinearLayoutManager"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                tools:context=".basic.fragments.FavoritesFragment"
+                tools:listitem="@layout/favorite_list_item"
+                android:scrollbars="vertical"/>
+        </LinearLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/empty_favorites"
+        style="@style/Body1"
+        android:textColor="@color/secondary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/solidlightgrey_greystroke"
+        android:paddingRight="8dp"
+        android:paddingLeft="8dp"
+        android:gravity="center_horizontal"
+        android:text="@string/favorites_empty_list"
+        android:paddingTop="60dp"
+        />
+</FrameLayout>

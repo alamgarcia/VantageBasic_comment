@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/merge_call_dialog_layout"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:focusable="false"
+    android:background="@color/colorActiveCallBG">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/menus_layouts"
+        android:layout_marginTop="@dimen/margin_xlarge">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/transfer_call_title"
+        android:textSize="22sp"
+        android:padding="16sp"
+        android:textColor="@color/colorActiveCallDialpadBG"
+        android:text="@string/conference_direct_dialog_title"/>
+
+    <TextView
+        android:id="@+id/merge_call_with"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16sp"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:id="@+id/merge_controls"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+
+        <TextView
+            android:id="@+id/cancel_merge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            android:layout_margin="16sp"/>
+
+        <TextView
+            android:id="@+id/merge_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/merge"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent"
+            android:layout_margin="16sp"/>
+
+    </LinearLayout>
+    </LinearLayout>
+    <include
+        layout="@layout/exit_button_layout" />
+</FrameLayout>

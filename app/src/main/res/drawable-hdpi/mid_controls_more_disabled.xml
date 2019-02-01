@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/transparent_cicle" android:gravity="fill_horizontal" android:width="115dp" android:height="80dp"/>
+
+    <item android:width="48dp" android:height="48dp" android:right="24dp" android:top="12dp" android:gravity="right" >
+        <bitmap android:src="@drawable/ic_midcall_more" android:alpha="0.5" />
+    </item>
+</layer-list>

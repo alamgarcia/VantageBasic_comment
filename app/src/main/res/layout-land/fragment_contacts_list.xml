@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/contacts_containerFL"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:id="@+id/seacrh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:background="@drawable/contact_search_bg"
+        android:gravity="center_vertical"
+        android:weightSum="1.0">
+
+        <!-- Dummy item to prevent AutoCompleteTextView from receiving focus -->
+        <LinearLayout
+            android:id="@+id/contact_list_linear_layout"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:orientation="horizontal"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/back"
+            android:src="@drawable/ic_back"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/button_ripple_effect"
+            android:contentDescription="@string/add_contact_content_description"/>
+
+        <android.support.v7.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="@string/voice_contact_search_hint"
+            style="@style/Body1"
+            android:textColorHint="@color/disabled"
+            android:id="@+id/search"
+            android:iconifiedByDefault="false"
+            android:voiceIcon="@drawable/ic_mic"
+            android:searchIcon="@drawable/ic_common_search"
+            android:imeOptions="flagNoExtractUi"
+            android:nextFocusUp="@id/search"
+            android:nextFocusLeft="@id/search"
+            android:layout_weight="1"
+            android:queryBackground="@color/colorPrimaryDark"
+            android:textColor="@color/primary"
+            android:contentDescription="@string/find_contact_content_description"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add"
+            android:src="@drawable/ic_add24"
+            android:background="@drawable/button_ripple_effect"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="0.1"
+            android:contentDescription="@string/add_contact_content_description"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/close"
+            android:src="@drawable/close_contacts"
+            android:background="@drawable/button_ripple_effect"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="0.1"
+            android:visibility="gone"
+            android:contentDescription="@string/close_description"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:id="@+id/cancel"
+            android:layout_weight="0.1"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:visibility="gone"
+            style="@style/Body1"
+            android:textColor="@color/midOrange"
+            android:contentDescription="@string/cancel_content_description"/>
+    </LinearLayout>
+<FrameLayout
+    android:id="@+id/search_result_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/seacrh_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/contact_search_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:id="@+id/filter"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:drawableEnd="@drawable/ic_expand_more"
+            android:text="@string/all_contacts"
+            android:gravity="center_vertical"
+            style="@style/Body1"
+            android:textColor="@color/primary"
+            android:contentDescription="@string/choose_list_content_description"/>
+
+        <ImageView
+            android:id="@+id/sync_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/filter"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="13dp"
+            android:gravity="center_vertical"
+            android:src="@drawable/ic_sync_black" />
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/swipe_refresh"
+            android:layout_below="@+id/filter">
+
+            <com.avaya.android.vantage.basic.views.FastScrollRecyclerView
+                android:id="@+id/list"
+                android:name="com.avaya.android.vantage.basic.ContactsFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layoutManager="LinearLayoutManager"
+                android:scrollbars="vertical"
+                android:fadeScrollbars="false"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                tools:context=".basic.fragments.ContactsFragment"
+                tools:listitem="@layout/contact_list_item"
+                android:background="@drawable/solidlightgrey_greystroke"
+                android:paddingLeft="@dimen/margin_normal"
+                android:paddingRight="@dimen/margin_normal"
+                android:paddingTop="4dp"
+                android:paddingBottom="24dp"
+
+                />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <FrameLayout
+            android:id="@+id/frameContactsAll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:visibility="gone">
+        </FrameLayout>
+
+        <include
+            android:id="@+id/select_contacts_filter"
+            layout="@layout/menu_select_contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/filter"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/empty_contacts"
+            style="@style/Body1"
+            android:textColor="@color/secondary"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="60dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/no_contacts_to_display"/>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/sync_pop_up"
+        layout="@layout/sync_pop_up_layout"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+</FrameLayout>
+</LinearLayout>

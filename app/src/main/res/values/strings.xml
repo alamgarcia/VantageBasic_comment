@@ -1,0 +1,491 @@
+<!--suppress CheckTagEmptyBody -->
+<resources>
+    <string name="app_name" translatable="false">Avaya Vantage\u2122 Basic</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format" translatable="false">Hello World from section: %1$d</string>
+    <string name="cd_video_mute">video mute</string>
+    <string name="cd_off_hook">Off Hook</string>
+    <string name="mid_control_dtmf">Mid control dtmf</string>
+    <string name="sample_dialer_display_name">%1$s &lt;b>%2$s&lt;/b></string>
+    <string name="device_not_supported">This application can run only on Avaya Vantage\u2122 device.\nApplication will be closed.</string>
+
+    <string-array name="nameDisplayPref">
+        <item>First name first</item>
+        <item>Last name first</item>
+    </string-array>
+
+    <string-array name="newContactPref">
+        <item>@string/contact_details_add_contact_local</item>
+        <item>@string/contact_details_add_contact_enterprise</item>
+    </string-array>
+
+    <string-array name="newContactPrefIpo">
+        <item>@string/contact_details_add_contact_local</item>
+        <item>@string/contact_details_add_contact_personal_directory</item>
+    </string-array>
+
+    <string-array name="newContactValues">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="nameSortPrefValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- Dialer activity -->
+    <string-array name="dialer_numbers" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>*</item>
+        <item>0</item>
+        <item>#</item>
+    </string-array>
+    <string-array name="dialer_letters" translatable="false">
+        <item>.,@</item>
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZ</item>
+        <item></item>
+        <item>+</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="number_entry_options">
+        <item>Choose a contact</item>
+        <item>Enter a number</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="voice_contact_search_hint">find someone</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="searching">Searching&#8230;</string>
+    <string name="all_contacts">All Contacts</string>
+    <string name="local_contacts">Local Contacts</string>
+    <string name="bt_sync">Bluetooth Sync</string>
+    <string name="enterprise_contacts">Enterprise Contacts</string>
+    <string name="personal_directory_contacts">Personal Contacts</string>
+    <string name="calling">Calling&#8230;</string>
+    <string name="on_hold">On hold</string>
+    <string name="no_contacts_to_display">No contacts to display</string>
+
+    <!-- Favorites screen -->
+    <string name="favorites_title">Favorites</string>
+    <string name="favorites_empty_list">No favorite contacts to display</string>
+
+    <string name="recent_call_all">All Calls</string>
+    <string name="recent_call_missed">Missed Calls</string>
+    <string name="recent_call_outgoing">Outgoing Calls</string>
+    <string name="recent_call_incoming">Incoming Calls</string>
+    <string name="recent_call_delete_history">Clear All Calls</string>
+    <string name="no_recent_calls_to_display">No recent calls to display</string>
+    <string name="recent_call_at">%1$s at %2$s</string>
+
+    <string name="contact_details_title">Contact Details</string>
+    <string name="contact_details_edit">Edit</string>
+    <string name="contact_details_delete">Delete</string>
+    <string name="contact_details_add_contact">Create Local Contact</string>
+    <string name="contact_details_add_contact_local">Local Contact</string>
+    <string name="contact_details_add_contact_enterprise">Enterprise Contact</string>
+    <string name="contact_details_add_contact_personal_directory">Personal Contact</string>
+    <string name="contact_details_ipo_only_one_number">This type of contact can only have one phone number</string>
+
+    <string name="new_contact_header_text">Create %1$s</string>
+    <string name="edit_contact_header_text">Edit %1$s</string>
+    <string name="contact_name_char_limit">This type of contacts cannot have name longer than %s characters</string>
+    <string name="contact_add_label">Create Contact</string>
+    <string name="contact_details_make_a_call">Make a Call</string>
+    <string name="contact_details_work">Work</string>
+    <string name="contact_details_mobile">Mobile</string>
+    <string name="contact_details_home">Home</string>
+    <string name="contact_details_handle">Handle</string>
+    <string name="contact_details_fax">Fax</string>
+    <string name="contact_details_pager">Pager</string>
+    <string name="contact_details_assistant">Assistant</string>
+    <string name="contact_details_other">Other</string>
+    <string name="contact_details_primary">Primary</string>
+
+    <string-array name="phone_type_array" translatable="false">
+        <item>@string/contact_details_work</item>
+        <item>@string/contact_details_mobile</item>
+        <item>@string/contact_details_home</item>
+        <item>@string/contact_details_handle</item>
+        <item>@string/contact_details_fax</item>
+        <item>@string/contact_details_pager</item>
+        <item>@string/contact_details_assistant</item>
+        <item>@string/contact_details_other</item>
+        <item>@string/contact_details_primary</item>
+    </string-array>
+
+    <!-- Tutorial Activity -->
+    <string name="quick_tutorial">Quick Tutorial</string>
+    <string name="dial_pad">Dial Pad</string>
+    <string name="call_screen">Active call</string>
+    <string name="call_features">Call features</string>
+    <string name="contacts">Contacts</string>
+    <string name="recents">Recents</string>
+    <string name="skip_button">SKIP</string>
+    <string name="next">NEXT</string>
+    <string name="back">BACK</string>
+    <string name="done">DONE</string>
+    <string name="tutorial_welcome">Welcome to Avaya Vantage\u2122 Basic</string>
+    <string name="tutorial_volume">Volume buttons\nare at the back of\nthe unit</string>
+    <string name="tutorial_optional_handset">(Optional handset)</string>
+    <string name="tutorial_stand_angle">The stand angle\ncan be adjusted</string>
+    <string name="tutorial_tap_access">Tap to access preferences</string>
+    <string name="tutorial_block">Block your\ncamera</string>
+    <string name="tutorial_mute">Mute your\nmicrophone</string>
+    <string name="tutorial_tap_handsfree">Tap for hands free or\ntap arrow to change\nyour audio device</string>
+    <string name="tutorial_tap_back">Tap to go back to previous\nscreen</string>
+    <string name="tutorial_tap_advanced">Tap to access advanced controls</string>
+    <string name="tutorial_transfer_call">Transfer an active call to another participant</string>
+    <string name="tutorial_hold_and_start_new_one">Hold current call and\nstart a new one</string>
+    <string name="tutorial_add_participant">Add a new participant to the current call</string>
+    <string name="tutorial_merge_call">Merge existing calls into a conference call</string>
+    <string name="tutorial_escalate_video">Escalate to a video call</string>
+    <string name="tutorial_bring_focus">Your current call - tap\nto bring to focus</string>
+    <string name="tutorial_add_new">Add a new contact</string>
+    <string name="tutorial_tap_row">Tap on a row to view\ncontact details</string>
+    <string name="tutorial_tap_default">Tap to call the default\nnumber by voice or video</string>
+    <string name="tutorial_sync_contacts">Sync contacts from a\nmobile device</string>
+    <string name="tutorial_sync_recent">Sync recent calls from\na mobile device</string>
+    <string name="tutorial_tap_to_call">Tap to call the default\nnumber by voice or\nvideo</string>
+
+    <!-- Preferences -->
+    <string name="preference_version">Version</string>
+    <string name="preference_build">Build</string>
+    <string name="preference_build_date">Build date</string>
+    <string name="preference_sdk_version">Avaya Breeze Client SDK version</string>
+    <string name="first_name_first">First Name First</string>
+    <string name="last_name_first">Last Name First</string>
+    <string name="ring_preferences">Ring preferences</string>
+    <string name="choose_ringtone">Choose ringtone</string>
+    <string name="ringtone_default">Default ringtone</string>
+    <string name="ringtone_silent">None (Silent)</string>
+    <string name="display_preferences">Display preferences</string>
+    <string name="contact_preferences">Contacts preferences</string>
+    <string name="name_display_preferences">Name display preferences</string>
+    <string name="name_sort_preferences">Name sort preferences</string>
+    <string name="new_contact_type_preferences">Create new contact as</string>
+    <string name="application">Application</string>
+    <string name="audio_preferences">Audio</string>
+    <string name="audio_video">Audio/Video</string>
+
+
+    <!-- Active call -->
+    <string name="pick_contact">Choose a contact to add to the call</string>
+
+    <string name="feature_dialog_title">Call Features</string>
+    <string name="feature_dialog_transfer">Transfer</string>
+    <string name="feature_dialog_merge">Merge</string>
+    <string name="feature_dialog_start_video">Start Video</string>
+    <string name="feature_dialog_stop_video">Stop Video</string>
+    <string name="feature_dialog_conference">Add Someone</string>
+    <string name="feature_dialog_new_call">New call</string>
+    <string name="feature_dialog_drop_last">Drop last participant</string>
+    <string name="dialog_empty_display">Enter a number to\ntransfer the call to</string>
+
+    <string name="operation_failed">Operation failed. Please try again later</string>
+    <string name="max_participants_in_conference">Operation failed. Maximal number of participants reached.</string>
+    <string name="escalation_failed">Escalation to video failed</string>
+    <string name="deescalation_failed">Stop video failed</string>
+    <string name="merge_complete">Merge complete</string>
+    <string name="trasfer_complete">Transfer request is complete</string>
+
+    <!-- Temporary strings -->
+    <string name="ac_dialer_number" translatable="false">5</string>
+    <string name="ac_dialer_letters" translatable="false">JKL</string>
+    <string name="ac_caller_name" translatable="false">david melec israel</string>
+    <string name="call_list_contact" translatable="false">KH</string>
+    <string name="call_list_text" translatable="false">New Text</string>
+    <string name="call_list_duration" translatable="false">0:00</string>
+    <string name="contact_list_section_label" translatable="false">Section Label</string>
+    <string name="dialer_display_number" translatable="false">1234567890</string>
+    <string name="contact_details_number" translatable="false">613–555-9052</string>
+
+    <!-- Select audio device -->
+    <string name="select_audio_dev_title">Select audio device</string>
+    <string name="select_audio_dev_bt_headset">BT Headset</string>
+    <string name="select_audio_dev_35headset">3.5 Headset</string>
+    <string name="select_audio_dev_headset">Headset</string>
+    <string name="select_audio_dev_handset">Handset</string>
+    <string name="select_audio_dev_speaker">Speaker</string>
+
+    <!-- User preferences menu -->
+    <string name="user_settings">User Settings</string>
+    <string name="support">Support</string>
+    <string name="user_preferences">User Preferences</string>
+    <string name="application_settings">Application settings</string>
+    <string name="audio_video_settings">Audio/Video settings</string>
+    <string name="audio_settings">Audio settings</string>
+
+    <!-- Legal -->
+    <string name="eula_accept">Accept</string>
+    <string name="eula_decline">Decline</string>
+    <string name="transfer_dialog_choose_contact">Choose a Person</string>
+    <string name="transfer_dialog_enter_number">Enter a number</string>
+    <string name="transfer_dialog_title">Transfer the call</string>
+    <string name="merge_dialog_title">Merge calls into conference</string>
+
+    <string name="logout">EULA Declined</string>
+    <string name="logout_msg">Declining EULA will cause a device logout. Are you sure?</string>
+
+    <!-- Apply config changes dialog -->
+    <string name="logout_to_apply_changes_title">Settings Update.</string>
+    <string name="logout_to_apply_changes_text">A configuration update is available. Applying this update will cause any active calls to be dropped and all application services to restart.</string>
+    <string name="apply_changes">Update</string>
+    <string name="postpone_logout">Not Now</string>
+    <string name="conference_dialog_title">Set up a conference</string>
+    <string name="conference_dialog_description">Pick Contact for conference</string>
+
+    <!-- Support Activity -->
+    <string name="support_activity_support">Support</string>
+    <string name="support_activity_about">About</string>
+    <string name="support_activity_tutorial">Tutorial</string>
+    <string name="support_activity_legal">Legal</string>
+
+    <!-- Contacts edit -->
+    <string name="contact_edit_title">Edit Contact</string>
+    <string name="contact_edit_cancel">Cancel</string>
+    <string name="contact_edit_done">Done</string>
+    <string name="contact_edit_add_number">Add phone number</string>
+    <string name="contact_edit_phone_hint">Phone</string>
+    <string name="contact_edit_first_name_hint">First name</string>
+    <string name="contact_edit_last_name_hint">Last name</string>
+    <string name="contact_edit_job_title_hint">Job title</string>
+    <string name="contact_edit_company_hint">Company</string>
+    <string name="contact_edit_address_hint">Address</string>
+    <string name="contact_edit_change_photo">Change photo</string>
+    <string name="contact_edit_take_photo">Take photo</string>
+    <string name="contact_edit_delete_photo">Delete photo</string>
+    <string name="contact_edit_choose_photo">Choose photo</string>
+    <string name="contact_edit_name_required">Either first name or last name are required</string>
+    <string name="contact_edit_number_required">At least 1 phone number is required</string>
+    <string name="contact_edit_enterprise_contact_not_found">Contact cannot be changed\nTry again later</string>
+    <string name="contact_edit_non_edit_first_name">First name is not editable\nContact your administrator for more information</string>
+    <string name="contact_edit_non_edit_last_name">Last name is not editable\nContact your administrator for more information</string>
+    <string name="contact_edit_non_edit_job">Job title is not editable\nContact your administrator for more information</string>
+    <string name="contact_edit_non_edit_company">Company is not editable\nContact your administrator for more information</string>
+    <string name="contact_edit_non_edit_address">Address is not editable\nContact your administrator for more information</string>
+    <string name="contact_edit_non_edit_favorite">Favorite status is not editable\nContact your administrator for more information</string>
+    <string name="contact_edit_not_savable_toast">Contact not savable\nContact your administrator for more information</string>
+    <string name="contact_edit_success">Contact has been edited successfully</string>
+    <string name="contact_edit_user_not_found">Contact edit not available, user not found\Contact your administrator for more information</string>
+    <string name="contact_edit_server_not_available">Contact cannot be found on server\nTry again later</string>
+    <string name="contact_edit_general_error">Failed to update contact</string>
+    <string name="enterprise_contact_create_error">Failed to create contact</string>
+    <string name="contact_create_with_name">Created a new contact with name: \u0020</string>
+    <string name="contact_uneditable_error">This contact cannot be edited</string>
+    <string name="contact_not_found">Contact cannot be accessed</string>
+    <string name="contact_deleted">Contact deleted</string>
+    <string name="contact_undeletable_error">This contact cannot be deleted</string>
+    <string name="contact_delete_confirmation_message">Are you sure you want to delete this contact?</string>
+    <string name="contact_delete_confirmation_message_yes">Yes</string>
+    <string name="contact_delete_confirmation_message_no">No</string>
+
+    <!-- Content description -->
+    <string name="dialer_button_content_description">Number</string>
+    <string name="more_button_content_description">More</string>
+    <string name="back_button_content_description">Back</string>
+    <string name="pause_button_content_descritpion">Pause</string>
+    <string name="end_button_content_descritpion">End call</string>
+    <string name="mute_button_content_description">Mute call</string>
+    <string name="user_content_description">User preference</string>
+    <string name="redial_button_content_description">Redial</string>
+    <string name="audio_call_content_description">Audio call</string>
+    <string name="exit_button_content_description">Exit button</string>
+    <string name="transfer_content_description">Transfer</string>
+    <string name="conference_content_description">Conference</string>
+    <string name="new_call_start_video">Start Video</string>
+    <string name="new_call_stop_video">Stop Video</string>
+    <string name="new_call_content_description">New Call</string>
+    <string name="video_call_content_description">Video call</string>
+    <string name="add_favorite_content_description">Favorite</string>
+    <string name="sync_contact_content_description">Sync Contact</string>
+    <string name="edit_content_description">Edit</string>
+    <string name="back_content_description">Back</string>
+    <string name="delete_content_description">Delete</string>
+    <string name="voice_mail_content_description">Voice mail</string>
+    <string name="first_name_content_description">First name</string>
+    <string name="last_name_content_description">Last name</string>
+    <string name="cancel_content_description">Cancel</string>
+    <string name="find_contact_content_description">Find contact</string>
+    <string name="choose_list_content_description">Choose list</string>
+    <string name="add_contact_content_description">Add contact</string>
+    <string name="choose_calls_list_content_description">Choose calls list</string>
+    <string name="accept_call_audio_content_description">Accept audio call</string>
+    <string name="accept_call_video_content_description">Accept video call</string>
+    <string name="end_call_content_description">End call</string>
+    <string name="decline_content_description">Decline</string>
+    <string name="accept_content_description">Accept</string>
+    <string name="clear_calls_content_description">Clear all calls</string>
+    <string name="user_settings_content_description">User settings</string>
+    <string name="about_content_description">Support</string>
+    <string name="dialer_content_description">Dialer</string>
+    <string name="favorites_content_description">Favorites</string>
+    <string name="contacts_content_description">Contacts</string>
+    <string name="recent_calls_content_description">Recent calls</string>
+    <string name="incoming_content_description">Incoming call</string>
+    <string name="missed_content_description">Missed call</string>
+    <string name="outgoing_content_description">Outgoing call</string>
+    <string name="edit_job_title_clear_description">Clear Job Title</string>
+    <string name="active_call_contact_image_description">Contact Image</string>
+    <string name="unknown_incoming_call_image_description">Unknown Incoming Call Image</string>
+    <string name="edit_clear_last_name_description">Clear Last Name</string>
+    <string name="error_description">Error</string>
+    <string name="delete_description">Delete</string>
+    <string name="set_default_number_description">Set as default number</string>
+    <string name="first_name_clear_description">Clear First Name</string>
+    <string name="edit_phone_clear_description">Clear Phone</string>
+    <string name="edit_phone_delete_description">Delete Phone</string>
+    <string name="close_description">Close</string>
+    <string name="recent_number_type_description">Type</string>
+    <string name="is_calling_content_description">is calling</string>
+
+    <!-- Rate us alert dialog -->
+    <string name="rate_us">Rate us</string>
+    <string name="rate_us_now">Rate us now</string>
+    <string name="rate_us_not_now">Not now</string>
+    <string name="rate_us_description">If you like our application, please rate us on Google play store!</string>
+    <string name="rate_us_title">Rate Avaya Vantage\u2122 Basic on Google play store</string>
+
+    <!-- User Survey -->
+    <string name="user_survey" translatable="false">User Survey</string>
+    <string name="survey_title" translatable="false">"Alpha\\Beta survey"</string>
+
+    <!-- Share Feedback -->
+    <string name="share_feedback">Share Feedback(English Only)</string>
+    <string name="share_feedback_description">\tYou would be prompt to share feedback via email that includes application logs. In any case of a problem, please contact your administrator and open a Service Request to Avaya through the regular channels.</string>
+    <string name="email_subject" translatable="false">Avaya Vantage\u2122 Basic: Customer Feedback</string>
+    <string name="email_to" translatable="false">vantageclients@avaya.com</string>
+    <string name="send_feedback" translatable="false">Send Feedback</string>
+    <string name="email_company_name" translatable="false">Company Name: \n</string>
+    <string name="email_descrition" translatable="false">Feedback\\Problem Description: \n</string>
+    <string name="email_details" translatable="false">Special environment\\Setting details: \n\n</string>
+    <string name="email_application_version" translatable="false">Application Version:</string>
+    <string name="email_locale" translatable="false">Locale:</string>
+    <string name="email_model" translatable="false">Model:</string>
+    <string name="email_os" translatable="false">OS:</string>
+    <string name="email_device_storage" translatable="false">Device Usage Storage:</string>
+    <string name="email_connection" translatable="false">Connection:</string>
+    <string name="email_missing_permissions" translatable="false">Missing Application Permissions:</string>
+    <string name="email_no_connection" translatable="false">No connection</string>
+    <string name="email_wifi" translatable="false">WI-FI</string>
+    <string name="email_ethernet" translatable="false">Ethernet</string>
+
+    <!-- Error codes -->
+    <string name="error_unknown">Unknown error</string>
+
+    <string name="error_title_sip_extension">SIP login failure</string>
+    <string name="error_message_sip_extension">The extension or password is incorrect. Please try again</string>
+    <string name="error_title_general">SIP login failure</string>
+    <string name="error_message_general">A general error has occurred while attempting to connect to the Avaya Aura server</string>
+    <string name="error_message_general_ipo">A general error has occurred while attempting to connect to the IPO server</string>
+    <string name="error_title_invalid_domain">SIP login failure</string>
+    <string name="error_message_invalid_domain">Login failed, invalid domain</string>
+    <string name="error_title_voip">SIP login failure</string>
+    <string name="error_message_voip">VoIP phone service is currently available with limited service.</string>
+    <string name="error_title_phone_service">SIP login failure</string>
+    <string name="error_message_phone_service">Phone service is not currently available.</string>
+    <string name="error_title_certificate">SIP login failure</string>
+    <string name="error_message_certificate">There is a problem with the security certificate required for VoIP phone service.</string>
+    <string name="error_title_device_limit">SIP login failure</string>
+    <string name="error_message_device_limit">This extension has reached the maximum number of devices.</string>
+    <string name="error_title_sip_credentials">Unified login failure</string>
+    <string name="error_message_sip_credentials">The username or password is incorrect. Please try again</string>
+    <string name="error_message_ul_credentials">Missing username and password information. Please enter them.</string>
+    <string name="error_message_empty">Empty SIP extension or password. Please enter them</string>
+    <string name="error_message_service_not_available">Avaya Aura Device Services is not currently available.</string>
+
+    <!-- Transfer and conference -->
+    <string name="no_number_message">Please enter a valid phone number</string>
+    <string name="display_local_contact_information">Displaying Local Contact Information</string>
+    <string name="display_enterprise_contact_information">Displaying Enterprise Contact Information</string>
+    <string name="display_directory_contact_information">Displaying Directory Contact Information</string>
+    <string name="display_personal_directory_contact_information">Displaying Personal Contact Information</string>
+
+    <!-- Pinning -->
+    <string name="exit_pin_mode">Application Pinning Mode</string>
+    <string name="password_dialog_title">Application Pinning Authorization</string>
+    <string name="admin_pass_not_set">Administrator Password not Set</string>
+    <string name="incorrect_password">Incorrect Password</string>
+    <string name="advanced">Advanced</string>
+    <string name="feature_dialog_add_someone">Add Someone</string>
+    <string name="feature_dialog_add_somene_cd">Add Someone</string>
+    <string name="transfer_dialog_body">%1$s to %2$s</string>
+    <string name="transfer_direct_dialog_title">Would you like to transfer</string>
+    <string name="conference_direct_dialog_title">Merge the call with…</string>
+    <string name="merge">MERGE</string>
+    <string name="call_feature">Call Features</string>
+    <string name="please_enter_administrator_password">Please Enter Administrator Password</string>
+    <string name="must_set_primary">At least one phone number must be set as primary</string>
+
+    <string name="tap_to_access">Tap to access the additional\nCall Features</string>
+    <string name="dont_show_again">DON’T SHOW ME THIS AGAIN</string>
+    <string name="dismiss">DISMISS</string>
+
+    <string name="default_app_closing">Please note Vantage Basic is not functional as it is not configured as the active phone application</string>
+
+    <string name="notification_online">Online</string>
+    <string name="logged_out">Logged Out</string>
+    <string name="bluetooth_settings">Bluetooth settings</string>
+    <string name="more_settings">More settings</string>
+    <string name="directory_separator_display">Directory: %1$s (%2$s) </string>
+
+    <!-- Sync call history dialog text -->
+    <string name="sync_call_history_title">Synchronize Call History?</string>
+    <string name="sync_call_history_text">Call history from your paired mobile device will be automatically shown in the Call History tab and removed when your device is disconnected.</string>
+
+    <!-- Contacts dialog text -->
+    <string name="sync_contact_title">Synchronize Contacts?</string>
+    <string name="sync_contact_text">Contacts from paired mobile device will be automatically show in the Contacts tab and removed when your device is disconnected.</string>
+
+    <string name="delete_call_history_text">Are you sure that you want to delete call log?</string>
+    <string name="photo_not_supported">Adding a photo is not supported for this type of contact</string>
+    <string name="not_enterprise_found">Enterprise account cannot be found. Please try again later</string>
+
+    <string name="conference">CONFERENCE</string>
+    <string name="private_address">PRIVATE</string>
+    <string name="contact_edit_ipo_name_hint">Name</string>
+    <string name="tutorialBlockCamera">"block\n camera"</string>
+    <string name="tutorialMute">mute</string>
+    <string name="tutorialVolume">volume</string>
+    <string name="tutorialTransducerSelection">"transducer \nselection"</string>
+    <string name="tutorialNavigationButtons">Navigation Buttons</string>
+    <string name="tutorialMain">Main</string>
+    <string name="tutorialActiveCall">Active Call</string>
+    <string name="tutorialHistory">History</string>
+    <string name="tutorialPreviousScreen">previous screen</string>
+    <string name="tutorialHomeScreen">home screen</string>
+    <string name="tutorialRecentApps">recent apps</string>
+    <string name="tutorialAccessPreferences">access preferences</string>
+    <string name="tutorialSearch">search</string>
+    <string name="tutorialTapToNavigate">"tap to\n navigate"</string>
+    <string name="tutorialGoBackToPreviousScreen">"go back to \nprevious screen"</string>
+    <string name="tutorialShowAllControlls">"show all controls \nlike transfer or merge"</string>
+    <string name="tutorialTapToCallDefault">"tap to call the default \nnumber by voice \nor video"</string>
+    <string name="tutorialTapToContactDetails">"tap on a row to view \ncontact details"</string>
+    <string name="tutorialTapToCallHistoryDetails">"tap a row to view \ncall history details"</string>
+    <string name="tutorialReturnByVoiceOrVideo">"return the call by \nvoice or video"</string>
+    <string name="tutorialTapToFocusCurrentCall">tap to bring current call into focus</string>
+
+    <string name="waitBluetoothContactSharing">Please wait while bluetooth contacts are synchronized.</string>
+    <string name="turnOffBluetoothContactSharing">Turning off bluetooth Contact Sharing</string>
+    <string name="turnOffBluetoothCallHistorySharing">Turning off bluetooth Call History Sharing</string>
+    <string name="waitBluetoothCallHistorySharing">Please wait while the bluetooth Call History is synchronized</string>
+</resources>
